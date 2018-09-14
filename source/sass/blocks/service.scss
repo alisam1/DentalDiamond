@@ -1,0 +1,99 @@
+.service
+{
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../img/service_bg.png");
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  position: relative;
+  left: 20px;
+}
+
+.service__title
+{
+  font-family: $font-family;
+  font-size: 36px;
+  line-height: 43px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  top: 120px;
+  text-align: center;
+  left: -115px;
+}
+
+.service__description
+{
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  top: 115px;
+  text-align: center;
+  left: 23px;
+}
+
+.service__description span
+{
+  font-weight: 700;
+}
+
+.service__buttons
+{
+  margin-top: 160px;
+  margin-left: 320px;
+}
+
+.appointment
+{
+  font-family: $font-family;
+  background-color: #F5F674;
+  border: none;
+  font-size: 14px;
+  color: #383838;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-right: 38px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border-radius: 3px;
+}
+
+.appointment::after
+{
+  content: "";
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-image: url("../img/icon_hours.png");
+  margin-top: -6px;
+  margin-left: -24px;
+}
+
+.appointment span
+{
+  font-size: 9px;
+  position: relative;
+  top: 12px;
+  left: 20px;
+}
+
+.alarm
+{
+  font-family:$font-family;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-left: 83px;
+  padding-right: 85px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-left: 50px;
+}

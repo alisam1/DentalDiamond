@@ -1,0 +1,112 @@
+.help
+{
+  height: 885px;
+  margin: 0 auto;
+  background-image: url("../img/help_bg.png");
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20px;
+  margin-top: -40px;
+}
+
+.help__info
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.help__title
+{
+  font-family: $font-family;
+  font-size: 36px;
+  line-height: 43px;
+  color: #383838;
+  font-weight: 500;
+  position: relative;
+  bottom: 12px;
+  left: 130px;
+}
+
+.help__button
+{
+  width: 295px;
+  height: 34px;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 34px;
+  color: #2795DF;
+  background-color: transparent;
+  border: 1px solid #2795DF;
+  border-radius: 7px;
+  margin-top: 38px;
+  position: relative;
+  right: 130px;
+  padding-left: 35px;
+}
+
+.help__button::before
+{
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/icon_phone.png");
+    margin-left: -30px;
+    margin-top: 6px;
+}
+
+.help_blocks
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  margin-left: 90px;
+}
+
+.help__list
+{
+  width: 280px;
+  list-style-type: none;
+  margin-bottom:60px;
+}
+
+
+.help__item--title
+{
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #383838;
+  font-weight: normal;
+  margin-top: -35px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.help__item
+{
+  margin-top: 10px;
+}
+
+.help__item a
+{
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2795DF;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.help__item--laser::after
+{
+  content: "";
+  position: absolute;
+  width: 47px;
+  height: 21px;
+  background-image: url("../img/icon_sale.png");
+  margin-left: 10px;
+  margin-top: 6px;
+}

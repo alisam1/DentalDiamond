@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/menu_list.scss";
+@import "blocks/service.scss";
+@import "blocks/popular.scss";
+@import "blocks/tomograph.scss";
+@import "blocks/help.scss";
+@import "blocks/opinion.scss";
+@import "blocks/sertificate.scss";
+
+@font-face {
+font-family: "Helvetica";
+src:  url("../fonts/Helvetica.ttf") format("truetype"),
+      url("../fonts/Helvetica.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+}
+
+
+body {
+    background-color: #fff;
+    overflow-x:hidden
+}

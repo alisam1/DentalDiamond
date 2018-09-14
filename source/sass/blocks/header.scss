@@ -1,0 +1,84 @@
+.header__info
+{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo
+{
+  width: 181px;
+  height: 37px;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.header__contacts
+{
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica";
+  color: #383838;
+  position: relative;
+  right: 95px;
+}
+
+.address
+{
+  width: 120px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #383838;
+  left: 30px;
+  position: relative;
+
+}
+.address::before
+{
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-image: url("../img/icon_metro.png");
+  left: -25px;
+  top: 5px;
+}
+
+.map a
+{
+  font-size: 12px;
+  color: #2DAEEC;
+  position: relative;
+    top: -32px;
+    left: 50px;
+
+}
+
+.hours
+{
+  font-size: 12px;
+  color: #383838;
+  position: relative;
+  bottom: 55px;
+  right: 24px;
+
+}
+
+.phone
+{
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  bottom: 75px;
+  right: 18px;
+}
+
+.header__menu
+{
+  margin-top: -130px;
+  margin-left: 80px;
+}
