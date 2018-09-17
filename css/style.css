@@ -339,7 +339,8 @@ template {
   color: #383838;
   position: relative;
   left: 20px;
-  bottom: 5px; }
+  bottom: 5px;
+  text-align: right; }
 
 .address {
   width: 120px;
@@ -364,14 +365,14 @@ template {
   color: #2DAEEC;
   position: relative;
   top: -32px;
-  left: 50px; }
+  left: -20px; }
 
 .hours {
   font-size: 12px;
   color: #383838;
   position: relative;
   bottom: 55px;
-  right: 24px; }
+  right: 20px; }
 
 .phone {
   font-size: 20px;
@@ -432,13 +433,14 @@ template {
   border-radius: 3px; }
 
 .service {
+  width: 100%;
   height: 500px;
   margin: 0 auto;
   background-image: url("../img/service_bg.png");
   background-repeat: no-repeat;
   margin-top: -10px;
   position: relative;
-  left: 20px; }
+  background-size: cover; }
 
 .service__title {
   font-family: "Rubik", sans-serif;
@@ -449,7 +451,7 @@ template {
   position: relative;
   top: 120px;
   text-align: center;
-  left: -115px; }
+  left: -100px; }
 
 .service__description {
   font-family: "Rubik", sans-serif;
@@ -460,14 +462,20 @@ template {
   position: relative;
   top: 115px;
   text-align: center;
-  left: 23px; }
+  left: 40px; }
 
 .service__description span {
   font-weight: 700; }
 
 .service__buttons {
   margin-top: 160px;
-  margin-left: 190px; }
+  margin-left: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .appointment {
   font-family: "Rubik", sans-serif;
@@ -645,7 +653,8 @@ template {
   background-repeat: no-repeat;
   margin-top: 130px;
   position: relative;
-  left: 20px; }
+  width: 100%;
+  background-size: cover; }
 
 .tomograph__title {
   font-family: "Rubik", sans-serif;
@@ -654,7 +663,8 @@ template {
   color: #383838;
   font-weight: 400;
   position: relative;
-  top: 45px; }
+  top: 45px;
+  left: 20px; }
 
 .tomograph__title span {
   font-weight: 700; }
@@ -667,7 +677,7 @@ template {
   font-weight: 400;
   position: relative;
   top: 15px;
-  left: 5px; }
+  left: 25px; }
 
 .tomograph__button {
   font-family: "Rubik", sans-serif;
@@ -682,7 +692,9 @@ template {
   padding-top: 22px;
   padding-bottom: 20px;
   border-radius: 3px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: relative;
+  left: 20px; }
 
 .help {
   height: 885px;
@@ -690,8 +702,9 @@ template {
   background-image: url("../img/help_bg.png");
   background-repeat: no-repeat;
   position: relative;
-  left: 20px;
-  margin-top: -40px; }
+  margin-top: -40px;
+  width: 100%;
+  background-size: cover; }
 
 .help__info {
   display: -webkit-box;
@@ -927,7 +940,8 @@ template {
 .sertificate {
   background-image: url("../img/sert_bg.png");
   position: relative;
-  left: 10px; }
+  width: 100%;
+  background-size: cover; }
 
 .sertificate__info {
   display: -webkit-box;
@@ -1233,6 +1247,8 @@ template {
   margin-right: 2px; }
 
 .footer {
+  width: 100%;
+  background-size: cover;
   height: 410px;
   background-image: url("../img/footer_bg.png");
   display: -webkit-box;
