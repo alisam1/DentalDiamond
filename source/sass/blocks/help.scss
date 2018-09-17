@@ -15,6 +15,12 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 40px;
+  &--service
+  {
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+  }
 }
 .help__title
 {
@@ -45,6 +51,14 @@
   padding-left: 35px;
 }
 
+.help__info--service .help__button
+{
+  position: relative;
+  right: 125px;
+  padding-left: 35px;
+  bottom: 15px;
+}
+
 .help__button::before
 {
     content: "";
@@ -62,6 +76,11 @@
   flex-wrap: wrap;
   margin-top: -20px;
   margin-left: 90px;
+  &--uslugi
+  {
+    margin-top: -80px;
+    margin-left: 110px;
+  }
 }
 
 .help__list
@@ -69,6 +88,42 @@
   width: 280px;
   list-style-type: none;
   margin-bottom:60px;
+  &--correction
+  {
+    margin-left: -25px;
+  }
+  &--diagnostika
+  {
+    margin-left: -10px;
+  }
+}
+
+.help__list--care img
+{
+  margin-left: 50px;
+  margin-top: -10px;
+  margin-bottom: 18px;
+}
+
+.help__list--correction img
+{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.help__list--restoration img
+{
+    margin-left: 35px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.help__list--diagnostika img
+{
+  margin-left: 40px;
+  margin-top: -10px;
+  margin-bottom: 30px;
 }
 
 
@@ -84,6 +139,17 @@
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+
+.help__list--restoration .help__item--title
+{
+  padding-bottom: 15px;
+}
+
+.help__list--diagnostika .help__item--title
+{
+  padding-bottom: 15px;
+}
+
 
 .help__item
 {

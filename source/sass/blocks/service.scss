@@ -62,6 +62,7 @@
   border-radius: 3px;
 }
 
+
 .appointment::after
 {
   content: "";
@@ -96,4 +97,21 @@
   padding-bottom: 20px;
   border-radius: 3px;
   margin-left: 50px;
+}
+
+.alarm--blue
+{
+  font-family:$font-family;
+  background-color: transparent;
+  border: 1px solid #2795DF;
+  font-size: 14px;
+  color: #2795DF;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-left: 30px;
 }

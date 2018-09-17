@@ -512,6 +512,21 @@ template {
   border-radius: 3px;
   margin-left: 50px; }
 
+.alarm--blue {
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  border: 1px solid #2795DF;
+  font-size: 14px;
+  color: #2795DF;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-left: 30px; }
+
 .popular__title {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
@@ -691,6 +706,10 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 40px; }
+  .help__info--service {
+    position: relative;
+    bottom: 50px;
+    left: 20px; }
 
 .help__title {
   font-family: "Rubik", sans-serif;
@@ -717,6 +736,12 @@ template {
   right: 130px;
   padding-left: 35px; }
 
+.help__info--service .help__button {
+  position: relative;
+  right: 125px;
+  padding-left: 35px;
+  bottom: 15px; }
+
 .help__button::before {
   content: "";
   position: absolute;
@@ -734,11 +759,38 @@ template {
       flex-wrap: wrap;
   margin-top: -20px;
   margin-left: 90px; }
+  .help_blocks--uslugi {
+    margin-top: -80px;
+    margin-left: 110px; }
 
 .help__list {
   width: 280px;
   list-style-type: none;
   margin-bottom: 60px; }
+  .help__list--correction {
+    margin-left: -25px; }
+  .help__list--diagnostika {
+    margin-left: -10px; }
+
+.help__list--care img {
+  margin-left: 50px;
+  margin-top: -10px;
+  margin-bottom: 18px; }
+
+.help__list--correction img {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 25px; }
+
+.help__list--restoration img {
+  margin-left: 35px;
+  margin-top: -20px;
+  margin-bottom: 30px; }
+
+.help__list--diagnostika img {
+  margin-left: 40px;
+  margin-top: -10px;
+  margin-bottom: 30px; }
 
 .help__item--title {
   font-family: "Rubik", sans-serif;
@@ -750,6 +802,12 @@ template {
   margin-top: -35px;
   text-transform: uppercase;
   padding-bottom: 20px; }
+
+.help__list--restoration .help__item--title {
+  padding-bottom: 15px; }
+
+.help__list--diagnostika .help__item--title {
+  padding-bottom: 15px; }
 
 .help__item {
   margin-top: 10px; }
@@ -1157,6 +1215,33 @@ template {
 .about__description span {
   display: block; }
 
+.breadcrumbs {
+  margin-left: 110px;
+  margin-top: 30px; }
+
+.breadcrumbs__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.breadcrumbs__item a {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  line-height: 34px;
+  color: #7B7B7B; }
+
+.breadcrumbs__item {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  line-height: 34px;
+  color: #7B7B7B;
+  margin-right: 2px; }
+
 .footer {
   height: 410px;
   background-image: url("../img/footer_bg.png");
@@ -1171,6 +1256,11 @@ template {
   position: relative;
   left: 10px;
   padding-top: 60px; }
+  .footer--uslugi {
+    margin-top: -130px;
+    position: relative;
+    left: 15px;
+    padding-top: 60px; }
 
 .footer__blocks {
   display: -webkit-box;
@@ -1306,6 +1396,175 @@ template {
   position: relative;
   top: 25px;
   left: 130px; }
+
+.service_list {
+  height: 598px;
+  margin: 0 auto;
+  background-image: url("../img/help_bg.png");
+  background-repeat: no-repeat;
+  position: relative; }
+
+.registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 45px; }
+
+.registration__button {
+  margin-top: 155px;
+  position: relative;
+  left: 25px; }
+
+.entry__title {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+  font-weight: 500;
+  position: relative;
+  left: 3px; }
+
+.entry__photo {
+  margin-top: 45px;
+  position: relative;
+  left: 12px; }
+
+.entry__name {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #383838;
+  font-weight: 400;
+  background-color: #E9E9E9;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right: 60px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 195px;
+  left: 270px; }
+
+.entry__name span {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #383838;
+  font-weight: 400;
+  display: block; }
+
+.entry__work {
+  width: 235px;
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  bottom: 190px;
+  left: 255px; }
+
+.entry__item a {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  color: #2795DF;
+  font-weight: 400;
+  display: block;
+  padding-right: 55px; }
+
+.entry__item--diplom a {
+  display: block; }
+
+.description {
+  height: 747px;
+  margin: 0 auto;
+  background-image: url("../img/service_bg_two.png");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 125px;
+  left: 15px; }
+
+.description__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 142px;
+  padding-top: 50px; }
+
+.description__title {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 500;
+  position: relative;
+  top: 5px; }
+
+.description__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+  position: relative;
+  top: -10px; }
+
+.description__visual, .description__regular {
+  width: 1160px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400; }
+
+.description__visual {
+  position: relative;
+  top: 7px; }
+
+.description__regular {
+  position: relative; }
+
+.description__visual span {
+  display: block; }
+
+.description__regular span {
+  display: block; }
+
+.description__text span {
+  display: block; }
+
+.posibility {
+  position: relative;
+  top: 22px; }
+
+.photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px; }
+
+.photo p a {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400; }
+
+.photo__one {
+  position: relative;
+  right: 35px; }
+
+.photo__two {
+  position: relative;
+  right: 310px; }
 
 @font-face {
   font-family: "Helvetica";

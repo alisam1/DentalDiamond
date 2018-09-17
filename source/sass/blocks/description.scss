@@ -1,0 +1,111 @@
+.description
+{
+  height: 747px;
+  margin: 0 auto;
+  background-image: url("../img/service_bg_two.png");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 125px;
+  left: 15px;
+}
+
+.description__about
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 142px;
+  padding-top: 50px;
+}
+
+.description__title
+{
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+}
+
+.description__text
+{
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+  position: relative;
+  top: -10px;
+}
+
+.description__visual, .description__regular
+{
+  width: 1160px;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+}
+
+.description__visual
+{
+  position: relative;
+  top:7px;
+}
+
+.description__regular
+{
+  position: relative;
+}
+
+.description__visual span
+{
+  display: block;
+}
+
+ .description__regular span
+ {
+   display: block;
+ }
+
+.description__text span
+{
+  display: block;
+}
+
+.posibility
+{
+  position: relative;
+  top: 22px;
+}
+
+.photo
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.photo p a
+{
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+}
+
+.photo__one
+{
+  position: relative;
+  right: 35px;
+}
+
+
+.photo__two
+{
+  position: relative;
+  right: 310px;
+}

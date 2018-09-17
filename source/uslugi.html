@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт стоматологии DentalDiamond</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+
+    <header class="header container">
+      <div class="header__info">
+        <div class="header__logo"><img src="img/Logo.png" alt="Logo"></div>
+        <div class="header__contacts">
+          <p class="address">Цветной бульвар ул. Самотечная, 5</p>
+          <p class="map"><a href="#">Проезд на карте</a></p>
+          <p class="hours">каждый день с 10.00 до 20.00</p>
+          <p class="phone">+7 495 133 70 60</p>
+        </div>
+      </div>
+      <nav class="header__menu">
+           <ul class="menu_list">
+             <li class="menu_item menu_item--active"><a href="#">Услуги</a></li>
+             <li class="menu_item"><a href="#">Цены</a></li>
+             <li class="menu_item"><a href="#">Врачи</a></li>
+             <li class="menu_item"><a href="#">Работы</a></li>
+             <li class="menu_item"><a href="#">О клинике</a></li>
+             <li class="menu_item"><a href="#">Отзывы</a></li>
+             <li class="menu_item"><a href="#">Контакты</a></li>
+           </ul>
+      </nav>
+    </header>
+
+  <main>
+
+    <section class="service_list container">
+      <div class="breadcrumbs">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item breadcrumbs__item--library"><a href="">Главная</a></li>
+        <li class="breadcrumbs__item">></li>
+        <li class="breadcrumbs__item breadcrumbs__item--library">Услуги</li>
+      </ul>
+      </div>
+      <div class="help__info help__info--service">
+        <h3 class="help__title">Услуги</h3>
+        <button class="help__button">Лучше перезвоните и расскажите</button>
+        </div>
+        <div class="help_blocks help_blocks--uslugi">
+
+          <ul class="help__list help__list--care">
+            <li class="help__item"><img src="img/icon_care.svg" alt=""></li>
+            <li class="help__item help__item--title">Лечение зубов и дёсен</li>
+            <li class="help__item"><a href="#">Лечение острой боли</a></li>
+            <li class="help__item"><a href="#">Лечение десен</a></li>
+            <li class="help__item"><a href="#">Лечение зубов</a></li>
+            <li class="help__item help__item--laser"><a href="#">Новые зубы</a></li>
+            <li class="help__item"><a href="#">Удаление зубов без сверления</a></li>
+          </ul>
+          <ul class="help__list help__list--correction">
+            <li class="help__item"><img src="img/icon_metal.svg" alt=""></li>
+            <li class="help__item help__item--title">Исправление зубов</li>
+            <li class="help__item"><a href="#">Исправление прикуса</a></li>
+            <li class="help__item"><a href="#">Зубные протезы и уход за ними</a></li>
+            <li class="help__item"><a href="#">Зубные коронки</a></li>
+          </ul>
+          <ul class="help__list help__list--restoration">
+            <li class="help__item"><img src="img/icon_rest.svg" alt=""></li>
+            <li class="help__item help__item--title">Реставрация зубов</li>
+            <li class="help__item"><a href="#">Восстановление отколотого зуба</a></li>
+            <li class="help__item"><a href="#">Отбеливание</a></li>
+            <li class="help__item"><a href="#">Чистка</a></li>
+          </ul>
+          <ul class="help__list help__list--diagnostika">
+            <li class="help__item"><img src="img/icon_diagnostika.svg" alt=""></li>
+            <li class="help__item help__item--title">Пора проверить зубы</li>
+            <li class="help__item"><a href="#">Консультация с врачом</a></li>
+            <li class="help__item"><a href="#">Диагностика</a></li>
+            <li class="help__item"><a href="#">Профилактика заболеваний</a></li>
+          </ul>
+        </div>
+    </section>
+
+    <section class="registration container">
+      <div class="entry">
+        <h3 class="entry__title">Запись на сегодня:</h3>
+        <div class="entry__photo"><img src="img/photo_karpovich.png" alt=""></div>
+        <div class="entry__name">Карпович Радион <span>Хирург. Опыт: 9 лет.</span></div>
+        <ul class="entry__work">
+          <li class="entry__item"><a href="">Работы</a></li>
+          <li class="entry__item"><a href="">Карточка</a></li>
+        </br><li class="entry__item entry__item--diplom"><a href="">Дипломы</a></li>
+        </ul>
+
+      </div>
+      <div class="registration__button">
+        <button class="appointment appointment--double">Записаться на прием<span>за 2 мин.<span></button>
+        <button class="alarm alarm--blue">Заказать звонок</button>
+      </div>
+    </section>
+
+
+    <section class="description container">
+    <div class="description__about">
+        <h3 class="description__title">Стоматология «Дентал Даймонд»</h3>
+        <p class="description__text">Предлагаем современное решение: полную компьютерную томографию (КТ) вашей зубочелюстной системы с помощью рентген-аппарата ORTHOPHOS XG 3D.
+              <span class = "posibility">Возможности для пациента и врача:</span></p>
+              <p class="description__visual"><span>получение визуальной подробной и точной 3D-модели зубов, корней, тканей, верхней и нижней челюсти;</span>
+              <span>масштабирование отдельных участков и изменение угла обзора, обеспечивающих точную диагностику проблемных зон;</span>
+              <span>контроль за историей лечения (компьютерная программа отслеживает: как было до и как стало после);</span>
+              <span>консультации в ходе лечения (результаты КТ транслируются на дисплее в стоматологическом кабинете);</span>
+              <span>ведение личной карты клиента онлайн (через год-два можно сделать повторную КТ и отследить динамику);</span>
+              <span>Мы рекомендуем КТ для всех видов лечения зубов (для хирургического лечения, установке имплантов, ортопедии и ортодонтии) с целью получения полной картины как непосредственно участка лечения, так и соседних с ним областей. Полезным будет и наблюдение всех зон (даже если на данный момент там нет видимых причин для беспокойства).</span></p>
+              <p class="description__regular"><span>Помните также о том, что регулярное прохождение КТ вместе с профилактическим осмотром у стоматолога-терапевта позволяет диагностировать возникновение заболеваний на ранней стадии, а следовательно уменьшить риски разрушения зубов и избавить вас от лишних расходов на лечение хронических зубных болезней.</span></p>
+    </div>
+
+    <div class="photo">
+        <div class="photo__one">
+          <img src="img/photo_dental.png" alt="">
+          <p><a href="#">Узнать подробнее про характеристики Orthophos XG 3D</a></p>
+        </div>
+        <div class="photo__two">
+          <img src="img/photo_oborudovanie.png" alt="">
+          <p><a href="#">Посмотреть фото кабинета с рентген-томографом</a></p>
+        </div>
+    </div>
+
+    </section>
+
+
+  </main>
+
+    <footer class="footer footer--uslugi container">
+
+       <div class="footer__blocks">
+         <ul class="footer__list">
+           <li class="footer__item footer__item--title">О клинике</li>
+           <li class="footer__item"><a href="#">Клиника</a></li>
+           <li class="footer__item"><a href="#">Технологии</a></li>
+           <li class="footer__item"><a href="#">Вопрос-ответ</a></li>
+           <li class="footer__item"><a href="#">Дипломы и сертификаты</a></li>
+           <li class="footer__item"><a href="#">Договора и согласия</a></li>
+           <li class="footer__item"><a href="#">Купон на скидку</a></li>
+         </ul>
+         <ul class="footer__list footer__list--double">
+           <li class="footer__item"><a href="#">Фото клиники</a></li>
+           <li class="footer__item"><a href="#">Dental clinic Moscow</a></li>
+           <li class="footer__item"><a href="#">Стоматологи шутят</a></li>
+           <li class="footer__item"><a href="#">Словарик</a></li>
+           <li class="footer__item"><a href="#">Пресса о нас</a></li>
+           <li class="footer__item"><a href="#">Фотоотчеты и папки работ</a></li>
+         </ul>
+         <ul class="footer__list footer__list--service">
+           <li class="footer__item footer__item--title">Услуги</li>
+           <li class="footer__item"><a href="#">Лечение зубов</a></li>
+           <li class="footer__item"><a href="#">Исправление зубов</a></li>
+           <li class="footer__item"><a href="#">Эстетика и реставрация зубов</a></li>
+           <li class="footer__item"><a href="#">Консультация и профилактика</a></li>
+           <li class="footer__item"><a href="#">Профилактика заболеваний</a></li>
+         </ul>
+         <ul class="footer__list footer__list--price">
+           <li class="footer__item footer__item--title">Цены</li>
+           <li class="footer__item"><a href="#">Профессиональный осмотр</a></li>
+           <li class="footer__item"><a href="#">Диагностика</a></li>
+           <li class="footer__item"><a href="#">Лечение зубов и десен</a></li>
+           <li class="footer__item"><a href="#">Протезирование</a></li>
+           <li class="footer__item"><a href="#">Имплантация и удаление зубов</a></li>
+           <li class="footer__item"><a href="#">Исправление прикуса</a></li>
+           <li class="footer__item"><a href="#">Эсетика и реставрация зубов</a></li>
+           <li class="footer__item"><a href="#">Процедуры</a></li>
+         </ul>
+         <ul class="footer__list footer__list--work">
+           <li class="footer__item footer__item--title"><a href="#">Врачи</a></li>
+           <li class="footer__item footer__item--title"><a href="#">Работы</a></li>
+           <li class="footer__item footer__item--title"><a href="#">Отзывы</a></li>
+           <li class="footer__item footer__item--title"><a href="#">Контакты</a></li>
+         </ul>
+         <div class="footer__info">
+           <p class="footer-lic">Лицензия <span>№ ЛО-77-01-005552</span></p>
+           <p class="footer-phone">+7 (495) 133 70 60</p>
+           <p class="footer-phone footer-phone--double">+7 (903) 570 70 60</p>
+           <p class="footer-hours">каждый день с 10:00 до 20:00</p>
+           <ul class="footer-social">
+             <li class="footer-item"><a href=""><img src="img/footer_fb.png" alt="Facebook"></a></li>
+             <li class="footer-item"><a href=""><img src="img/footer_insta.png" alt="Instagram"></a></li>
+             <li class="footer-item"><a href=""><img src="img/footer_vk.png" alt="Vk"></a></li>
+             <li class="footer-item"><a href=""><img src="img/footer_youtube.png" alt="Youtube"></a></li>
+           </ul>
+         </div>
+       </div>
+        <div class="footer__low">
+          <p class="footer__personal"><a href="#">Обработка персональных данных</a></p>
+          <p class="footer__copy">© 2007-2017 «Dental Diamond»</p>
+        </div>
+    </footer>
+
+  </body>
+  </html>
