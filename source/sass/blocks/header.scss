@@ -11,8 +11,8 @@
   width: 181px;
   height: 37px;
   justify-content: flex-start;
-  margin-top: 30px;
-  margin-left: 150px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 .header__contacts
@@ -22,7 +22,8 @@
   font-family: "Helvetica";
   color: #383838;
   position: relative;
-  right: 95px;
+  left: 20px;
+  bottom: 5px;
 }
 
 .address
@@ -79,6 +80,6 @@
 
 .header__menu
 {
-  margin-top: -130px;
-  margin-left: 80px;
+  margin-top: -135px;
+  margin-left: -45px;
 }

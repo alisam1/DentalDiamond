@@ -31,7 +31,6 @@
   font-weight: 500;
   position: relative;
   bottom: 12px;
-  left: 130px;
 }
 
 .help__button
@@ -47,7 +46,6 @@
   border-radius: 7px;
   margin-top: 38px;
   position: relative;
-  right: 130px;
   padding-left: 35px;
 }
 
@@ -75,7 +73,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: -20px;
-  margin-left: 90px;
+  margin-left: -40px;
   &--uslugi
   {
     margin-top: -80px;
@@ -85,7 +83,7 @@
 
 .help__list
 {
-  width: 280px;
+  width: 270px;
   list-style-type: none;
   margin-bottom:60px;
   &--correction
