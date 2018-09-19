@@ -16,8 +16,13 @@
 
 .table__all
 {
-  width: 670px;
+  width: 870px;
   border-spacing: 0;
+}
+
+.table__info
+{
+  width: 670px;
 }
 
 .table__all .table__row:nth-child(2n+1) {
