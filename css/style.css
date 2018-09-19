@@ -1268,7 +1268,7 @@ template {
   width: 100%;
   background-size: cover;
   height: 410px;
-  background-image: url("../img/footer_bg.png");
+  background-color: #E9E9E9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
