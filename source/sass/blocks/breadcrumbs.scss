@@ -2,6 +2,10 @@
 {
   margin-left: 110px;
   margin-top: 30px;
+  &--ceny
+  {
+    margin-left: 0px;
+  }
 }
 
 .breadcrumbs__list
@@ -9,6 +13,11 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  &--ceny
+  {
+    margin-left: -20px;
+    padding-top: 10px;
+  }
 }
 
 .breadcrumbs__item a

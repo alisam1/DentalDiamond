@@ -1,3 +1,8 @@
+.main__section
+{
+  display: flex;
+}
+
 .table
 {
   width: 970px;
@@ -9,9 +14,67 @@
   font-size: 18px;
   line-height: 22px;
   color: #383838;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  letter-spacing: 0.8px;
+}
+
+.row__title--caries::after
+{
+    content: "50%";
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #D3FAAD;
+    font-family: $font-family;
+    font-size: 10px;
+    line-height: 12px;
+    color: #383838;
+    font-weight: 400;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.row__title--icon::after
+{
+    content: "без сверления";
+    position: absolute;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #D3FAAD;
+    font-family: $font-family;
+    font-size: 10px;
+    line-height: 12px;
+    color: #383838;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.row__title--implantacia::after
+{
+    content: "15%";
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #D3FAAD;
+    font-family: $font-family;
+    font-size: 10px;
+    line-height: 12px;
+    color: #383838;
+    font-weight: 400;
+    margin-left: 20px;
+    border-radius: 3px;
 }
 
 .table__all
@@ -43,7 +106,7 @@
   color: #2795DF;
   font-weight: 400;
   text-decoration: none;
-  border-bottom: 1px solid #2795DF;
+  border-bottom: 1px solid rgba( 39, 149, 223, 0.4);
   margin-left: 20px;
 }
 
@@ -66,4 +129,25 @@
   color: #383838;
   font-weight: 400;
   padding-right: 40px;
+  &--chip
+  {
+    position: relative;
+    right: 80px;
+  }
+  &--bite
+  {
+    position: relative;
+    right: 60px;
+  }
+}
+
+.row__sale span
+{
+  font-family: $font-family;
+  font-size: 13px;
+  line-height: 22px;
+  color: #7b7b7b;
+  font-weight: 400;
+  padding-right: 40px;
+  text-decoration: line-through;
 }

@@ -35,23 +35,23 @@
 
   <main>
 
-    <section class="service_list">
+    <section class="service_list service_list--ceny">
       <div class="container">
-      <div class="breadcrumbs">
-      <ul class="breadcrumbs__list">
+      <div class="breadcrumbs breadcrumbs--ceny">
+      <ul class="breadcrumbs__list breadcrumbs__list--ceny">
         <li class="breadcrumbs__item breadcrumbs__item--library"><a href="">Главная</a></li>
         <li class="breadcrumbs__item">></li>
         <li class="breadcrumbs__item breadcrumbs__item--library">Цены</li>
       </ul>
       </div>
-      <div class="help__info help__info--service">
-        <h3 class="help__title">Цены</h3>
+      <div class="help__info help__info--ceny">
+        <h3 class="help__title help__title--ceny">Цены</h3>
         <button class="help__button">Заказать консультацию</button>
         </div>
         <div class="ceny__blocks">
           <button class="ceny__all">Все</button>
           <ul class="ceny__list">
-            <li class="ceny__item">Лечение зубов</li>
+            <li class="ceny__item"><a href="#">Лечение зубов</a></li>
             <li class="ceny__item"><a href="#">Лечение острой боли</a></li>
             <li class="ceny__item"><a href="#">Лечение десен</a></li>
             <li class="ceny__item"><a href="#">Новые зубы</a></li>
@@ -63,18 +63,20 @@
         </div>
     </section>
 
-    <section class="main-table container">
+    <div class="main__section container">
+
+    <section class="main-table">
       <div class="table">
         <h3 class="table__title">Лечение зубов</h3>
         <table class="table__all">
           <tr class="table__row">
               <td>
-                <div class="table__info">
-                <h4 class="row__title"><a href="">Лечение кариеса</a></h4>
+                <div class="table__info table__info--sale">
+                <h4 class="row__title row__title--caries"><a href="">Лечение кариеса</a></h4>
                 <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                 </div>
               </td>
-              <td class="row__sale">2 000 ₽</td>
+              <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
           </tr>
           <tr class="table__row">
               <td>
@@ -106,7 +108,7 @@
           <tr class="table__row">
               <td>
                 <div class="table__info">
-                <h4 class="row__title"><a href="">Лечение Icon кариеса</a></h4>
+                <h4 class="row__title row__title--icon"><a href="">Лечение Icon кариеса</a></h4>
                 <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                 </div>
               </td>
@@ -122,7 +124,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -161,7 +163,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -196,11 +198,11 @@
             <tr class="table__row">
                 <td>
                   <div class="table__info">
-                  <h4 class="row__title"><a href="">Имплантация</a></h4>
+                  <h4 class="row__title row__title--implantacia"><a href="">Имплантация</a></h4>
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -221,7 +223,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--bite">2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -230,7 +232,7 @@
                   <p class="row__description">Анестезия, иссечение десны и кости, удаление зуба, вложени в лунку антисептической губки «Альвожил», наложение двух швов</p>
                   </div>
                 </td>
-                <td class="row__sale">12980 ₽</td>
+                <td class="row__sale row__sale--bite">12980 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -239,7 +241,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2980 ₽</td>
+                <td class="row__sale row__sale--bite">2980 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -248,7 +250,7 @@
                   <p class="row__description">Анестезия, иссечение десны и кости, удаление зуба, вложение в лунку антисептической губки «Альвожил», наложение двух швов</p>
                   </div>
                 </td>
-                <td class="row__sale">980 ₽</td>
+                <td class="row__sale row__sale--bite">980 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -257,7 +259,7 @@
                   <p class="row__description">Анестезия, иссечение десны и кости, удаление зуба, вложение в лунку антисептической губки «Альвожил», наложение двух швов</p>
                   </div>
                 </td>
-                <td class="row__sale">980 ₽</td>
+                <td class="row__sale row__sale--bite">980 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -266,7 +268,7 @@
                   <p class="row__description">Анестезия, иссечение десны и кости, удаление зуба, вложение в лунку антисептической губки «Альвожил», наложение двух швов</p>
                   </div>
                 </td>
-                <td class="row__sale">980 ₽</td>
+                <td class="row__sale row__sale--bite">980 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -275,7 +277,7 @@
                   <p class="row__description">Анестезия, иссечение десны и кости, удаление зуба, вложение в лунку антисептической губки «Альвожил», наложение двух швов</p>
                   </div>
                 </td>
-                <td class="row__sale">980 ₽</td>
+                <td class="row__sale row__sale--bite">980 ₽</td>
             </tr>
           </table>
           <h3 class="table__title">Съемные протезы</h3>
@@ -287,7 +289,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -335,7 +337,7 @@
                   <p class="row__description">Анестезия, удаление зуба, вложение в лунку антисептической губки «Альфожил»</p>
                   </div>
                 </td>
-                <td class="row__sale">2 000 ₽</td>
+                <td class="row__sale row__sale--chip"><span>4 000 ₽</span>2 000 ₽</td>
             </tr>
             <tr class="table__row">
                 <td>
@@ -374,6 +376,33 @@
           </table>
       </div>
     </section>
+
+    <section class="banners">
+      <div class="banners-high">
+        <p class="banners__img"><img src="img/icon_visa.svg" alt=""></p>
+        <p class="banners__text banners__text--high">При оплате онлайн скидка на все услуги</p>
+        <p class="banners__sale">10</p>
+      </div>
+      <div class="banners-low">
+        <div class="banners__icon">
+        <p class="banners__text">ICON - лечение без сверления!
+Мы рады, что наши возможности стали больше! </p>
+        <p class="banners__text">ICON – инновационное лечение кариеса без боли и без сверления!</p>
+        </div>
+        <div class="banners__star">
+        <p class="banners__img banners__img--star"><img src="img/icon_start.svg" alt=""></p>
+        <p class="banners__text">Элайнеры Star Smile — легкий путь к красивой улыбке.</p>
+        <p class="banners__text">
+        Мечтаете о ровных зубах,
+        однако не можете позволить себе ходить с брекетами?</p>
+        <p class="banners__text">Воспользуйтесь современной
+        технологией исправления прикуса без брекетов — с помощью прозрачных
+        элайнеров.</p>
+        </div>
+      </div>
+    </section>
+    </div>
+
   </main>
 
   <footer class="footer container">

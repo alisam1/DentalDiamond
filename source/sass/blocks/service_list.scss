@@ -6,5 +6,9 @@
   background: #FBFBFF;
   background-repeat: no-repeat;
   position: relative;
-  
+  &--ceny
+  {
+    height: 320px;
+  }
+
 }

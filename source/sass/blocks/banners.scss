@@ -1,0 +1,96 @@
+.banners
+{
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: -70px;
+}
+
+.banners-high
+{
+  justify-content: flex-start;
+  width: 310px;
+  height: 185px;
+  background-color: #F9F9F9;
+  margin-top: 100px;
+}
+
+.banners-low
+{
+  justify-content: flex-end;
+}
+
+.banners__icon
+{
+  height: 185px;
+  background-color: #F9F9F9;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 32px;
+  margin-top: 20px;
+}
+
+.banners__star
+{
+  height: 363px;
+  background-color: #F9F9F9;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 32px;
+  margin-top: 20px;
+}
+
+
+.banners__img
+{
+  text-align: center;
+  &--star
+  {
+    text-align: left;
+  }
+
+}
+
+.banners__sale
+{
+  font-family: $font-family;
+  font-size: 36px;
+  line-height: 43px;
+  color: #383838;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+
+.banners__sale::after
+{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/icon_percent.svg");
+    margin-left: 5px;
+    margin-top:5px;
+}
+
+.banners__text
+{
+  width: 270px;
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+  &--high
+  {
+    width: 200px;
+    text-align: center;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+  }
+}
