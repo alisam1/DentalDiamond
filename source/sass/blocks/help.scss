@@ -26,6 +26,12 @@
   {
     padding-top: 0px;
   }
+  &--vrachi
+  {
+    height: 157px;
+    margin-top: -60px;
+    margin-left: 20px;
+  }
 }
 .help__title
 {
@@ -75,6 +81,12 @@
   padding-left: 35px;
   bottom: 15px;
 }
+
+.help__info--vrachi .help__button
+{
+  margin-top: -15px;
+}
+
 
 .help__button::before
 {

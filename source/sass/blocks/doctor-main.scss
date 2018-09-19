@@ -1,0 +1,151 @@
+.doctor-main
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.doctor__card
+{
+  width: 318px;
+  margin-right: 40px;
+}
+
+.doctor__name
+{
+  font-family: $font-family;
+  font-size: 24px;
+  line-height: 29px;
+  color: #383838;
+  font-weight: 400;
+}
+
+.doctor__text
+{
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+}
+
+.doctor__text span
+{
+  display: block;
+}
+
+.doctor__diplom
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.doctor__link a
+{
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2795DF;
+  font-weight: 400;
+  margin-left: 30px;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
+}
+
+.doctor__link--sertificate::before
+{
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 25px;
+  background-image: url("../img/icon_quality.svg");
+}
+
+.doctor__link--quality::before
+{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 23px;
+  background-image: url("../img/icon_tooth_1.svg");
+}
+
+.doctor__button
+{
+  width: 360px;
+  height: 57px;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2795DF;
+  font-weight: 400;
+  border: 1px solid #2795DF;
+  background-color: transparent;
+  text-transform: uppercase;
+
+}
+
+.tooth__level
+{
+  width: 360px;
+  height: 415px;
+  background: #FBFBFF;
+  box-shadow: 0 16px 20px -19px #BCE2FB;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.tooth__text
+{
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #7b7b7b;
+  font-weight: 400;
+  padding-top: 32px;
+  padding-left: 31px;
+}
+
+.tooth__title
+{
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 29px;
+  color: #2795DF;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 61px;
+  margin-left: 70px;
+  width: 154px;
+}
+
+.tooth__description
+{
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 22px;
+  color: #383838;
+  font-weight: 400;
+  width: 213px;
+  margin-left: 70px;
+  position: relative;
+  bottom: 10px;
+}
+
+.tooth__all
+{
+  padding-left: 35px;
+}
+
+.tooth__all::before
+{
+  content: "";
+  position: absolute;
+  width: 57px;
+  height: 69px;
+  background-image: url("../img/icon_level.svg");
+}
