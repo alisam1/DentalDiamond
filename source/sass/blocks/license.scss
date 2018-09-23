@@ -1,0 +1,88 @@
+.license
+{
+  width: 100%;
+  height: 845px;
+  background-color: #FBFBFF;
+  padding-top: 60px;
+}
+
+.license__all
+{
+  display: flex;
+}
+
+.official
+{
+  width: 970px;
+}
+
+
+.license-main__title, .sertificate-main__title, .consultation__title
+{
+  @include h3();
+}
+
+.license-main__description, .sertificate-main__description
+{
+  width: 570px;
+  @include p();
+}
+
+.license-main__img, .sertificate-main__img
+{
+  margin-left: -20px;
+}
+
+.sertificate-main__link a
+{
+  font-family: $font-family;
+  color: $second-color;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  margin-left: 550px;
+}
+
+.consultation
+{
+  width: 370px;
+}
+
+.consultation__description
+{
+  width: 371px;
+  height: 73px;
+  background-color: #E9E9E9;
+  margin-top: 70px;
+}
+
+.consultation__text
+{
+  width: 193px;
+  @include p();
+  padding-left: 22px;
+  padding-top: 13px;
+}
+
+.consultation__text::after
+{
+  content: "";
+  position: absolute;
+  width: 120px;
+  height:124px;
+  background-image: url("../img/photo_doctor.svg");
+  margin-top: -86px;
+  margin-left: 45px;
+}
+
+.consultation__button
+{
+  background-color: #F5F674;
+  border: none;
+  width: 371px;
+  height: 57px;
+  font-family: $font-family;
+  color: $main-color;
+  text-transform: uppercase;
+  font-weight: 400;
+}

@@ -1,0 +1,10 @@
+.benefits
+{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.benefits__description
+{
+    width: 1070px;
+    @include p();
+}

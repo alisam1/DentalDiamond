@@ -11,7 +11,7 @@
                     <g id="yellow-плашка" transform="translate(335.000000, 434.000000)">
                         <g id="Group">
                             <rect id="Rectangle-5-Copy-7" fill="#D3FAAD" x="0.20015903" y="0" width="103.037037" height="20" rx="3"></rect>
-                            <text id="без-заморозки" font-family=".AppleSystemUIFont" font-size="10" font-weight="normal" letter-spacing="0.360000014" fill="#383838">
+                            <text id="без-заморозки" font-family=".AppleSystemUIFont" font-size="10" font-weight="normal" letter-spacing="0.360000014" fill="$main-color">
                                 <tspan x="7.50611886" y="15">БЕЗ СВЕРЛЕНИЯ</tspan>
                             </text>
                         </g>

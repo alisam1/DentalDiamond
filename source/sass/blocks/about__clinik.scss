@@ -1,0 +1,144 @@
+
+.about__clinik
+{
+  display: flex;
+  margin-top: 60px;
+}
+
+.describe
+{
+  width: 670px;
+}
+.describe__title
+{
+  @include h1();
+}
+
+.describe__text
+{
+  @include p();
+  margin-bottom: 40px;
+}
+
+.describe__description::before
+{
+  content: "";
+  position: absolute;
+  width: 105px;
+  height: 37px;
+  background-image: url("../img/icon_department.svg");
+  margin-left: -125px;
+  margin-top: 5px;
+}
+
+.describe__description
+{
+  @include p();
+  margin-bottom: 50px;
+  margin-left: 125px;
+}
+
+.describe__description span
+{
+  display: block;
+}
+
+.social
+{
+  width: 370px;
+  margin-left: 170px;
+}
+
+.social__title
+{
+    @include h3();
+}
+
+.watch__title, .question__title
+{
+  font-family: $font-family;
+  color: #7B7B7B;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: normal;
+}
+
+.watch__title
+{
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.watch__title::before
+{
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  background-image: url("../img/icon_cool.svg");
+  margin-left: -25px;
+}
+
+.watch__list
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  justify-content: space-between;
+  margin-left: -35px;
+}
+
+.watch__item a
+{
+  font-family: $font-family;
+  color: $second-color;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  border-bottom: 1px solid $second-color;
+}
+
+.question
+{
+  margin-top: 62px;
+}
+
+.question__title
+{
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.question__title::before
+{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/icon_question.svg");
+  margin-left: -25px;
+}
+
+.question__list
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  justify-content: space-between;
+  margin-left: -35px;
+  margin-top: -10px;
+}
+
+.question__item a
+{
+  font-family: $font-family;
+  color: $second-color;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  border-bottom: 1px solid $second-color;
+}

@@ -1,0 +1,32 @@
+.technik__all {
+	position	: relative;
+	width		: 100%; /* for IE 6 */
+}
+
+.technik__all img
+{
+	width: 1200px;
+}
+.technik__description {
+	position	: absolute;
+	bottom: -10px;
+	left		: 0;
+	width		: 100%;
+	background-color: #fff;
+	opacity: 0.8;
+	padding-top: 18px;
+	padding-left: 36px;
+	padding-bottom: 12px;
+}
+
+.technik__description span
+{
+	width: 470px;
+	font-family: $font-family;
+	color: $main-color;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	display: block;
+
+}

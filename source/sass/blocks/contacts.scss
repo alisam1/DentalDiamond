@@ -21,7 +21,7 @@
   font-family: $font-family;
   font-size: 36px;
   line-height: 21px;
-  color: #383838;
+  color: $main-color;
   font-weight: 500;
   position: relative;
   right: 70px;
@@ -33,7 +33,7 @@
   font-family: $font-family;
   font-size: 24px;
   line-height: 21px;
-  color: #383838;
+  color: $main-color;
   font-weight: normal;
   position: relative;
   right: 20px;
@@ -101,7 +101,7 @@ margin-top: 5px;
   font-family: $font-family;
   font-size: 24px;
   line-height: 29px;
-  color: #383838;
+  color: $main-color;
   font-weight: normal;
 }
 
@@ -114,7 +114,7 @@ margin-top: 5px;
   font-family: $font-family;
   font-size: 16px;
   line-height: 21px;
-  color: #383838;
+  color: $main-color;
   font-weight: normal;
   padding-left: 10px;
   position: relative;
@@ -126,7 +126,7 @@ margin-top: 5px;
   font-family: $font-family;
   font-size: 24px;
   line-height: 41px;
-  color: #383838;
+  color: $main-color;
   font-weight: normal;
 }
 
@@ -140,7 +140,7 @@ margin-top: 5px;
   font-family: $font-family;
   font-size: 24px;
   line-height: 41px;
-  color: #2795DF;
+  color: $second-color;
   font-weight: normal;
   position: relative;
   bottom: 27px;

@@ -9,7 +9,7 @@
 {
   width: 50px;
   height: 26px;
-  background-color: #2795DF;
+  background-color: $second-color;
   border-radius: 4px;
   font-family: $font-family;
   font-size: 14px;
@@ -40,10 +40,10 @@
   font-family: $font-family;
   font-size: 18px;
   line-height: 22px;
-  color: #2795DF;
+  color: $second-color;
   font-weight: 400;
   text-decoration: none;
-  border-bottom: 1px dashed #2795DF;
+  border-bottom: 1px dashed $second-color;
   padding-top: 15px;
 }
 

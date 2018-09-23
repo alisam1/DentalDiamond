@@ -57,7 +57,7 @@
   font-family: $font-family;
   font-size: 36px;
   line-height: 43px;
-  color: #383838;
+  color: $main-color;
   font-weight: 400;
   text-align: center;
   position: relative;
@@ -82,7 +82,7 @@
   font-family: $font-family;
   font-size: 18px;
   line-height: 22px;
-  color: #383838;
+  color: $main-color;
   font-weight: 400;
   &--high
   {

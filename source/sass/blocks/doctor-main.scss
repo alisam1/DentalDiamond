@@ -19,7 +19,7 @@
   font-family: $font-family;
   font-size: 24px;
   line-height: 29px;
-  color: #383838;
+  color: $main-color;
   font-weight: 400;
 }
 
@@ -28,7 +28,7 @@
   font-family: $font-family;
   font-size: 14px;
   line-height: 22px;
-  color: #383838;
+  color: $main-color;
   font-weight: 400;
 }
 
@@ -49,11 +49,11 @@
   font-family: $font-family;
   font-size: 18px;
   line-height: 22px;
-  color: #2795DF;
+  color: $second-color;
   font-weight: 400;
   margin-left: 30px;
   text-decoration: none;
-  border-bottom: 1px solid #2795DF;
+  border-bottom: 1px solid $second-color;
 }
 
 .doctor__link--sertificate::before
@@ -81,9 +81,9 @@
   font-family: $font-family;
   font-size: 14px;
   line-height: 17px;
-  color: #2795DF;
+  color: $second-color;
   font-weight: 400;
-  border: 1px solid #2795DF;
+  border: 1px solid $second-color;
   background-color: transparent;
   text-transform: uppercase;
 
@@ -115,7 +115,7 @@
   font-family: $font-family;
   font-size: 18px;
   line-height: 29px;
-  color: #2795DF;
+  color: $second-color;
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 61px;
@@ -128,7 +128,7 @@
   font-family: $font-family;
   font-size: 14px;
   line-height: 22px;
-  color: #383838;
+  color: $main-color;
   font-weight: 400;
   width: 213px;
   margin-left: 70px;
