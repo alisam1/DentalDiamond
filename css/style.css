@@ -1829,6 +1829,15 @@ template {
   padding-top: 16px;
   padding-right: 32px;
   margin-top: 20px; }
+  .banners__icon--raboty {
+    height: 130px; }
+
+.banners__icon .banners__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #383838;
+  font-weight: 400; }
 
 .banners__star {
   height: 363px;
@@ -1837,6 +1846,12 @@ template {
   padding-top: 16px;
   padding-right: 32px;
   margin-top: 20px; }
+  .banners__star--raboty {
+    width: 740px;
+    height: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .banners__img {
   text-align: center; }
@@ -1877,6 +1892,13 @@ template {
     position: relative;
     bottom: 10px;
     left: 40px; }
+  .banners__text--raboty {
+    width: 480px;
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #383838;
+    font-weight: 400; }
 
 .doctor-main {
   display: -webkit-box;
@@ -2396,6 +2418,122 @@ template {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400; }
+
+.select-button__title {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500; }
+
+.select {
+  width: 370px;
+  height: 43px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #2795DF;
+  border-radius: 3px;
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-right: 45px; }
+
+.select::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 4px;
+  background-image: url("../img/icon_button.svg");
+  margin-top: 10px;
+  margin-left: 230px; }
+
+.select-result {
+  width: 360px;
+  height: 57px;
+  font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #2795DF;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  top: 6px; }
+
+.examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.example {
+  width: 370px;
+  margin-top: 40px; }
+
+.example__title {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500; }
+
+.example__description {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400; }
+
+.example__price {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400; }
+
+.example__name {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400; }
+
+.example__name span a {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #2795DF;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF; }
+
+.raboty-banners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.raboty-banners__text {
+  margin-left: 40px; }
 
 @font-face {
   font-family: "Helvetica";
