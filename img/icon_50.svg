@@ -11,7 +11,7 @@
                     <g id="yellow-плашка" transform="translate(297.223402, 94.320000)">
                         <g id="Group">
                             <rect id="Rectangle-5-Copy-7" fill="#D3FAAD" x="0.0923810908" y="0" width="47.5555556" height="20" rx="3"></rect>
-                            <text id="без-заморозки" font-family=".AppleSystemUIFont" font-size="10" font-weight="normal" letter-spacing="0.360000014" fill="#383838">
+                            <text id="без-заморозки" font-family=".AppleSystemUIFont" font-size="10" font-weight="normal" letter-spacing="0.360000014" fill="$main-color">
                                 <tspan x="8.73431899" y="15">- 50%</tspan>
                             </text>
                         </g>
