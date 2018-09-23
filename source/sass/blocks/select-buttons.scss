@@ -1,0 +1,34 @@
+.select-button__title
+{
+    @include h1();
+}
+
+.select
+{
+    width: 370px;
+    height: 43px;
+    text-align: left;
+    background:rgba(0, 0, 0, 0);
+    border: 1px solid $second-color;
+    border-radius: 3px;
+    @include p();
+    margin-right: 45px;
+}
+
+.select::after
+{
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 4px;
+  background-image: url("../img/icon_button.svg");
+  margin-top: 10px;
+  margin-left: 230px;
+}
+
+.select-result
+{
+    @include big_button();
+    position: relative;
+    top: 6px;
+}

@@ -1,0 +1,41 @@
+.examples
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example
+{
+  width: 370px;
+  margin-top: 40px;
+}
+
+.example__title
+{
+  @include h3();
+}
+
+.example__description
+{
+  @include p();
+}
+
+.example__price
+{
+  @include p();
+}
+
+.example__name
+{
+  @include p();
+}
+
+.example__name span a
+{
+  @include p();
+  color: $second-color;
+  text-decoration: none;
+  border-bottom: 1px solid $second-color;
+}

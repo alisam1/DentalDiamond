@@ -29,6 +29,19 @@
   padding-top: 16px;
   padding-right: 32px;
   margin-top: 20px;
+  &--raboty
+  {
+    height: 130px;
+  }
+}
+
+.banners__icon .banners__text
+{
+  font-family: $font-family;
+  font-size: 12px;
+  line-height: 18px;
+  color: $main-color;
+  font-weight: 400;
 }
 
 .banners__star
@@ -39,6 +52,12 @@
   padding-top: 16px;
   padding-right: 32px;
   margin-top: 20px;
+  &--raboty
+  {
+    width: 740px;
+    height: 130px;
+    display: flex;
+  }
 }
 
 
@@ -92,5 +111,14 @@
     position: relative;
     bottom: 10px;
     left: 40px;
+  }
+  &--raboty
+  {
+    width: 480px;
+    font-family: $font-family;
+    font-size: 12px;
+    line-height: 18px;
+    color: $main-color;
+    font-weight: 400;
   }
 }
