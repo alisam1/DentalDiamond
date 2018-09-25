@@ -1,0 +1,49 @@
+.otzyvy-block
+{
+  display: flex;
+}
+
+.otzyvy-block
+{
+  margin-top: 60px;
+}
+
+.otzyvy-block:nth-child(even)
+{
+  width: 100%;
+  background-color: #FBFBFF;
+}
+
+.otzyvy-people
+{
+  margin-bottom: 0px;
+}
+
+.otzyvy-block__description
+{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.otzyvy-block__name
+{
+    @include h3();
+}
+
+.otzyvy-block__date
+{
+    @include p();
+    color: #979797;
+}
+
+.otzyvy-block__usluga
+{
+    @include p();
+    color: #979797;
+}
+
+.otzyvy-block__text
+{
+    @include p();
+    width: 570px;
+}

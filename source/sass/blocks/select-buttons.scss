@@ -12,7 +12,7 @@
     border: 1px solid $second-color;
     border-radius: 3px;
     @include p();
-    margin-right: 45px;
+    margin-right: 40px;
 }
 
 .select::after
@@ -29,6 +29,6 @@
 .select-result
 {
     @include big_button();
-    position: relative;
-    top: 6px;
+    width: 230px;
+    height: 44px;
 }

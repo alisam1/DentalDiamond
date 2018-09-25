@@ -928,6 +928,9 @@ template {
   margin-top: 30px;
   position: relative;
   left: 125px; }
+  .opinion__on--otzyvy {
+    position: relative;
+    left: 0px; }
 
 .opinion__on img {
   position: relative;
@@ -2438,7 +2441,7 @@ template {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
-  margin-right: 45px; }
+  margin-right: 40px; }
 
 .select::after {
   content: "";
@@ -2461,8 +2464,8 @@ template {
   border: 1px solid #2795DF;
   border-radius: 3px;
   text-transform: uppercase;
-  position: relative;
-  top: 6px; }
+  width: 230px;
+  height: 44px; }
 
 .examples {
   display: -webkit-box;
@@ -2534,6 +2537,85 @@ template {
 
 .raboty-banners__text {
   margin-left: 40px; }
+
+.otzyvy__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 45px; }
+
+.otzyvy__title {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500; }
+
+.otzyvy__button {
+  width: 360px;
+  height: 57px;
+  font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #2795DF;
+  border-radius: 3px;
+  text-transform: uppercase; }
+
+.otzyvy-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.otzyvy-block {
+  margin-top: 60px; }
+
+.otzyvy-block:nth-child(even) {
+  width: 100%;
+  background-color: #FBFBFF; }
+
+.otzyvy-people {
+  margin-bottom: 0px; }
+
+.otzyvy-block__description {
+  margin-left: 50px;
+  margin-bottom: 50px; }
+
+.otzyvy-block__name {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500; }
+
+.otzyvy-block__date {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #979797; }
+
+.otzyvy-block__usluga {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #979797; }
+
+.otzyvy-block__text {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  width: 570px; }
 
 @font-face {
   font-family: "Helvetica";

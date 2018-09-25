@@ -1,0 +1,16 @@
+.otzyvy__all
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.otzyvy__title
+{
+    @include h1();
+}
+
+.otzyvy__button
+{
+  @include big_button();
+}
