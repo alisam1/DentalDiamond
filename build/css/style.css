@@ -2545,7 +2545,8 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 45px; }
+  margin-bottom: 45px;
+  margin-top: 40px; }
 
 .otzyvy__title {
   font-family: "Rubik", sans-serif;
@@ -2579,12 +2580,20 @@ template {
   width: 100%;
   background-color: #FBFBFF; }
 
+.otzyvy__color {
+  width: 100%;
+  background-color: #FBFBFF; }
+
 .otzyvy-people {
   margin-bottom: 0px; }
 
+.otzyvy-block__img img {
+  padding-top: 40px; }
+
 .otzyvy-block__description {
   margin-left: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-top: 15px; }
 
 .otzyvy-block__name {
   font-family: "Rubik", sans-serif;
