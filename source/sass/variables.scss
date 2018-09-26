@@ -44,3 +44,20 @@ $second-color: #2795DF;
   border-radius: 3px;
   text-transform: uppercase;
 }
+
+@mixin yellow_button ()
+{
+  width: 323px;
+  height: 57px;
+  font-family: $font-family;
+  color: $main-color;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background:#F5F674;;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border-radius: 4px;
+}

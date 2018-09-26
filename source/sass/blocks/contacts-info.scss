@@ -1,0 +1,95 @@
+.contacts__title
+{
+    @include h1();
+    margin-top: 60px;
+}
+
+.contacts-info
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.contacts-block
+{
+  width: 570px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts-address__address, .contacts-address__hours
+{
+  @include p();
+}
+
+.contacts-address__address
+{
+  width: 130px;
+  margin-left: 25px;
+}
+
+.contacts-address__address::before
+{
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 12px;
+  background-image: url("../img/icon_metro.png");
+  margin-left: -25px;
+  margin-top: 5px;
+}
+
+.contacts-address__hours
+{
+  width: 157px;
+}
+
+.contacts-address__button
+{
+  width: 157px;
+  height: 20px;
+  background-color: #E9E9E9;
+  border-radius: 3px;
+  text-align: center;
+  @include p();
+  color: $second-color;
+  text-transform: uppercase;
+}
+
+.contacts-address__title
+{
+    @include h3();
+}
+
+.contacts-block__button
+{
+  @include yellow_button();
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.contacts-social
+{
+  width: 570px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.contacts-phone__big
+{
+    @include h3();
+}
+
+.contacts-phone__small, .contacts-phone__mail
+{
+    @include p();
+}
+
+
+.contacts-map__img img
+{
+  width: 100%;
+}
