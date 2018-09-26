@@ -2178,10 +2178,25 @@ template {
   font-size: 14px;
   line-height: 22px;
   font-weight: normal; }
+  .watch__title--contacts, .question__title--contacts {
+    font-family: "Rubik", sans-serif;
+    color: #383838;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500; }
 
 .watch__title {
   margin-left: 20px;
   padding-left: 10px; }
+
+.watch__title--contacts::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  background-image: url("../img/icon_cool.svg");
+  margin-left: -25px;
+  margin-top: 5px; }
 
 .watch__title::before {
   content: "";
@@ -2208,6 +2223,9 @@ template {
           justify-content: space-between;
   margin-left: -35px; }
 
+.watch__item {
+  margin-bottom: 12px; }
+
 .watch__item a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
@@ -2224,6 +2242,15 @@ template {
 .question__title {
   margin-left: 20px;
   padding-left: 10px; }
+
+.question__title--contacts::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/icon_question.svg");
+  margin-left: -25px;
+  margin-top: 5px; }
 
 .question__title::before {
   content: "";
@@ -2250,6 +2277,8 @@ template {
           justify-content: space-between;
   margin-left: -35px;
   margin-top: -10px; }
+  .question__list--contacts {
+    margin-top: 0px; }
 
 .question__item a {
   font-family: "Rubik", sans-serif;
@@ -2699,6 +2728,12 @@ template {
   line-height: 29px;
   font-weight: 500; }
 
+.contacts-phone {
+  margin-left: -100px;
+  height: 90px;
+  border-right: 1px solid #E9E9E9;
+  padding-right: 90px; }
+
 .contacts-block__button {
   width: 323px;
   height: 57px;
@@ -2723,7 +2758,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  margin-top: -20px; }
 
 .contacts-phone__big {
   font-family: "Rubik", sans-serif;
