@@ -325,8 +325,7 @@ template {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 25px;
-  margin-left: 25px; }
+  margin-top: 25px; }
 
 .header__contacts {
   display: -webkit-box;
@@ -349,8 +348,7 @@ template {
   font-size: 14px;
   line-height: 21px;
   color: #383838;
-  left: 30px;
-  position: relative; }
+  margin-left: 30px; }
 
 .address::before {
   content: "";
@@ -358,8 +356,8 @@ template {
   width: 17px;
   height: 12px;
   background-image: url("../img/icon_metro.png");
-  left: -25px;
-  top: 5px; }
+  left: 15px;
+  top: 17px; }
 
 .map a {
   font-size: 12px;
@@ -385,7 +383,7 @@ template {
 
 .header__menu {
   margin-top: -135px;
-  margin-left: -45px; }
+  margin-left: -65px; }
 
 .menu_list {
   max-width: 900px;
@@ -1269,7 +1267,8 @@ template {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  margin-left: -30px; }
   .breadcrumbs__list--ceny {
     margin-left: -20px;
     padding-top: 10px; }
