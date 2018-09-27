@@ -1,0 +1,81 @@
+.specification
+{
+  display: flex;
+}
+
+.specification-main
+{
+  width: 570px;
+}
+
+.specification-about
+{
+  width: 570px;
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.specification-all
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.specification-proccess__title, .specification-video__title
+{
+  @include h3();
+}
+
+.specification-proccess__text, .specification-description, .specification-proccess__item
+{
+  @include p();
+}
+
+.specification-proccess__item
+{
+  list-style-type: none;
+  margin-left: -15px;
+}
+
+.specification-proccess__item::before {
+
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 10px;
+  background-image: url("../img/icon_marker.svg");
+  margin-left: -25px;
+  margin-top: 7px;
+  }
+
+  .specification-kinds
+  {
+    margin-top: 90px;
+  }
+
+  .specification-faq
+  {
+    margin-top: 80px;
+  }
+
+  .specification-video__title
+  {
+    margin-top: 40px;
+  }
+
+  .udalenie-question__text
+  {
+    @include h3();
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
+  .udalenie-question__text span
+  {
+    @include h3();
+    color: $second-color;
+    text-decoration: none;
+    border-bottom: 1px solid $second-color;
+
+  }

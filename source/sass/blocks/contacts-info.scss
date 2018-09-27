@@ -18,6 +18,11 @@
   justify-content: space-around;
 }
 
+.contacts-address
+{
+  margin-left: -10px;
+}
+
 .contacts-address__address, .contacts-address__hours
 {
   @include p();

@@ -1,0 +1,35 @@
+.technology-question__info
+{
+  display: flex;
+  margin-top: 30px;
+}
+.technology-question__photo
+{
+  z-index: 9999;
+  position: relative;
+  left: 60px;
+  bottom: 3px;
+}
+.technology-question__all
+{
+  width: 1060px;
+  height: 164px;
+  background-color: #FBFBFF;
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.technology-question__text
+{
+  font-family: $font-family;
+  color: $main-color;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.technology-question__button
+{
+  @include yellow_button ();
+  margin-left: 80px;
+}

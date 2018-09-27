@@ -1,0 +1,79 @@
+.technology-info
+{
+  display: flex;
+  margin-top: 50px;
+}
+
+.technology-block
+{
+  margin-right: 30px;
+}
+
+.technology-block:nth-last-child(an+b)
+{
+  margin-right: 0px;
+}
+
+.technology-block__title
+{
+  @include h3();
+}
+
+.technology-block__title--coronki::after
+{
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 20px;
+  background-image: url("../img/technology_after.svg");
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.technology-block__table
+{
+  height: 220px;
+  &--elainer
+  {
+    height: 132px;
+    margin-bottom: 137px;
+  }
+  &--coronki
+  {
+    height: 110px;
+    margin-bottom: 195px;
+  }
+}
+
+.technology-block__item
+{
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.technology-block__item a
+{
+  @include p();
+  font-size: 18px;
+  line-height: 22px;
+  color: $second-color;
+  text-decoration: none;
+  border-bottom: 1px solid $second-color;
+}
+
+.technology-block__item--text
+{
+  width: 175px;
+}
+
+.technology-block__price
+{
+  @include p();
+  font-size: 14px;
+  margin-left: 35px;
+}
+
+.technology-block__description
+{
+  @include p();
+}

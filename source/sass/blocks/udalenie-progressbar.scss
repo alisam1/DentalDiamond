@@ -1,0 +1,48 @@
+.udalenie-progressbar__container{
+      width: 1200px;
+      margin: 100px auto;
+  }
+  .progressbar {
+      counter-reset: step;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 1200px;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 12%;
+      float: left;
+      position: relative;
+      text-align: left;
+      @include p();
+      font-size: 12px;
+      line-height: 18px;
+
+  }
+  .progressbar li:before {
+      width: 30px;
+      height: 30px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 30px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: white;
+  }
+  .progressbar li:after {
+      width: 150px;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #7d7d7d;
+      top: 15px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+      content: none;
+  }
