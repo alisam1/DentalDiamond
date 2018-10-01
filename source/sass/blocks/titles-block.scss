@@ -12,6 +12,11 @@
   top: 20px;
 }
 
+.titles-block__title--implants
+{
+  margin-left: 60px;
+}
+
 .titles-block__title:nth-child(1) a
 {
   margin-left: 0px;
@@ -29,4 +34,8 @@
   margin-left: 60px;
   text-decoration: none;
   border-bottom: 1px solid $main-color;
+  &--implants-double
+  {
+    margin-left: 0px;
+  }
 }
