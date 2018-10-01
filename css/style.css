@@ -3264,6 +3264,9 @@ label#tab_l1.elainer {
   position: relative;
   top: 20px; }
 
+.titles-block__title--implants {
+  margin-left: 60px; }
+
 .titles-block__title:nth-child(1) a {
   margin-left: 0px;
   margin-right: 60px; }
@@ -3281,6 +3284,8 @@ label#tab_l1.elainer {
   margin-left: 60px;
   text-decoration: none;
   border-bottom: 1px solid #383838; }
+  .titles-block__title a--implants-double {
+    margin-left: 0px; }
 
 .implants-about, .about-smile {
   background-color: #FBFBFF;
