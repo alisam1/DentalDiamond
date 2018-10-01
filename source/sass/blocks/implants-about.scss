@@ -1,0 +1,51 @@
+.implants-about, .about-smile
+{
+  background-color: #FBFBFF;
+  margin-top: 40px;
+}
+
+.implants-info
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.implants-about__right, .implants-about__left
+{
+  width: 530px;
+}
+
+.implants-about__left
+{
+  margin-top: 60px;
+  &--elainer
+  {
+    margin-top: 0px;
+  }
+  &--coronki
+  {
+    margin-top: 0px;
+  }
+}
+.implants-about__title
+{
+  @include h3();
+}
+
+.implants-about__description
+{
+  @include p();
+}
+
+.implants-about__link
+{
+  margin-top: 60px;
+}
+
+.implants-about__link a
+{
+  width: 210px;
+  @include link();
+}

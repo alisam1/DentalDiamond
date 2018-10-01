@@ -1,0 +1,32 @@
+.titles-block
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.titles-block__title
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.titles-block__title:nth-child(1) a
+{
+  margin-left: 0px;
+  margin-right: 60px;
+}
+.titles-block__title:nth-child(2) a
+{
+  margin-left: 0px;
+  margin-right: 60px;
+}
+
+.titles-block__title a
+{
+  @include h3();
+  margin-left: 60px;
+  text-decoration: none;
+  border-bottom: 1px solid $main-color;
+}

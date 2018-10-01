@@ -19,6 +19,10 @@
   margin-top: 70px;
   justify-content: center;
   align-items: center;
+  &--implants
+  {
+    width: 395px;
+  }
 }
 .technology-question__text
 {
@@ -32,4 +36,9 @@
 {
   @include yellow_button ();
   margin-left: 80px;
+  &--implants
+  {
+    width: 190px;
+    margin-left: 20px;
+  }
 }
