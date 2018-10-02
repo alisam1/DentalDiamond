@@ -42,6 +42,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  &--kartochka
+  {
+    margin-left: -100px;
+    margin-top: 50px;
+  }
 }
 
 .doctor__link a
