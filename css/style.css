@@ -868,8 +868,10 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 45px; }
 
 .opinion__title {
@@ -878,7 +880,7 @@ template {
   line-height: 29px;
   color: #383838;
   font-weight: normal;
-  margin-left: -120px; }
+  margin-left: 80px; }
 
 .opinion__title span {
   font-family: "Rubik", sans-serif;
@@ -3424,6 +3426,97 @@ label#tab_l1.elainer {
   background-color: #FBFBFF;
   margin-top: -7px;
   height: 485px; }
+
+#container {
+  width: 1300px;
+  position: relative;
+  margin: 0 auto; }
+
+#carousel {
+  width: 1170px;
+  margin: 0 auto; }
+
+#ui-carousel-prev {
+  width: 60px;
+  height: 240px;
+  background: url("../img/last_arrow.png") #fff center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 100; }
+
+#ui-carousel-next {
+  width: 60px;
+  height: 240px;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background: url("../img/next_arrow.png") #fff center center no-repeat;
+  right: 0; }
+
+#ui-carousel-prev {
+  left: 0; }
+
+#ui-carousel-next > span, #ui-carousel-prev > span {
+  display: none; }
+
+.slide {
+  margin: 0;
+  position: relative; }
+
+#slide01 > img {
+  position: absolute;
+  bottom: 35px;
+  left: 30px; }
+
+#slide02 > img {
+  position: absolute;
+  bottom: 35px;
+  left: 30px; }
+
+#slide03 > img {
+  position: absolute;
+  bottom: 25px;
+  left: 30px; }
+
+#slide03 > .text {
+  position: absolute;
+  left: 270px;
+  bottom: 25px; }
+
+#slide04 > img {
+  position: absolute;
+  bottom: 50px;
+  left: 60px; }
+
+#slide04 > .text {
+  position: absolute;
+  left: 290px;
+  bottom: 25px; }
+
+#slide05 > img {
+  position: absolute;
+  bottom: 35px;
+  left: 60px; }
+
+#slide05 > .text {
+  position: absolute;
+  left: 240px;
+  bottom: 35px; }
+
+#pages {
+  width: 150px;
+  margin: 0 auto; }
+
+.bullet {
+  background: url("../img/icon_dot.png") center center no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  margin-right: 5px;
+  float: left; }
 
 @font-face {
   font-family: "Helvetica";

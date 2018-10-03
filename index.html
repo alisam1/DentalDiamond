@@ -5,8 +5,11 @@
     <title>Сайт стоматологии DentalDiamond</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
   </head>
   <body>
 
@@ -132,31 +135,76 @@
     <section class="opinion container">
       <div class="opinion__info">
         <h4 class="opinion__title">Настоящие <span>отзывы</span></h4>
-        <div class="opinion__dots">
-          <img src="img/last_arrow.png" alt="" width="18" height="29">
-        	<ul class="opinion__slider">
-        		<li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        		<li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        		<li class="current"><a href="#"><img src="img/icon_dotCurrent.png" alt=""></a></li>
-        		<li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        		<li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        		<li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        	</ul>
-          <img src="img/next_arrow.png" alt="" width="18" height="29">
-      </div>
-      <div class="opinion__on">Все отзывы на <img src="img/yandex_logo.png" alt=""></div>
-    </div>
-      <div class="opinion__people">
-        <div class="opinion__block">
-          <img src="img/userpic_1.png" alt="" width="165" height="180">
-          <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+        <div id="container">
+          <div id="carousel">
+            <div id="slide01" class="slide">
+              <div class="opinion__people">
+                <div class="opinion__block">
+                  <img src="img/userpic_1.png" alt="" width="165" height="180">
+                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+                <div class="opinion__block opinion__block--double">
+                  <img src="img/userpic_2.png" alt="">
+                  <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="slide02" class="slide">
+              <div class="opinion__people">
+                <div class="opinion__block opinion__block--double">
+                  <img src="img/userpic_2.png" alt="">
+                  <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
+                </div>
+                <div class="opinion__block">
+                  <img src="img/userpic_1.png" alt="" width="165" height="180">
+                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+              </div>
+            </div>
+            <div id="slide03" class="slide">
+              <div class="opinion__people">
+                  <div class="opinion__block">
+                    <img src="img/userpic_1.png" alt="" width="165" height="180">
+                    <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                  </div>
+                  <div class="opinion__block opinion__block--double">
+                    <img src="img/userpic_2.png" alt="">
+                    <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
+                  </div>
+                </div>
+            </div>
+            <div id="slide04" class="slide">
+              <div class="opinion__people">
+                <div class="opinion__block opinion__block--double">
+                  <img src="img/userpic_2.png" alt="">
+                  <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
+                </div>
+                <div class="opinion__block">
+                  <img src="img/userpic_1.png" alt="" width="165" height="180">
+                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+              </div>
+            </div>
+            <div id="slide05" class="slide">
+              <div class="opinion__people">
+                <div class="opinion__block opinion__block--double">
+                  <img src="img/userpic_2.png" alt="">
+                  <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
+                </div>
+                <div class="opinion__block">
+                  <img src="img/userpic_1.png" alt="" width="165" height="180">
+                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div id="ui-carousel-next"><span>next</span></div>
+          <div id="ui-carousel-prev"><span>prev</span></div>
+          <div id="pages"></div>
         </div>
-        <div class="opinion__block opinion__block--double">
-          <img src="img/userpic_2.png" alt="">
-          <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
-        </div>
-      </div>
-    </section>
+    </div></section>
 
     <section class="sertificate container">
     <div class="container">
@@ -291,6 +339,5 @@
         </div>
         </div>
     </footer>
-
   </body>
   </html>
