@@ -1,7 +1,7 @@
 .opinion__info
 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-top: 45px;
 }
 
@@ -12,7 +12,7 @@
   line-height: 29px;
   color: $main-color;
   font-weight: normal;
-  margin-left: -120px;
+  margin-left: 80px;
 }
 
 .opinion__title span
