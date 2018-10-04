@@ -5,7 +5,7 @@ jQuery(function($) {
 					_total = $( "#carousel" ).rcarousel( "getTotalPages" );
 
 					for ( i = 0; i < _total; i++ ) {
-						_link = $( "<div></div>" );
+						_link = $( "<a href='#'></a>" );
 
 						$(_link)
 							.bind("click", {page: i},
@@ -19,19 +19,19 @@ jQuery(function($) {
 					}
 
 					// mark first page as active
-					$( "div:eq(0)", "#pages" )
+					$( "a:eq(0)", "#pages" )
 						.removeClass( "off" )
 						.addClass( "on" )
-						.css( "background-image", "url(../img/icon_dotCurrent.sv)" );
+						.css( "background-image",  "url(../img/icon_dotCurrent.svg)" );
 
 				}
 
 				function pageLoaded( event, data ) {
-					$( "div.on", "#pages" )
+					$( "a.on", "#pages" )
 						.removeClass( "on" )
 						.css( "background-image", "url(../img/icon_dot.svg)" );
 
-					$( "div", "#pages" )
+					$( "a", "#pages" )
 						.eq( data.page )
 						.addClass( "on" )
 						.css( "background-image", "url(../img/icon_dotCurrent.svg)" );
@@ -45,7 +45,7 @@ jQuery(function($) {
 						auto: {
 							enabled: true
 						},
-						width: 1170,
+						width: 1200,
 						height: 261,
 						start: generatePages,
 						pageLoaded: pageLoaded
