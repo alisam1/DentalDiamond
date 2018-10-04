@@ -834,19 +834,6 @@ template {
   font-weight: normal;
   margin-left: 7px; }
 
-.opinion__dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 25px;
-  margin-left: -170px;
-  position: relative;
-  right: 15px;
-  width: 227px; }
-
-.opinion__dots img {
-  margin-top: 10px; }
-
 .opinion__slider {
   list-style-type: none;
   display: -webkit-box;
@@ -914,6 +901,29 @@ template {
 .opinion__description a {
   display: block;
   color: #2795DF; }
+
+.opinion_high {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.opinion__text {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400; }
+
+.opinion__text::after {
+  content: "";
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  background-image: url("../img/yandex-logo.svg");
+  margin-left: 10px; }
 
 .sertificate {
   background-image: url("../img/sert_bg.png");
