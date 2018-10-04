@@ -53,8 +53,9 @@
   font-size: 12px;
   color: #2DAEEC;
   position: relative;
-    top: -32px;
-    left: -20px;
+  top: -32px;
+  text-decoration: none;
+  border-bottom: 1px solid #2DAEEC;
 
 }
 
@@ -64,7 +65,6 @@
   color: $main-color;
   position: relative;
   bottom: 55px;
-  right: 20px;
 
 }
 
@@ -75,7 +75,6 @@
   font-weight: 700;
   position: relative;
   bottom: 75px;
-  right: 18px;
 }
 
 .header__menu

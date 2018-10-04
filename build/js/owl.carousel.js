@@ -22,19 +22,19 @@ jQuery(function($) {
 					$( "a:eq(0)", "#pages" )
 						.removeClass( "off" )
 						.addClass( "on" )
-						.css( "background-image",  "url(../img/icon_dotCurrent.svg)" );
+						.css( "background-image",  "url(img/icon_dotCurrent.svg)" );
 
 				}
 
 				function pageLoaded( event, data ) {
 					$( "a.on", "#pages" )
 						.removeClass( "on" )
-						.css( "background-image", "url(../img/icon_dot.svg)" );
+						.css( "background-image", "url(img/icon_dot.svg)" );
 
 					$( "a", "#pages" )
 						.eq( data.page )
 						.addClass( "on" )
-						.css( "background-image", "url(../img/icon_dotCurrent.svg)" );
+						.css( "background-image", "url(img/icon_dotCurrent.svg)" );
 				}
 
 				$("#carousel").rcarousel(

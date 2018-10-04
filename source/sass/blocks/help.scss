@@ -190,16 +190,13 @@
 .help__item
 {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .help__item a
 {
-  font-family: $font-family;
-  font-size: 18px;
-  line-height: 22px;
-  color: $second-color;
-  font-weight: 400;
-  padding-bottom: 10px;
+  @include link();
+
 }
 
 .help__item--laser::after

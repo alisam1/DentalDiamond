@@ -1,9 +1,6 @@
 .popular__title
 {
-  font-family: $font-family;
-  font-size: 24px;
-  line-height: 29px;
-  color: $main-color;
+  @include h3();
   margin-left: 25px;
   margin-top: 52px;
   font-weight: 500;
@@ -22,118 +19,29 @@
 
 .popular__list
 {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
-  justify-content: space-around;
   width: 1200px;
   margin: 0 auto;
   position: relative;
-  left: 10px;
   top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .popular__item
 {
   width: 221px;
-  display: flex;
-  flex-direction: column;
-  font-family:$font-family;
-  font-size: 18px;
-  line-height: 22px;
-  color: $main-color;
+  @include p();
   text-align: center;
 }
 
 .popular__item span
 {
-  position: relative;
-  right: 35px;
-}
-
-.popular__item--clear span
-{
-  right: 40px;
-}
-
-.popular__item--pain span
-{
-  right: 30px;
-}
-
-.popular__item--treatment span
-{
-  right: 30px;
-}
-
-.popular__item--new span
-{
-  right: 40px;
-}
-
-.popular__item--icon span
-{
-  right: 20px;
-  top:5px;
-}
-
-.popular__item--vinir span
-{
-  right: 25px;
-}
-
-.popular__item--coron span
-{
-  right: 30px;
+  display: block;
 }
 
 .popular__item img
 {
-  margin-bottom: 35px;
-}
-
-.popular__item--clear img
-{
-  margin-left: 10px;
-}
-
-.popular__item--pain img
-{
-  margin-left: 10px;
-  margin-bottom: 45px;
-}
-
-.popular__item--treatment img
-{
-  margin-left: 15px;
-  margin-bottom: 40px;
-  margin-top: 10px;
-}
-
-.popular__item--new img
-{
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-top: 5px;
-}
-
-.popular__item--icon img
-{
-  margin-left: 25px;
-  margin-bottom: 40px;
-  margin-top: 5px;
-}
-
-.popular__item--vinir img
-{
-  margin-left: 40px;
-  margin-bottom: 40px;
-  margin-top: 10px;
-}
-
-.popular__item--coron img
-{
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-top: 10px;
+  height: 80px;
 }
