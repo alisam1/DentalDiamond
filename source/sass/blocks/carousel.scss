@@ -97,6 +97,16 @@
 			}
 
 			.bullet {
+				background: url('../img/icon_dotCurrent.png') center center no-repeat;
+				display: block;
+				width: 18px;
+				height: 18px;
+				margin: 0;
+				margin-right: 5px;
+				float: left;
+			}
+
+			.bullet .on {
 				background: url('../img/icon_dot.png') center center no-repeat;
 				display: block;
 				width: 18px;
