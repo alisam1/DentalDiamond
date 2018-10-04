@@ -5,7 +5,7 @@ jQuery(function($) {
 					_total = $( "#carousel" ).rcarousel( "getTotalPages" );
 
 					for ( i = 0; i < _total; i++ ) {
-						_link = $( "<a href='#'></a>" );
+						_link = $( "<a href=''></a>" );
 
 						$(_link)
 							.bind("click", {page: i},
