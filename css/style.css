@@ -820,6 +820,7 @@ template {
   margin-top: 45px; }
 
 .opinion__title {
+  width: 250px;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 29px;
@@ -849,24 +850,6 @@ template {
     text-align: center;
     margin-left: 40px;
     margin-top: 90px; }
-
-.opinion__on {
-  font-family: "Rubik", sans-serif;
-  font-size: 14px;
-  line-height: 34px;
-  color: #383838;
-  font-weight: normal;
-  margin-top: 30px;
-  position: relative;
-  left: 125px; }
-  .opinion__on--otzyvy {
-    position: relative;
-    left: 0px; }
-
-.opinion__on img {
-  position: relative;
-  left: 7px;
-  top: 2px; }
 
 .opinion__people {
   display: -webkit-box;
@@ -915,7 +898,8 @@ template {
   color: #383838;
   font-size: 14px;
   line-height: 22px;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 40px; }
 
 .opinion__text::after {
   content: "";
