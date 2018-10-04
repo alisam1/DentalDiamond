@@ -1,12 +1,7 @@
 .main__section
 {
   display: flex;
-}
-
-.table
-{
-  width: 970px;
-  margin-left: -20px;
+  justify-content: space-between;
 }
 
 .table__title
@@ -17,7 +12,6 @@
   color: $main-color;
   font-weight: 500;
   text-transform: uppercase;
-  margin-left: 20px;
   margin-top: 60px;
   margin-bottom: 20px;
   letter-spacing: 0.8px;
