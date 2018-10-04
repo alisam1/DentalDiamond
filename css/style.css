@@ -364,22 +364,21 @@ template {
   color: #2DAEEC;
   position: relative;
   top: -32px;
-  left: -20px; }
+  text-decoration: none;
+  border-bottom: 1px solid #2DAEEC; }
 
 .hours {
   font-size: 12px;
   color: #383838;
   position: relative;
-  bottom: 55px;
-  right: 20px; }
+  bottom: 55px; }
 
 .phone {
   font-size: 20px;
   line-height: 21px;
   font-weight: 700;
   position: relative;
-  bottom: 75px;
-  right: 18px; }
+  bottom: 75px; }
 
 .header__menu {
   margin-top: -135px;
@@ -429,7 +428,8 @@ template {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin-left: -10px; }
 
 .service {
   width: 100%;
@@ -537,9 +537,10 @@ template {
 
 .popular__title {
   font-family: "Rubik", sans-serif;
+  color: #383838;
   font-size: 24px;
   line-height: 29px;
-  color: #383838;
+  font-weight: 500;
   margin-left: 25px;
   margin-top: 52px;
   font-weight: 500; }
@@ -553,6 +554,11 @@ template {
   margin-left: 8px; }
 
 .popular__list {
+  list-style-type: none;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,90 +566,24 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  list-style-type: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  left: 10px;
-  top: 30px; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .popular__item {
   width: 221px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   font-family: "Rubik", sans-serif;
-  font-size: 18px;
-  line-height: 22px;
   color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
   text-align: center; }
 
 .popular__item span {
-  position: relative;
-  right: 35px; }
-
-.popular__item--clear span {
-  right: 40px; }
-
-.popular__item--pain span {
-  right: 30px; }
-
-.popular__item--treatment span {
-  right: 30px; }
-
-.popular__item--new span {
-  right: 40px; }
-
-.popular__item--icon span {
-  right: 20px;
-  top: 5px; }
-
-.popular__item--vinir span {
-  right: 25px; }
-
-.popular__item--coron span {
-  right: 30px; }
+  display: block; }
 
 .popular__item img {
-  margin-bottom: 35px; }
-
-.popular__item--clear img {
-  margin-left: 10px; }
-
-.popular__item--pain img {
-  margin-left: 10px;
-  margin-bottom: 45px; }
-
-.popular__item--treatment img {
-  margin-left: 15px;
-  margin-bottom: 40px;
-  margin-top: 10px; }
-
-.popular__item--new img {
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-top: 5px; }
-
-.popular__item--icon img {
-  margin-left: 25px;
-  margin-bottom: 40px;
-  margin-top: 5px; }
-
-.popular__item--vinir img {
-  margin-left: 40px;
-  margin-bottom: 40px;
-  margin-top: 10px; }
-
-.popular__item--coron img {
-  margin-left: 20px;
-  margin-bottom: 40px;
-  margin-top: 10px; }
+  height: 80px; }
 
 .tomograph {
   height: 310px;
@@ -657,9 +597,10 @@ template {
 
 .tomograph__title {
   font-family: "Rubik", sans-serif;
+  color: #383838;
   font-size: 36px;
   line-height: 43px;
-  color: #383838;
+  font-weight: 500;
   font-weight: 400;
   position: relative;
   top: 45px;
@@ -679,18 +620,20 @@ template {
   left: 25px; }
 
 .tomograph__button {
+  width: 323px;
+  height: 57px;
   font-family: "Rubik", sans-serif;
-  background-color: #F5F674;
-  border: none;
-  font-size: 14px;
   color: #383838;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding-left: 53px;
-  padding-right: 55px;
-  padding-top: 22px;
-  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background: #F5F674;
   border-radius: 3px;
+  text-transform: uppercase;
+  border: none;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
   margin-top: 20px;
   position: relative;
   left: 20px; }
@@ -845,15 +788,17 @@ template {
   padding-bottom: 15px; }
 
 .help__item {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .help__item a {
   font-family: "Rubik", sans-serif;
+  color: #2795DF;
   font-size: 18px;
   line-height: 22px;
-  color: #2795DF;
   font-weight: 400;
-  padding-bottom: 10px; }
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF; }
 
 .help__item--laser::after {
   content: "";
@@ -879,8 +824,7 @@ template {
   font-size: 24px;
   line-height: 29px;
   color: #383838;
-  font-weight: normal;
-  margin-left: 80px; }
+  font-weight: normal; }
 
 .opinion__title span {
   font-family: "Rubik", sans-serif;
@@ -1062,8 +1006,9 @@ template {
 .contacts {
   width: 1307px;
   height: 615px;
-  background-image: url("../img/contacts_bg.png");
-  background-repeat: no-repeat;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 14px 22px 0 rgba(115, 199, 255, 0.22);
+          box-shadow: 0 14px 22px 0 rgba(115, 199, 255, 0.22);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3430,7 +3375,8 @@ label#tab_l1.elainer {
 #container {
   width: 1300px;
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 40px; }
 
 #carousel {
   width: 1200px;
