@@ -335,10 +335,9 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Helvetica";
+  font-family: "Rubik", sans-serif;
   color: #383838;
   position: relative;
-  left: 20px;
   bottom: 5px;
   text-align: right; }
 
@@ -2243,7 +2242,7 @@ template {
 
 .technik__description {
   position: absolute;
-  bottom: -10px;
+  bottom: -12px;
   left: 0;
   width: 100%;
   background-color: #fff;

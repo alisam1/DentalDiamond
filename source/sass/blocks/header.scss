@@ -18,10 +18,9 @@
 {
   display: flex;
   flex-direction: column;
-  font-family: "Helvetica";
+  font-family: $font-family;
   color: $main-color;
   position: relative;
-  left: 20px;
   bottom: 5px;
   text-align: right;
 }
