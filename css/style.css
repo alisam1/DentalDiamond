@@ -304,7 +304,9 @@ template {
 
 .container {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-left: 1px solid red;
+  border-right: 1px solid red; }
 
 .header__info {
   display: -webkit-box;
@@ -712,7 +714,6 @@ template {
 
 .help__info--ceny .help__button {
   position: relative;
-  left: 20px;
   padding-left: 35px;
   bottom: 15px; }
 
@@ -1562,11 +1563,10 @@ template {
 .main__section {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.table {
-  width: 970px;
-  margin-left: -20px; }
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .table__title {
   font-family: "Rubik", sans-serif;
@@ -1575,7 +1575,6 @@ template {
   color: #383838;
   font-weight: 500;
   text-transform: uppercase;
-  margin-left: 20px;
   margin-top: 60px;
   margin-bottom: 20px;
   letter-spacing: 0.8px; }
@@ -1745,14 +1744,14 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 310px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  width: 310px; }
 
 .banners-high {
   -webkit-box-pack: start;
