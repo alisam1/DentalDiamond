@@ -6,6 +6,7 @@
 .table
 {
   width: 970px;
+  margin-left: -20px;
 }
 
 .table__title
@@ -129,6 +130,7 @@
   color: $main-color;
   font-weight: 400;
   padding-right: 40px;
+  text-align: left;
   &--chip
   {
     position: relative;
@@ -150,4 +152,5 @@
   font-weight: 400;
   padding-right: 40px;
   text-decoration: line-through;
+  text-align: left;
 }
