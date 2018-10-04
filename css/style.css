@@ -3433,10 +3433,10 @@ label#tab_l1.elainer {
   margin: 0 auto; }
 
 #carousel {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto; }
 
-#ui-carousel-prev {
+#ui-carousel-next, #ui-carousel-prev {
   width: 60px;
   height: 240px;
   background: url("../img/last_arrow.png") #fff center center no-repeat;
@@ -3446,14 +3446,8 @@ label#tab_l1.elainer {
   z-index: 100; }
 
 #ui-carousel-next {
-  width: 60px;
-  height: 240px;
-  display: block;
-  position: absolute;
-  top: 0;
-  z-index: 100;
-  background: url("../img/next_arrow.png") #fff center center no-repeat;
-  right: 0; }
+  right: 0;
+  background-image: url("../img/next_arrow.png"); }
 
 #ui-carousel-prev {
   left: 0; }
@@ -3470,10 +3464,20 @@ label#tab_l1.elainer {
   bottom: 35px;
   left: 30px; }
 
+#slide01 > .text {
+  position: absolute;
+  left: 290px;
+  bottom: 35px; }
+
 #slide02 > img {
   position: absolute;
   bottom: 35px;
   left: 30px; }
+
+#slide02 > .text {
+  position: absolute;
+  left: 290px;
+  bottom: 65px; }
 
 #slide03 > img {
   position: absolute;
@@ -3505,21 +3509,22 @@ label#tab_l1.elainer {
   left: 240px;
   bottom: 35px; }
 
+#slide06 > img {
+  position: absolute;
+  bottom: 10px;
+  left: 20px; }
+
+#slide06 > .text {
+  position: absolute;
+  left: 290px;
+  bottom: 35px; }
+
 #pages {
   width: 150px;
   margin: 0 auto; }
 
 .bullet {
-  background: url("../img/icon_dotCurrent.png") center center no-repeat;
-  display: block;
-  width: 18px;
-  height: 18px;
-  margin: 0;
-  margin-right: 5px;
-  float: left; }
-
-.on {
-  background: url("../img/icon_dot.png") center center no-repeat;
+  background: url("../img/icon_dot.svg") center center no-repeat;
   display: block;
   width: 18px;
   height: 18px;
