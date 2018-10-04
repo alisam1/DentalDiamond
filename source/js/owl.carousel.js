@@ -27,11 +27,11 @@ jQuery(function($) {
 				}
 
 				function pageLoaded( event, data ) {
-					$( "a.on", "#pages" )
+					$( "div.on", "#pages" )
 						.removeClass( "on" )
 						.css( "background-image", "url(../img/icon_dot.png)" );
 
-					$( "a", "#pages" )
+					$( "div", "#pages" )
 						.eq( data.page )
 						.addClass( "on" )
 						.css( "background-image", "url(../img/icon_dotCurrent.png)" );
