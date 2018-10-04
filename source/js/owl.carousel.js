@@ -22,7 +22,7 @@ jQuery(function($) {
 					$( "div:eq(0)", "#pages" )
 						.removeClass( "off" )
 						.addClass( "on" )
-						.css( "background-image", "url(../img/icon_dotCurrent.svg)" );
+						.css( "background-image", "url(../img/icon_dotCurrent.sv)" );
 
 				}
 
