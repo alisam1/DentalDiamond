@@ -5,7 +5,7 @@ jQuery(function($) {
 					_total = $( "#carousel" ).rcarousel( "getTotalPages" );
 
 					for ( i = 0; i < _total; i++ ) {
-						_link = $( "<a href='#'></a>" );
+						_link = $( "<div></div>" );
 
 						$(_link)
 							.bind("click", {page: i},
@@ -19,7 +19,7 @@ jQuery(function($) {
 					}
 
 					// mark first page as active
-					$( "a:eq(0)", "#pages" )
+					$( "div:eq(0)", "#pages" )
 						.removeClass( "off" )
 						.addClass( "on" )
 						.css( "background-image", "url(../img/icon_dotCurrent.png)" );
