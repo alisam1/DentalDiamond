@@ -1,19 +1,14 @@
 .description
 {
-  height: 747px;
   margin: 0 auto;
   background-image: url("../img/service_bg_two.png");
   background-repeat: no-repeat;
-  position: relative;
-  bottom: 125px;
-  left: 15px;
 }
 
 .description__about
 {
   display: flex;
   flex-direction: column;
-  margin-left: 142px;
   padding-top: 50px;
 }
 
@@ -86,6 +81,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .photo p a
@@ -95,17 +91,4 @@
   line-height: 22px;
   color: $main-color;
   font-weight: 400;
-}
-
-.photo__one
-{
-  position: relative;
-  right: 35px;
-}
-
-
-.photo__two
-{
-  position: relative;
-  right: 310px;
 }

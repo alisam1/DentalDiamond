@@ -20,7 +20,6 @@
   {
     position: relative;
     bottom: 50px;
-    left: 20px;
   }
   &--ceny
   {
@@ -75,10 +74,7 @@
 
 .help__info--service .help__button
 {
-  position: relative;
-  right: 125px;
   padding-left: 35px;
-  bottom: 15px;
 }
 
 .help__info--ceny .help__button
@@ -111,11 +107,13 @@
   flex-wrap: wrap;
   margin-top: -20px;
   margin-left: -40px;
+  justify-content: start;
   &--uslugi
   {
-    margin-top: -80px;
-    margin-left: 110px;
+    margin-left: -20px;
+    justify-content: space-between;
   }
+
 }
 
 .help__list

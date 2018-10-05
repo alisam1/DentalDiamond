@@ -1,15 +1,14 @@
 .registration
 {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-top: 45px;
+  height: 347px;
 }
 
 .registration__button
 {
-  margin-top: 155px;
-  position: relative;
-  left: 25px;
+  margin-top: 15px;
 }
 
 .entry__title
@@ -19,15 +18,20 @@
   line-height: 29px;
   color: $main-color;
   font-weight: 500;
-  position: relative;
-  left: 3px;
+  width: 230px;
+  height: 30px;
+}
+
+.entry-all
+{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
 .entry__photo
 {
   margin-top: 45px;
-  position: relative;
-  left: 12px;
 }
 
 .entry__name
@@ -43,9 +47,6 @@
   padding-left: 25px;
   padding-right: 60px;
   border-radius: 3px;
-  position: relative;
-  bottom: 195px;
-  left: 270px;
 }
 
 .entry__name span
@@ -63,9 +64,6 @@
   width: 235px;
   list-style-type: none;
   display: inline-flex;
-  position: relative;
-  bottom: 190px;
-  left: 255px;
 }
 
 .entry__item a
