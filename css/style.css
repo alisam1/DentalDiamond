@@ -636,6 +636,13 @@ template {
   margin-top: 20px;
   position: relative;
   left: 20px; }
+  .tomograph__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px; }
+  .tomograph__button:active {
+    background: #E7E865; }
 
 .help {
   height: 885px;
@@ -2710,6 +2717,13 @@ template {
   border-radius: 4px;
   margin-top: 40px;
   margin-bottom: 40px; }
+  .contacts-block__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px; }
+  .contacts-block__button:active {
+    background: #E7E865; }
 
 .contacts-social {
   width: 570px;
@@ -2877,6 +2891,13 @@ template {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 4px; }
+  .udalenie-stage__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px; }
+  .udalenie-stage__button:active {
+    background: #E7E865; }
 
 .specification {
   display: -webkit-box;
@@ -3079,6 +3100,13 @@ template {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   margin-left: 80px; }
+  .technology-question__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px; }
+  .technology-question__button:active {
+    background: #E7E865; }
   .technology-question__button--implants {
     width: 190px;
     margin-left: 20px; }
@@ -3372,6 +3400,13 @@ label#tab_l1.elainer {
   text-align: center;
   margin-top: 60px;
   margin-left: 60px; }
+  .doctor-info__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px; }
+  .doctor-info__button:active {
+    background: #E7E865; }
 
 .otzyv-doctor {
   background-color: #FBFBFF;
