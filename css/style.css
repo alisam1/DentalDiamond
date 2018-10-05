@@ -1447,6 +1447,32 @@ template {
   font-weight: 400;
   display: block; }
 
+.entry__link {
+  width: 236px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.entry__link-about {
+  margin-right: 40px; }
+
+.entry__link-about a {
+  font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
+  font-size: 16px;
+  line-height: 29px; }
+
 .entry__work {
   width: 235px;
   list-style-type: none;
@@ -1468,8 +1494,7 @@ template {
 
 .description {
   margin: 0 auto;
-  background-image: url("../img/service_bg_two.png");
-  background-repeat: no-repeat; }
+  background-color: #FBFBFF; }
 
 .description__about {
   display: -webkit-box;
