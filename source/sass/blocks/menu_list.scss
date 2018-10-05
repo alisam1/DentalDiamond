@@ -49,3 +49,42 @@
   border-radius: 3px;
   margin-left: -5px;
 }
+
+.menu__overlay{
+  display:none;
+  position: absolute;
+
+}
+a:hover .menu__overlay{
+	display: block;
+  width: 765px;
+  height: 365px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.23);
+  border-radius: 5px;
+  z-index: 999;
+  margin-top: 15px;
+  margin-left: -5px;
+}
+
+.menu__overlay--list
+{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 30px;
+
+}
+
+.menu__overlay--item
+{
+  width: 280px;
+  @include p();
+  margin-top: 20px;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 5px;
+}

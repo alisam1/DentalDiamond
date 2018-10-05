@@ -51,18 +51,7 @@
 
 .appointment
 {
-  font-family: $font-family;
-  background-color: #F5F674;
-  border: none;
-  font-size: 14px;
-  color: $main-color;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding-left: 24px;
-  padding-right: 38px;
-  padding-top: 21px;
-  padding-bottom: 21px;
-  border-radius: 3px;
+  @include yellow_button();
 }
 
 
@@ -74,7 +63,6 @@
   height: 19px;
   background-image: url("../img/icon_hours.png");
   margin-top: -6px;
-  margin-left: -24px;
 }
 
 .appointment span
@@ -82,7 +70,7 @@
   font-size: 9px;
   position: relative;
   top: 12px;
-  left: 20px;
+  left: 30px;
 }
 
 .alarm
