@@ -640,11 +640,13 @@ template {
             box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
     border-radius: 4px;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .tomograph__button:active {
     background: #E7E865;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
 
 .help {
   height: 885px;
@@ -2723,11 +2725,13 @@ template {
             box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
     border-radius: 4px;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .contacts-block__button:active {
     background: #E7E865;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
 
 .contacts-social {
   width: 570px;
@@ -2899,11 +2903,13 @@ template {
             box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
     border-radius: 4px;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .udalenie-stage__button:active {
     background: #E7E865;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
 
 .specification {
   display: -webkit-box;
@@ -3110,11 +3116,13 @@ template {
             box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
     border-radius: 4px;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .technology-question__button:active {
     background: #E7E865;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .technology-question__button--implants {
     width: 190px;
     margin-left: 20px; }
@@ -3412,11 +3420,13 @@ label#tab_l1.elainer {
             box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
     border-radius: 4px;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
   .doctor-info__button:active {
     background: #E7E865;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    cursor: pointer; }
 
 .otzyv-doctor {
   background-color: #FBFBFF;
