@@ -78,9 +78,14 @@
 .photo
 {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   margin-top: 50px;
   padding-bottom: 50px;
+}
+
+.photo__one
+{
+  margin-right: 90px;
 }
 
 .photo p a
