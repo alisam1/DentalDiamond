@@ -54,6 +54,11 @@
   @include yellow_button();
 }
 
+.appointment a
+{
+  text-decoration: none;
+  color: $main-color;
+}
 
 .appointment::after
 {

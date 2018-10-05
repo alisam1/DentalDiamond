@@ -10,6 +10,8 @@
 		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="js/popup.js"></script>
+
   </head>
   <body>
 
@@ -59,7 +61,17 @@
       <h1 class="service__title">Доступные услуги стоматологов</h1>
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
-        <button class="appointment">Записаться на прием<span>за 2 мин.<span></button>
+        <button class="appointment"><a class="show_popup" rel="reg_form" href="#">Записаться на прием<span>за 2 мин.<span></a></button>
+          <div class="popup reg_form">
+          		<a class="close" href="#">Close</a>
+          		<h2>Записаться на прием</h2>
+          		<form method="post" action="">
+          			<input type="text" name="name" placeholderx = "Ваше имя"/>
+          			<input type="text" name="email" placeholderx = "Телефон или почта" />
+                <input type="textarea" name="text" placeholderx = "Комментарий" />
+          			<input type="submit" value="Записаться на прием" />
+          		</form>
+	        </div>
         <button class="alarm">Заказать звонок</button>
       </div>
     </section>
