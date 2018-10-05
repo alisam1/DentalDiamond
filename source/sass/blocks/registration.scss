@@ -59,6 +59,25 @@
   display: block;
 }
 
+.entry__link
+{
+  width: 236px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.entry__link-about
+{
+  margin-right: 40px;
+}
+.entry__link-about a
+{
+  @include link();
+  font-size: 16px;
+  line-height: 29px;
+}
+
+
 .entry__work
 {
   width: 235px;
