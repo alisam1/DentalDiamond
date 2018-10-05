@@ -47,6 +47,7 @@
         <h3 class="help__title">Услуги</h3>
         <button class="help__button">Лучше перезвоните и расскажите</button>
         </div>
+
         <div class="help_blocks help_blocks--uslugi">
 
           <ul class="help__list help__list--care">
@@ -83,21 +84,22 @@
     </section>
 
     <section class="registration container">
-      <div class="entry">
         <h3 class="entry__title">Запись на сегодня:</h3>
-        <div class="entry__photo"><img src="img/photo_karpovich.png" alt=""></div>
-        <div class="entry__name">Карпович Радион <span>Хирург. Опыт: 9 лет.</span></div>
-        <ul class="entry__work">
-          <li class="entry__item"><a href="">Работы</a></li>
-          <li class="entry__item"><a href="">Карточка</a></li>
-        <br><li class="entry__item entry__item--diplom"><a href="">Дипломы</a></li>
-        </ul>
-
-      </div>
-      <div class="registration__button">
-        <button class="appointment appointment--double">Записаться на прием<span>за 2 мин.<span></span></span></button>
-        <button class="alarm alarm--blue">Заказать звонок</button>
-      </div>
+        <div class="entry-all">
+          <div class="entry__img"><img src="img/photo_karpovich.png" alt="Karpovich"></div>
+          <div class="entry-about">
+            <p class="entry__name">Карпович Радион <span>Хирург. Опыт: 9 лет.</span></p>
+            <div class="entry__link">
+              <p class="entry__link-about"><a href="">Работы</a></p>
+              <p class="entry__link-about"><a href="">Карточка</a></p>
+              <p class="entry__link-about"><a href="">Дипломы</a></p>
+            </div>
+          </div>
+          <div class="registration__button registration__button--entry">
+              <button class="appointment appointment--double">Записаться на прием<span>за 2 мин.<span></span></span></button>
+              <button class="alarm alarm--blue">Заказать звонок</button>
+          </div>
+        </div>
     </section>
 
 
@@ -131,69 +133,72 @@
 
   </main>
 
-    <footer class="footer footer--uslugi container">
+  <footer class="footer container">
 
-       <div class="footer__blocks">
-         <ul class="footer__list">
-           <li class="footer__item footer__item--title">О клинике</li>
-           <li class="footer__item"><a href="#">Клиника</a></li>
-           <li class="footer__item"><a href="#">Технологии</a></li>
-           <li class="footer__item"><a href="#">Вопрос-ответ</a></li>
-           <li class="footer__item"><a href="#">Дипломы и сертификаты</a></li>
-           <li class="footer__item"><a href="#">Договора и согласия</a></li>
-           <li class="footer__item"><a href="#">Купон на скидку</a></li>
+    <div class="container">
+
+     <div class="footer__blocks">
+       <ul class="footer__list">
+         <li class="footer__item footer__item--title">О клинике</li>
+         <li class="footer__item"><a href="#">Клиника</a></li>
+         <li class="footer__item"><a href="#">Технологии</a></li>
+         <li class="footer__item"><a href="#">Вопрос-ответ</a></li>
+         <li class="footer__item"><a href="#">Дипломы и сертификаты</a></li>
+         <li class="footer__item"><a href="#">Договора и согласия</a></li>
+         <li class="footer__item"><a href="#">Купон на скидку</a></li>
+       </ul>
+       <ul class="footer__list footer__list--double">
+         <li class="footer__item"><a href="#">Фото клиники</a></li>
+         <li class="footer__item"><a href="#">Dental clinic Moscow</a></li>
+         <li class="footer__item"><a href="#">Стоматологи шутят</a></li>
+         <li class="footer__item"><a href="#">Словарик</a></li>
+         <li class="footer__item"><a href="#">Пресса о нас</a></li>
+         <li class="footer__item"><a href="#">Фотоотчеты и папки работ</a></li>
+       </ul>
+       <ul class="footer__list footer__list--service">
+         <li class="footer__item footer__item--title">Услуги</li>
+         <li class="footer__item"><a href="#">Лечение зубов</a></li>
+         <li class="footer__item"><a href="#">Исправление зубов</a></li>
+         <li class="footer__item"><a href="#">Эстетика и реставрация зубов</a></li>
+         <li class="footer__item"><a href="#">Консультация и профилактика</a></li>
+         <li class="footer__item"><a href="#">Профилактика заболеваний</a></li>
+       </ul>
+       <ul class="footer__list footer__list--price">
+         <li class="footer__item footer__item--title">Цены</li>
+         <li class="footer__item"><a href="#">Профессиональный осмотр</a></li>
+         <li class="footer__item"><a href="#">Диагностика</a></li>
+         <li class="footer__item"><a href="#">Лечение зубов и десен</a></li>
+         <li class="footer__item"><a href="#">Протезирование</a></li>
+         <li class="footer__item"><a href="#">Имплантация и удаление зубов</a></li>
+         <li class="footer__item"><a href="#">Исправление прикуса</a></li>
+         <li class="footer__item"><a href="#">Эсетика и реставрация зубов</a></li>
+         <li class="footer__item"><a href="#">Процедуры</a></li>
+       </ul>
+       <ul class="footer__list footer__list--work">
+         <li class="footer__item footer__item--title"><a href="#">Врачи</a></li>
+         <li class="footer__item footer__item--title"><a href="#">Работы</a></li>
+         <li class="footer__item footer__item--title"><a href="#">Отзывы</a></li>
+         <li class="footer__item footer__item--title"><a href="#">Контакты</a></li>
+       </ul>
+       <div class="footer__info">
+         <p class="footer-lic">Лицензия <span>№ ЛО-77-01-005552</span></p>
+         <p class="footer-phone">+7 (495) 133 70 60</p>
+         <p class="footer-phone footer-phone--double">+7 (903) 570 70 60</p>
+         <p class="footer-hours">каждый день с 10:00 до 20:00</p>
+         <ul class="footer-social">
+           <li class="footer-item"><a href=""><img src="img/footer_fb.png" alt="Facebook"></a></li>
+           <li class="footer-item"><a href=""><img src="img/footer_insta.png" alt="Instagram"></a></li>
+           <li class="footer-item"><a href=""><img src="img/footer_vk.png" alt="Vk"></a></li>
+           <li class="footer-item"><a href=""><img src="img/footer_youtube.png" alt="Youtube"></a></li>
          </ul>
-         <ul class="footer__list footer__list--double">
-           <li class="footer__item"><a href="#">Фото клиники</a></li>
-           <li class="footer__item"><a href="#">Dental clinic Moscow</a></li>
-           <li class="footer__item"><a href="#">Стоматологи шутят</a></li>
-           <li class="footer__item"><a href="#">Словарик</a></li>
-           <li class="footer__item"><a href="#">Пресса о нас</a></li>
-           <li class="footer__item"><a href="#">Фотоотчеты и папки работ</a></li>
-         </ul>
-         <ul class="footer__list footer__list--service">
-           <li class="footer__item footer__item--title">Услуги</li>
-           <li class="footer__item"><a href="#">Лечение зубов</a></li>
-           <li class="footer__item"><a href="#">Исправление зубов</a></li>
-           <li class="footer__item"><a href="#">Эстетика и реставрация зубов</a></li>
-           <li class="footer__item"><a href="#">Консультация и профилактика</a></li>
-           <li class="footer__item"><a href="#">Профилактика заболеваний</a></li>
-         </ul>
-         <ul class="footer__list footer__list--price">
-           <li class="footer__item footer__item--title">Цены</li>
-           <li class="footer__item"><a href="#">Профессиональный осмотр</a></li>
-           <li class="footer__item"><a href="#">Диагностика</a></li>
-           <li class="footer__item"><a href="#">Лечение зубов и десен</a></li>
-           <li class="footer__item"><a href="#">Протезирование</a></li>
-           <li class="footer__item"><a href="#">Имплантация и удаление зубов</a></li>
-           <li class="footer__item"><a href="#">Исправление прикуса</a></li>
-           <li class="footer__item"><a href="#">Эсетика и реставрация зубов</a></li>
-           <li class="footer__item"><a href="#">Процедуры</a></li>
-         </ul>
-         <ul class="footer__list footer__list--work">
-           <li class="footer__item footer__item--title"><a href="#">Врачи</a></li>
-           <li class="footer__item footer__item--title"><a href="#">Работы</a></li>
-           <li class="footer__item footer__item--title"><a href="#">Отзывы</a></li>
-           <li class="footer__item footer__item--title"><a href="#">Контакты</a></li>
-         </ul>
-         <div class="footer__info">
-           <p class="footer-lic">Лицензия <span>№ ЛО-77-01-005552</span></p>
-           <p class="footer-phone">+7 (495) 133 70 60</p>
-           <p class="footer-phone footer-phone--double">+7 (903) 570 70 60</p>
-           <p class="footer-hours">каждый день с 10:00 до 20:00</p>
-           <ul class="footer-social">
-             <li class="footer-item"><a href=""><img src="img/footer_fb.png" alt="Facebook"></a></li>
-             <li class="footer-item"><a href=""><img src="img/footer_insta.png" alt="Instagram"></a></li>
-             <li class="footer-item"><a href=""><img src="img/footer_vk.png" alt="Vk"></a></li>
-             <li class="footer-item"><a href=""><img src="img/footer_youtube.png" alt="Youtube"></a></li>
-           </ul>
-         </div>
        </div>
-        <div class="footer__low">
-          <p class="footer__personal"><a href="#">Обработка персональных данных</a></p>
-          <p class="footer__copy">© 2007-2017 «Dental Diamond»</p>
-        </div>
-    </footer>
+     </div>
+      <div class="footer__low">
+        <p class="footer__personal"><a href="#">Обработка персональных данных</a></p>
+        <p class="footer__copy">© 2007-2017 «Dental Diamond»</p>
+      </div>
+      </div>
+  </footer>
 
   </body>
   </html>
