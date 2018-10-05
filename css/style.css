@@ -430,6 +430,47 @@ template {
   border-radius: 3px;
   margin-left: -5px; }
 
+.menu__overlay {
+  display: none;
+  position: absolute; }
+
+a:hover .menu__overlay {
+  display: block;
+  width: 765px;
+  height: 365px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  z-index: 999;
+  margin-top: 15px;
+  margin-left: -5px; }
+
+.menu__overlay--list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 30px; }
+
+.menu__overlay--item {
+  width: 280px;
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 20px;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 5px; }
+
 .service {
   width: 100%;
   height: 500px;
@@ -476,18 +517,31 @@ template {
           justify-content: center; }
 
 .appointment {
+  width: 323px;
+  height: 57px;
   font-family: "Rubik", sans-serif;
-  background-color: #F5F674;
-  border: none;
-  font-size: 14px;
   color: #383838;
-  letter-spacing: 1.5px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background: #F5F674;
+  border-radius: 3px;
   text-transform: uppercase;
-  padding-left: 24px;
-  padding-right: 38px;
-  padding-top: 21px;
-  padding-bottom: 21px;
-  border-radius: 3px; }
+  border: none;
+  border-radius: 4px; }
+  .appointment:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
+  .appointment:active {
+    background: #E7E865;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
 
 .appointment::after {
   content: "";
@@ -495,14 +549,13 @@ template {
   width: 19px;
   height: 19px;
   background-image: url("../img/icon_hours.png");
-  margin-top: -6px;
-  margin-left: -24px; }
+  margin-top: -6px; }
 
 .appointment span {
   font-size: 9px;
   position: relative;
   top: 12px;
-  left: 20px; }
+  left: 30px; }
 
 .alarm {
   font-family: "Rubik", sans-serif;
