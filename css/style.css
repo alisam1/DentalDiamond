@@ -3607,6 +3607,19 @@ label#tab_l1.elainer {
   width: 650px;
   height: 730px; }
 
+.popup-alarm {
+  position: fixed;
+  top: 140px;
+  display: none;
+  overflow: hidden;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 9px 45px 0 #2795DF;
+          box-shadow: 0 9px 45px 0 #2795DF;
+  border-radius: 10px;
+  z-index: 999;
+  width: 670px;
+  height: 585px; }
+
 .close {
   content: "";
   position: absolute;
@@ -3633,6 +3646,15 @@ label#tab_l1.elainer {
   border-radius: 4px; }
 
 .popup h2 {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  margin-left: 200px;
+  margin-top: -70px; }
+
+.popup-alarm h2 {
   font-family: "Rubik", sans-serif;
   color: #383838;
   font-size: 24px;
@@ -3699,6 +3721,10 @@ label#tab_l1.elainer {
   text-transform: uppercase;
   padding-left: 40px; }
 
+.form__checkbox {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 .checkbox {
   display: none;
   margin-left: 10px;
@@ -3741,11 +3767,11 @@ label#tab_l1.elainer {
   position: absolute;
   /* Позиционируем его абсолютным образом */
   /* Задаем расстояние от верхней, правой, нижней и левой границы */
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
-  left: 2px;
-  background: #413548;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background: #2795DF;
   /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
   border-radius: 2px; }
 
