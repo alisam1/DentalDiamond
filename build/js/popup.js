@@ -1,14 +1,11 @@
-$(function () {
-	//script for popups
-	$('a.show_popup').click(function () {
-		$('div.'+$(this).attr("rel")).fadeIn(500);
-		$("body").append("<div id='overlay'></div>");
-		$('#overlay').show().css({'filter' : 'alpha(opacity=80)'});
-		return false;
+$(document).ready(function() { // Ждём загрузки страницы
+
+	$(".close").click(function(){	// Событие клика на затемненный фон
+		$(".popup").fadeOut(800);	// Медленно убираем всплывающее окно
 	});
-	$('a.close').click(function () {
-		$(this).parent().fadeOut(100);
-		$('#overlay').remove('#overlay');
-		return false;
-	});
+
 });
+
+function showPopup() {
+	$(".popup").fadeIn(800); // Медленно выводим изображение
+}

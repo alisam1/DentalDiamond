@@ -1,85 +1,61 @@
-.modalDialog {
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	display: none;
-	pointer-events: none;
-}
-
-.modalDialog:target {
-	display: block;
-	pointer-events: auto;
-}
-
-.modalDialog > div {
-	width: 670px;
-	height: 730px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
-}
-.close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
-}
-
-.close:hover { background: #00d9ff; }
-
-
 .popup {
-padding:5px 15px 15px;
-position:fixed;
-top:140px;
-display:none;
-overflow:hidden;
-border:1px solid #ccc;
-background:#fff;
--moz-border-radius:15px;
--webkit-border-radius:15px;
-border-radius:15px;
-z-index:999;
+	position:fixed;
+	top:140px;
+	display:none;
+	overflow:hidden;
+	background: #FFFFFF;
+	box-shadow: 0 9px 45px 0 #2795DF;
+	border-radius: 10px;
+	z-index:999;
+	width: 650px;
+	height: 730px;
 }
+	.close {
+		content: "";
+	  position: absolute;
+	  width: 24px;
+	  height: 24px;
+	  background-image: url("../img/close.svg");
+		z-index:1;
+		cursor: pointer;
+		float: right;
+		margin-top: 40px;
+		margin-left: 580px;
+	}
+
+
+	.form {
+		position: relative;
+		z-index:2;
+		background: #FFFFFF;
+		z-index:999;
+		margin-top: 155px;
+	}
+
+		.form input {
+			width:96%;
+			padding:5px 2%;
+			margin:10px 0;
+			border-radius:4px;
+		}
 
 .popup h2 {
 @include h3();
 margin-left: 200px;
+margin-top: -70px;
 }
+
+
 
 /**********popup with form**********/
 .reg_form {
 width:670px;
-height: 730px;
+margin-left: 120px;
 display: flex;
 justify-content: center;
 flex-direction: column;
 vertical-align: middle;
+margin-top: 50px;
 
 }
 .reg_form form {
@@ -90,11 +66,16 @@ margin-left: 130px;
 .reg_form input[type=text], .reg_form input[type=password] {
 margin-bottom:20px;
 padding:0 3px;
-width:400px;
+width:360px;
 height:70px;
-border:1px solid #2795DF;
+border:3px solid #2795DF;
 border-radius: 40px;
 @include p();
+font-size: 18px;
+line-height: 22px;
+color: $main-color;
+text-transform: uppercase;
+padding-left: 40px;
 }
 
 .reg_form input placeholder
@@ -105,10 +86,17 @@ border-radius: 40px;
 {
 margin-bottom:10px;
 padding:0 3px;
-width:400px;
+width:360px;
 height:148px;
-border:1px solid #2795DF;
 border-radius: 40px;
+border:3px solid #2795DF;
+border-radius: 40px;
+@include p();
+font-size: 18px;
+line-height: 22px;
+color: $main-color;
+text-transform: uppercase;
+padding-left: 40px;
 }
 
 .reg_form input[type=submit] {
