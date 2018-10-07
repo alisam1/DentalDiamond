@@ -61,17 +61,21 @@
       <h1 class="service__title">Доступные услуги стоматологов</h1>
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
-        <button class="appointment"><a class="show_popup" rel="reg_form" href="#">Записаться на прием<span>за 2 мин.<span></span></span></a></button>
-          <div class="popup reg_form">
-          		<a class="close" href="#">Close</a>
-          		<h2>Записаться на прием</h2>
-          		<form method="post" action="">
-          			<input type="text" name="name" placeholder="Ваше имя">
-          			<input type="text" name="email" placeholder="Телефон или почта">
-                <input type="textarea" name="text" placeholder="Комментарий">
-          			<input type="submit" value="Записаться на прием">
-          		</form>
-	        </div>
+        <button class="appointment"><a href="#openModal" rel="reg_form">Записаться на прием<span>за 2 мин.<span></span></span></a></button>
+            <div id="openModal" class="modalDialog">
+            	<div>
+            		<a href="#close" title="Закрыть" class="close">X</a>
+                <div class="reg_form">
+                <h2>Записаться на прием</h2>
+              		<form method="post" action="">
+              			<input type="text" name="name" placeholder="Ваше имя">
+              			<input type="text" name="email" placeholder="Телефон или почта">
+                    <input type="textarea" name="text" placeholder="Комментарий">
+              			<input type="submit" value="Записаться на прием">
+              		</form>
+            	</div>
+            </div>
+            </div>
         <button class="alarm">Заказать звонок</button>
       </div>
     </section>
