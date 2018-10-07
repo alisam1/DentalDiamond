@@ -70,7 +70,7 @@
           			<input type="text" name="name" placeholder = "Ваше имя"/>
           			<input type="text" name="email" placeholder = "Телефон или почта" />
                 <input type="textarea" name="text" placeholder = "Комментарий" />
-                <label>
+                <label class="form__checkbox">
                     <input class="checkbox" type="checkbox" name="checkbox-test">
                     <span class="checkbox-custom"></span>
                     <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
@@ -79,7 +79,23 @@
           		</form>
               </div>
             </div>
-        <button class="alarm">Заказать звонок</button>
+        <button class="alarm " onclick="showPopupAlarm();">Заказать звонок</button>
+        <div class="popup-alarm">
+          <div class="close" title="Закрыть"></div>
+            <div class="form">
+              <h2>Записаться на прием</h2>
+              <form method="post" action="" class="reg_form">
+              <input type="text" name="name" placeholder = "Ваше имя"/>
+              <input type="text" name="email" placeholder = "Телефон или почта" />
+              <label class="form__checkbox">
+                  <input class="checkbox" type="checkbox" name="checkbox-test">
+                  <span class="checkbox-custom"></span>
+                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+              </label>
+              <input type="submit" value="Записаться на прием" />
+            </form>
+            </div>
+          </div>
       </div>
     </section>
 

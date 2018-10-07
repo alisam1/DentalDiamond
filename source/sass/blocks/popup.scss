@@ -10,6 +10,20 @@
 	width: 650px;
 	height: 730px;
 }
+
+.popup-alarm
+{
+	position:fixed;
+	top:140px;
+	display:none;
+	overflow:hidden;
+	background: #FFFFFF;
+	box-shadow: 0 9px 45px 0 #2795DF;
+	border-radius: 10px;
+	z-index:999;
+	width: 670px;
+	height: 585px;
+}
 	.close {
 		content: "";
 	  position: absolute;
@@ -40,6 +54,12 @@
 		}
 
 .popup h2 {
+@include h3();
+margin-left: 200px;
+margin-top: -70px;
+}
+
+.popup-alarm h2 {
 @include h3();
 margin-left: 200px;
 margin-top: -70px;
@@ -99,6 +119,12 @@ text-transform: uppercase;
 padding-left: 40px;
 }
 
+.form__checkbox
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .checkbox {
 	display: none;
 	margin-left: 10px;
@@ -133,11 +159,11 @@ padding-left: 40px;
 	display: block;			 /* Делаем его блочным элементом */
 	position: absolute;      /* Позиционируем его абсолютным образом */
 	/* Задаем расстояние от верхней, правой, нижней и левой границы */
-	top: 2px;
-	right: 2px;
-	bottom: 2px;
-	left: 2px;
-	background: #413548;     /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	background: #2795DF;    /* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
 	border-radius: 2px;
 }
 
