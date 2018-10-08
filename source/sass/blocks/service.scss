@@ -5,9 +5,52 @@
   margin: 0 auto;
   background-image: url("../img/service_bg.png");
   background-repeat: no-repeat;
-  margin-top: -10px;
   position: relative;
   background-size: cover;
+}
+
+#video_bg {
+	/* Делаем так, чтобы видеофон занимал фиксированное положение. */
+	top: 0;
+	left: 0;
+	/* Располагаем наш фон под всем содержимым на странице.
+    Для этого используем отрицательный z-index. */
+	z-index: -1000;
+	/* Растягиваем видео так, чтобы не было видно черных полос и
+	чтобы независимо от разрешения экрана видеофон занимал все рабочее пространство. */
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+@media (min-aspect-ratio: 16/9) {
+	#video_bg {
+		height: 500px;
+		top: -100%;
+	}
+}
+@media (max-aspect-ratio: 16/9) {
+	#video_bg {
+		width: 300%;
+		left: -100%;
+	}
+}
+@supports (object-fit: cover) {
+	#video_bg {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+}
+
+.service-info
+{
+  position: relative;
+  z-index: 9999;
+  margin-top: -470px;
 }
 
 .service__title
@@ -21,6 +64,7 @@
   top: 120px;
   text-align: center;
   left: -100px;
+  z-index: 999;
 }
 
 .service__description
