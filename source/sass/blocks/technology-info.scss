@@ -53,6 +53,7 @@
 
 .technology-block__item a
 {
+  @include link()
   @include p();
   font-size: 18px;
   line-height: 22px;

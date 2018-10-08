@@ -71,8 +71,9 @@
     margin-bottom: 60px;
   }
 
-  .udalenie-question__text span
+  .udalenie-question__text span a
   {
+    @include link();
     @include h3();
     color: $second-color;
     text-decoration: none;

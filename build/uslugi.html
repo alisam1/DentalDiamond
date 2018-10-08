@@ -5,8 +5,12 @@
     <title>Сайт стоматологии DentalDiamond</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/popup.js"></script>
   </head>
   <body>
 
@@ -22,7 +26,26 @@
       </div>
       <nav class="header__menu">
            <ul class="menu_list">
-             <li class="menu_item menu_item--active"><a href="#">Услуги</a></li>
+             <li class="menu_item menu_item--active"><a href="#">
+              <div class="menu__overlay">
+              <ul class="menu__overlay--list">
+                <li class="menu__overlay--item">Лечение острой боли</li>
+                <li class="menu__overlay--item">Лечение десен</li>
+                <li class="menu__overlay--item">Лечение зубов</li>
+                <li class="menu__overlay--item">Новые зубы</li>
+                <li class="menu__overlay--item">Удаление зубов без сверления</li>
+                <li class="menu__overlay--item">Восстановление отколотого зуба</li>
+                <li class="menu__overlay--item">Отбеливание</li>
+                <li class="menu__overlay--item">Исправление прикуса</li>
+                <li class="menu__overlay--item">Зубные протезы и уход за ними</li>
+                <li class="menu__overlay--item">Зубные коронки</li>
+                <li class="menu__overlay--item">Консультация с врачом</li>
+                <li class="menu__overlay--item">Диагностика</li>
+                <li class="menu__overlay--item">Профилактика заболеваний</li>
+                <li class="menu__overlay--item">Чистка зубов</li>
+              </ul>
+             </div>Услуги
+           </a></li>
              <li class="menu_item"><a href="#">Цены</a></li>
              <li class="menu_item"><a href="#">Врачи</a></li>
              <li class="menu_item"><a href="#">Работы</a></li>
@@ -46,7 +69,23 @@
       </div>
       <div class="help__info help__info--service">
         <h3 class="help__title">Услуги</h3>
-        <button class="help__button">Лучше перезвоните и расскажите</button>
+        <button class="help__button" onclick="showPopupAlarm();">Лучше перезвоните и расскажите</button>
+        <div class="popup-alarm popup-alarm--uslugi">
+          <div class="close" title="Закрыть"></div>
+            <div class="form">
+              <h2>Записаться на прием</h2>
+              <form method="post" action="" class="reg_form">
+              <input type="text" name="name" placeholder="Ваше имя">
+              <input type="text" name="email" placeholder="Телефон или почта">
+              <label class="form__checkbox">
+                  <input class="checkbox" type="checkbox" name="checkbox-test">
+                  <span class="checkbox-custom"></span>
+                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+              </label>
+              <input type="submit" value="Записаться на прием">
+            </form>
+            </div>
+          </div>
         </div>
 
         <div class="help_blocks help_blocks--uslugi">
@@ -97,8 +136,25 @@
             </div>
           </div>
           <div class="registration__button registration__button--entry">
-              <button class="appointment appointment--double">Записаться на прием<span>за 2 мин.<span></span></span></button>
-              <button class="alarm alarm--blue">Заказать звонок</button>
+              <button class="appointment appointment--double" onclick="showPopup();">Записаться на прием<span>за 2 мин.<span></span></span></button>
+                <div class="popup popup--entry">
+                  <div class="close" title="Закрыть"></div>
+                    <div class="form">
+                      <h2>Записаться на прием</h2>
+                      <form method="post" action="" class="reg_form">
+                      <input type="text" name="name" placeholder="Ваше имя">
+                      <input type="text" name="email" placeholder="Телефон или почта">
+                      <input type="textarea" name="text" placeholder="Комментарий">
+                      <label class="form__checkbox">
+                          <input class="checkbox" type="checkbox" name="checkbox-test">
+                          <span class="checkbox-custom"></span>
+                          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+                      </label>
+                      <input type="submit" value="Записаться на прием">
+                    </form>
+                    </div>
+                  </div>
+              <button class="alarm alarm--blue" onclick="showPopupAlarm();">Заказать звонок</button>
           </div>
         </div>
         

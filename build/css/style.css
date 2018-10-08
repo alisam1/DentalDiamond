@@ -3259,7 +3259,14 @@ a:hover .menu__overlay {
   margin-top: 80px;
   margin-bottom: 60px; }
 
-.udalenie-question__text span {
+.udalenie-question__text span a {
+  font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-family: "Rubik", sans-serif;
   color: #383838;
   font-size: 24px;
@@ -3268,6 +3275,9 @@ a:hover .menu__overlay {
   color: #2795DF;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .udalenie-question__text span a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .technology-info {
   display: -webkit-box;
@@ -3312,6 +3322,13 @@ a:hover .menu__overlay {
 
 .technology-block__item a {
   font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
+  font-family: "Rubik", sans-serif;
   color: #383838;
   font-size: 14px;
   line-height: 22px;
@@ -3321,6 +3338,9 @@ a:hover .menu__overlay {
   color: #2795DF;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .technology-block__item a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .technology-block__item--text {
   width: 175px; }
@@ -3905,6 +3925,12 @@ label#tab_l1.elainer {
   .popup--otzyvy {
     margin-left: 250px;
     top: 100px; }
+  .popup--technology {
+    margin-left: 220px;
+    top: 80px; }
+  .popup--entry {
+    right: 500px;
+    top: 70px; }
 
 .popup-alarm {
   position: fixed;
@@ -3929,6 +3955,10 @@ label#tab_l1.elainer {
   .popup-alarm--coronki {
     margin-right: 300px;
     top: 155px; }
+  .popup-alarm--uslugi {
+    margin-left: 260px; }
+  .popup-alarm--vrachi {
+    margin-left: 210px; }
 
 .close {
   content: "";
