@@ -3888,7 +3888,8 @@ label#tab_l1.elainer {
   width: 650px;
   height: 730px; }
   .popup--consultation {
-    right: 600px; }
+    right: 600px;
+    top: 50px; }
   .popup--contacts {
     margin-left: 250px; }
   .popup--coronki {
