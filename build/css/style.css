@@ -1796,6 +1796,9 @@ a:hover .menu__overlay {
   margin-bottom: 20px;
   letter-spacing: 0.8px; }
 
+.main-table {
+  margin-bottom: 40px; }
+
 .row__title--caries::after {
   content: "50%";
   position: absolute;
@@ -1972,7 +1975,8 @@ a:hover .menu__overlay {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 310px; }
+  width: 310px;
+  margin-bottom: 40px; }
 
 .banners-high {
   -webkit-box-pack: start;
