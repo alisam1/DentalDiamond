@@ -58,16 +58,7 @@
 
 .help__button
 {
-  width: 295px;
-  height: 34px;
-  font-family: $font-family;
-  font-size: 14px;
-  line-height: 34px;
-  color: $second-color;
-  background-color: transparent;
-  border: 1px solid $second-color;
-  border-radius: 7px;
-  margin-top: 38px;
+  @include blue_button();
   position: relative;
   padding-left: 35px;
 }
@@ -90,13 +81,25 @@
 }
 
 
+.help__button:hover:before
+{
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/icon_phone_hover.svg");
+    margin-left: -30px;
+    margin-top: 6px;
+}
+
+
 .help__button::before
 {
     content: "";
     position: absolute;
     width: 17px;
     height: 17px;
-    background-image: url("../img/icon_phone.png");
+    background-image: url("../img/icon_phone.svg");
     margin-left: -30px;
     margin-top: 6px;
 }
