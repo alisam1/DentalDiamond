@@ -3626,9 +3626,17 @@ label#tab_l1.elainer {
 
 .implants-question__link a {
   font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
-  line-height: 26px;
-  color: #2795DF; }
+  line-height: 26px; }
+  .implants-question__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .kartochka-vracha__title {
   font-family: "Rubik", sans-serif;
@@ -3842,6 +3850,12 @@ label#tab_l1.elainer {
     right: 600px; }
   .popup--contacts {
     margin-left: 250px; }
+  .popup--coronki {
+    margin-right: 320px;
+    top: 0px; }
+  .popup--implants {
+    margin-right: 800px;
+    top: 100px; }
 
 .popup-alarm {
   position: fixed;
@@ -3863,6 +3877,9 @@ label#tab_l1.elainer {
   .popup-alarm--clinika {
     top: 160px;
     margin-right: 300px; }
+  .popup-alarm--coronki {
+    margin-right: 300px;
+    top: 155px; }
 
 .close {
   content: "";
