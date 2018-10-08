@@ -18,8 +18,8 @@
 
 .implants-question__link a
 {
-  font-family: $font-family;
+  @include link();
   font-size: 14px;
   line-height: 26px;
-  color: $second-color;
+
 }
