@@ -866,6 +866,9 @@ a:hover .menu__overlay {
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .help__item a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .help__item--laser::after {
   content: "";
@@ -1605,6 +1608,9 @@ a:hover .menu__overlay {
   border-bottom: 1px solid #2795DF;
   font-size: 16px;
   line-height: 29px; }
+  .entry__link-about a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .entry__work {
   width: 235px;
@@ -3281,6 +3287,9 @@ a:hover .menu__overlay {
   float: right;
   position: relative;
   right: 10px; }
+  .technology-results__link:hover, .coronki__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .coronki__link {
   margin-top: 270px; }
@@ -3462,6 +3471,9 @@ label#tab_l1.elainer {
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .implants-about__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .implants-question {
   display: -webkit-box;
