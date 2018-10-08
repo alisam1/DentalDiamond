@@ -40,6 +40,27 @@
 						z-index: 100;
 					}
 
+			.otzyv-doctor #ui-carousel-next {
+							width: 60px;
+							height: 100px;
+							background: url("../img/next_arrow.png") transparent center center no-repeat;
+							display: block;
+							position: absolute;
+							top: 290px;
+							z-index: 100;
+						}
+
+			.otzyv-doctor #ui-carousel-prev {
+								width: 60px;
+								height: 100px;
+								background: url("../img/last_arrow.png") transparent center center no-repeat;
+								display: block;
+								position: absolute;
+								top: 290px;
+								z-index: 100;
+							}
+
+
 			#ui-carousel-next, #ui-carousel-prev {
 				width: 60px;
 				height: 100px;
