@@ -3840,6 +3840,8 @@ label#tab_l1.elainer {
   height: 730px; }
   .popup--consultation {
     right: 600px; }
+  .popup--contacts {
+    margin-left: 250px; }
 
 .popup-alarm {
   position: fixed;
@@ -3855,6 +3857,9 @@ label#tab_l1.elainer {
   height: 585px; }
   .popup-alarm--ceny {
     margin-left: 220px; }
+  .popup-alarm--contacts {
+    margin-right: 300px;
+    top: 155px; }
   .popup-alarm--clinika {
     top: 160px;
     margin-right: 300px; }
