@@ -2118,13 +2118,21 @@ a:hover .menu__overlay {
 
 .doctor__link a {
   font-family: "Rubik", sans-serif;
+  color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 18px;
   line-height: 22px;
   color: #2795DF;
-  font-weight: 400;
   margin-left: 30px;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .doctor__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .doctor__link--sertificate::before {
   content: "";
@@ -2688,6 +2696,10 @@ a:hover .menu__overlay {
   font-weight: 500; }
 
 .select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none !important;
   width: 370px;
   height: 43px;
   text-align: left;
@@ -2699,31 +2711,37 @@ a:hover .menu__overlay {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
-  margin-right: 40px; }
-
-.select::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 4px;
-  background-image: url("../img/icon_button.svg");
-  margin-top: 10px;
-  margin-left: 230px; }
+  margin-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%23000' fill-rule='evenodd' class='cls-1' d='M8,0L4.141,6.993,0.012,0.156Z'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .select-result {
-  width: 360px;
-  height: 57px;
+  width: 295px;
+  height: 34px;
   font-family: "Rubik", sans-serif;
-  color: #2795DF;
   font-size: 14px;
-  line-height: 17px;
-  font-weight: 400;
-  background: rgba(0, 0, 0, 0);
+  line-height: 34px;
+  color: #2795DF;
+  background-color: transparent;
   border: 1px solid #2795DF;
-  border-radius: 3px;
-  text-transform: uppercase;
   width: 230px;
-  height: 44px; }
+  height: 44px;
+  margin-left: 5px; }
+  .select-result:hover {
+    background: #2795DF;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff; }
+  .select-result:active {
+    background: #57B5F4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff; }
 
 .examples {
   display: -webkit-box;
@@ -2791,7 +2809,8 @@ a:hover .menu__overlay {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 40px; }
 
 .raboty-banners__text {
   margin-left: 40px; }
@@ -3738,6 +3757,24 @@ label#tab_l1.elainer {
   top: 290px;
   z-index: 100; }
 
+.otzyv-doctor #ui-carousel-next {
+  width: 60px;
+  height: 100px;
+  background: url("../img/next_arrow.png") transparent center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 290px;
+  z-index: 100; }
+
+.otzyv-doctor #ui-carousel-prev {
+  width: 60px;
+  height: 100px;
+  background: url("../img/last_arrow.png") transparent center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 290px;
+  z-index: 100; }
+
 #ui-carousel-next, #ui-carousel-prev {
   width: 60px;
   height: 100px;
@@ -3855,6 +3892,12 @@ label#tab_l1.elainer {
     top: 0px; }
   .popup--implants {
     margin-right: 800px;
+    top: 100px; }
+  .popup--kartochka {
+    margin-left: 200px;
+    top: 100px; }
+  .popup--otzyvy {
+    margin-left: 250px;
     top: 100px; }
 
 .popup-alarm {
