@@ -41,7 +41,7 @@ jQuery(function($) {
 					{
 						visible: 1,
 						step: 1,
-						speed: 800,
+						speed: 700,
 						auto: {
 							enabled: false
 						},
