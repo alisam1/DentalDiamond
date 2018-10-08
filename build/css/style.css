@@ -1049,7 +1049,6 @@ a:hover .menu__overlay {
   font-size: 16px;
   line-height: 22px;
   color: #7B7B7B;
-  margin-left: 15px;
   margin-top: 40px; }
 
 .sertificate__block {
@@ -1064,6 +1063,72 @@ a:hover .menu__overlay {
       justify-content: space-around;
   margin-left: -35px;
   margin-top: 50px; }
+
+.tabs-sertificate {
+  position: relative;
+  margin: 0 auto;
+  width: 1170px;
+  padding-top: 80px; }
+
+.tabs-sertificate label {
+  color: #555;
+  cursor: pointer;
+  display: block;
+  float: left;
+  width: 220px;
+  height: 47px;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #fff;
+  background-color: #73C7FF;
+  border-radius: 3px;
+  border: none;
+  margin-left: 25px;
+  vertical-align: middle;
+  padding-top: 5px; }
+
+.tabs-sertificate input {
+  position: absolute;
+  left: -9999px; }
+
+#tab_a:checked ~ #tab_s1,
+#tab_b:checked ~ #tab_s2 {
+  width: 220px;
+  height: 47px;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #7B7B7B;
+  border: 1px solid #7B7B7B;
+  background-color: transparent;
+  border-radius: 3px;
+  margin-left: 25px;
+  z-index: 3;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5px; }
+
+.tabs_cont--sertificate {
+  position: relative;
+  z-index: 2;
+  height: 670px; }
+
+.tabs_cont--sertificate > div {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out; }
+
+#tab_a:checked ~ .tabs_cont--sertificate #tab_d1,
+#tab_b:checked ~ .tabs_cont--sertificate #tab_d2 {
+  position: static;
+  left: 0;
+  opacity: 1; }
 
 .contacts {
   width: 1307px;
@@ -3500,19 +3565,19 @@ label#tab_l1.elainer {
 
 #ui-carousel-next, #ui-carousel-prev {
   width: 60px;
-  height: 240px;
+  height: 100px;
   background: url("../img/last_arrow.png") #fff center center no-repeat;
   display: block;
   position: absolute;
-  top: 0;
+  top: 220px;
   z-index: 100; }
 
 #ui-carousel-next {
-  right: 0;
+  right: 480px;
   background-image: url("../img/next_arrow.png"); }
 
 #ui-carousel-prev {
-  left: 0; }
+  left: 460px; }
 
 #ui-carousel-next > span, #ui-carousel-prev > span {
   display: none; }

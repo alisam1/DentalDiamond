@@ -13,21 +13,21 @@
 
 			#ui-carousel-next, #ui-carousel-prev {
 				width: 60px;
-				height: 240px;
+				height: 100px;
 				background: url("../img/last_arrow.png") #fff center center no-repeat;
 				display: block;
 				position: absolute;
-				top: 0;
+				top: 220px;
 				z-index: 100;
 			}
 
 			#ui-carousel-next {
-				right: 0;
+				right: 480px;
 				background-image: url("../img/next_arrow.png");
 			}
 
 			#ui-carousel-prev {
-				left: 0;
+				left: 460px;
 			}
 
 			#ui-carousel-next > span, #ui-carousel-prev > span {
