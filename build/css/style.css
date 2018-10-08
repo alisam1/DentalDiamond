@@ -478,7 +478,8 @@ a:hover .menu__overlay {
   background-image: url("../img/service_bg.png");
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover; }
+  background-size: cover;
+  overflow: hidden; }
 
 #video_bg {
   /* Делаем так, чтобы видеофон занимал фиксированное положение. */
