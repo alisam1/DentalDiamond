@@ -2602,7 +2602,8 @@ a:hover .menu__overlay {
 .comments {
   width: 100%;
   height: 490px;
-  background-color: #FBFBFF; }
+  background-color: #FBFBFF;
+  margin-top: 40px; }
 
 .comments-main {
   display: -webkit-box;
@@ -3700,9 +3701,34 @@ label#tab_l1.elainer {
   margin: 0 auto;
   margin-bottom: 40px; }
 
+#container-clinika {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 70px; }
+
 #carousel {
   width: 1200px;
   margin: 0 auto; }
+
+.comments #ui-carousel-next {
+  width: 60px;
+  height: 100px;
+  background: url("../img/next_arrow.png") transparent center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 290px;
+  z-index: 100; }
+
+.comments #ui-carousel-prev {
+  width: 60px;
+  height: 100px;
+  background: url("../img/last_arrow.png") transparent center center no-repeat;
+  display: block;
+  position: absolute;
+  top: 290px;
+  z-index: 100; }
 
 #ui-carousel-next, #ui-carousel-prev {
   width: 60px;
