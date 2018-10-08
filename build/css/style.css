@@ -523,7 +523,7 @@ a:hover .menu__overlay {
 
 .service-info {
   position: relative;
-  z-index: 9999;
+  z-index: 9997;
   margin-top: -470px; }
 
 .service__title {
@@ -788,7 +788,8 @@ a:hover .menu__overlay {
         -ms-flex-pack: end;
             justify-content: flex-end;
     position: relative;
-    bottom: 60px; }
+    bottom: 60px;
+    margin-top: 35px; }
 
 .help__title {
   font-family: "Rubik", sans-serif;
@@ -1868,6 +1869,10 @@ a:hover .menu__overlay {
   border-bottom: 1px solid rgba(39, 149, 223, 0.4);
   margin-left: 20px; }
 
+.row__title a:hover {
+  color: #73C7FF;
+  border-bottom: 1px solid #73C7FF; }
+
 .row__description {
   width: 425px;
   font-family: "Rubik", sans-serif;
@@ -2232,10 +2237,18 @@ a:hover .menu__overlay {
 .sertificate-main__link a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
   margin-left: 550px; }
+  .sertificate-main__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .consultation {
   width: 370px; }
@@ -2266,14 +2279,33 @@ a:hover .menu__overlay {
   margin-left: 45px; }
 
 .consultation__button {
-  background-color: #F5F674;
-  border: none;
-  width: 371px;
+  width: 323px;
   height: 57px;
   font-family: "Rubik", sans-serif;
   color: #383838;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  background: #F5F674;
+  border-radius: 3px;
   text-transform: uppercase;
-  font-weight: 400; }
+  border: none;
+  border-radius: 4px;
+  width: 371px;
+  height: 57px; }
+  .consultation__button:hover {
+    background: #FBFCA6;
+    -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+            box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+    border-radius: 4px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
+  .consultation__button:active {
+    background: #E7E865;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
 
 .about__clinik {
   display: -webkit-box;
@@ -2388,10 +2420,18 @@ a:hover .menu__overlay {
 .watch__item a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .watch__item a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .question {
   margin-top: 62px; }
@@ -2442,10 +2482,18 @@ a:hover .menu__overlay {
 .question__item a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .question__item a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .technik__all {
   position: relative;
@@ -2522,9 +2570,17 @@ a:hover .menu__overlay {
 .results-main__link a, .true-main__link a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
   line-height: 17px;
   font-weight: 400; }
+  .results-main__link a:hover, .true-main__link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .results-main__link a {
   margin-left: 480px; }
@@ -2585,11 +2641,19 @@ a:hover .menu__overlay {
 .comments-link a {
   font-family: "Rubik", sans-serif;
   color: #2795DF;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #2795DF;
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
+  .comments-link a:hover {
+    color: #73C7FF;
+    border-bottom: 1px solid #73C7FF; }
 
 .slider {
   display: -webkit-box;
@@ -3643,7 +3707,7 @@ label#tab_l1.elainer {
 #ui-carousel-next, #ui-carousel-prev {
   width: 60px;
   height: 100px;
-  background: url("../img/last_arrow.png") #fff center center no-repeat;
+  background: url("../img/last_arrow.png") transparent center center no-repeat;
   display: block;
   position: absolute;
   top: 220px;
@@ -3748,6 +3812,8 @@ label#tab_l1.elainer {
   z-index: 9999;
   width: 650px;
   height: 730px; }
+  .popup--consultation {
+    right: 600px; }
 
 .popup-alarm {
   position: fixed;
@@ -3758,9 +3824,14 @@ label#tab_l1.elainer {
   -webkit-box-shadow: 0 9px 45px 0 #2795DF;
           box-shadow: 0 9px 45px 0 #2795DF;
   border-radius: 10px;
-  z-index: 999;
+  z-index: 9999;
   width: 670px;
   height: 585px; }
+  .popup-alarm--ceny {
+    margin-left: 220px; }
+  .popup-alarm--clinika {
+    top: 160px;
+    margin-right: 300px; }
 
 .close {
   content: "";

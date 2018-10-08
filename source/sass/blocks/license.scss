@@ -35,8 +35,7 @@
 
 .sertificate-main__link a
 {
-  font-family: $font-family;
-  color: $second-color;
+  @include link();
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
@@ -77,12 +76,7 @@
 
 .consultation__button
 {
-  background-color: #F5F674;
-  border: none;
+  @include yellow_button();
   width: 371px;
   height: 57px;
-  font-family: $font-family;
-  color: $main-color;
-  text-transform: uppercase;
-  font-weight: 400;
 }

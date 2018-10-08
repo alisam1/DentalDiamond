@@ -9,6 +9,10 @@
 	z-index:9999;
 	width: 650px;
 	height: 730px;
+	&--consultation
+	{
+		right: 600px;
+	}
 }
 
 .popup-alarm
@@ -20,9 +24,18 @@
 	background: #FFFFFF;
 	box-shadow: 0 9px 45px 0 #2795DF;
 	border-radius: 10px;
-	z-index:999;
+	z-index:9999;
 	width: 670px;
 	height: 585px;
+	&--ceny
+	{
+		margin-left: 220px;
+	}
+	&--clinika
+	{
+		top: 160px;
+		margin-right: 300px;
+	}
 }
 	.close {
 		content: "";

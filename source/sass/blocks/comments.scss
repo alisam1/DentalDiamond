@@ -51,8 +51,7 @@
 
 .comments-link a
 {
-  font-family: $font-family;
-  color: $second-color;
+  @include link();
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;

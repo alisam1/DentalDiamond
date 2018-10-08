@@ -112,8 +112,7 @@
 
 .watch__item a
 {
-  font-family: $font-family;
-  color: $second-color;
+  @include link();
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;
@@ -174,8 +173,7 @@
 
 .question__item a
 {
-  font-family: $font-family;
-  color: $second-color;
+  @include link();
   font-size: 14px;
   line-height: 17px;
   text-decoration: none;

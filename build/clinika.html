@@ -5,8 +5,12 @@
     <title>Сайт стоматологии DentalDiamond</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/popup.js"></script>
   </head>
   <body>
 
@@ -22,7 +26,26 @@
       </div>
       <nav class="header__menu">
            <ul class="menu_list">
-             <li class="menu_item menu_item--active"><a href="#">Услуги</a></li>
+             <li class="menu_item menu_item--active"><a href="#">
+              <div class="menu__overlay">
+              <ul class="menu__overlay--list">
+                <li class="menu__overlay--item">Лечение острой боли</li>
+                <li class="menu__overlay--item">Лечение десен</li>
+                <li class="menu__overlay--item">Лечение зубов</li>
+                <li class="menu__overlay--item">Новые зубы</li>
+                <li class="menu__overlay--item">Удаление зубов без сверления</li>
+                <li class="menu__overlay--item">Восстановление отколотого зуба</li>
+                <li class="menu__overlay--item">Отбеливание</li>
+                <li class="menu__overlay--item">Исправление прикуса</li>
+                <li class="menu__overlay--item">Зубные протезы и уход за ними</li>
+                <li class="menu__overlay--item">Зубные коронки</li>
+                <li class="menu__overlay--item">Консультация с врачом</li>
+                <li class="menu__overlay--item">Диагностика</li>
+                <li class="menu__overlay--item">Профилактика заболеваний</li>
+                <li class="menu__overlay--item">Чистка зубов</li>
+              </ul>
+             </div>Услуги
+           </a></li>
              <li class="menu_item"><a href="#">Цены</a></li>
              <li class="menu_item"><a href="#">Врачи</a></li>
              <li class="menu_item"><a href="#">Работы</a></li>
@@ -45,7 +68,24 @@
       </ul>
       </div>
       <div class="help__info help__info--clinika">
-        <button class="help__button">Заказать звонок</button>
+        <button class="help__button help__button--clinica" onclick="showPopupAlarm();">Заказать звонок</button>
+        <div class="popup-alarm popup-alarm--clinika">
+          <div class="close" title="Закрыть"></div>
+            <div class="form">
+              <h2>Записаться на прием</h2>
+              <form method="post" action="" class="reg_form">
+              <input type="text" name="name" placeholder="Ваше имя">
+              <input type="text" name="email" placeholder="Телефон или почта">
+              <label class="form__checkbox">
+                  <input class="checkbox" type="checkbox" name="checkbox-test">
+                  <span class="checkbox-custom"></span>
+                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+              </label>
+              <input type="submit" value="Записаться на прием">
+            </form>
+            </div>
+          </div>
+
         </div>
         </div>
     </section>
@@ -122,7 +162,24 @@
         <div class="consultation__description">
           <p class="consultation__text">Расскажем про услуги и поможем решить проблему</p>
         </div>
-          <button class="consultation__button">Записаться</button>
+          <button class="consultation__button" onclick="showPopup();">Записаться</button>
+          <div class="popup popup--consultation">
+            <div class="close" title="Закрыть"></div>
+              <div class="form">
+                <h2>Записаться на прием</h2>
+          		  <form method="post" action="" class="reg_form">
+          			<input type="text" name="name" placeholder="Ваше имя">
+          			<input type="text" name="email" placeholder="Телефон или почта">
+                <input type="textarea" name="text" placeholder="Комментарий">
+                <label class="form__checkbox">
+                    <input class="checkbox" type="checkbox" name="checkbox-test">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+                </label>
+          			<input type="submit" value="Записаться на прием">
+          		</form>
+              </div>
+            </div>
       </div>
       </div>
       </div>
@@ -154,24 +211,62 @@
       </div>
     </div>
     </section>
+
       <section class="comments">
         <div class="container">
-        <div class="slider">
-        <img src="img/last_arrow.png" alt="" width="18" height="29">
-        <ul class="opinion__slider opinion__slider--clinica">
-          <li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-          <li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-          <li class="current"><a href="#"><img src="img/icon_dotCurrent.png" alt=""></a></li>
-          <li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-          <li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-          <li><a href="#"><img src="img/icon_dot.png" alt=""></a></li>
-        </ul>
-        <img src="img/next_arrow.png" alt="" width="18" height="29">
-        </div>
-        <div class="comments-main">
-          <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-          <span>Спасибо за вежливость.</span></div>
-          <div class="comments-main__photo"><img src="img/feedback_photo.png" alt=""></div>
+          <div id="container">
+          <div id="carousel">
+            <div id="slide01" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за вежливость.</span></div>
+                <div class="comments-main__photo"><img src="img/feedback_photo.png" alt=""></div>
+              </div>
+            </div>
+
+            <div id="slide02" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за вежливость.</span></div>
+                <div class="comments-main__photo"><img src="img/thx.png" alt=""></div>
+              </div>
+            </div>
+
+            <div id="slide03" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за работу!</span></div>
+                <div class="comments-main__photo"><img src="img/feedback_photo.png" alt=""></div>
+              </div>
+            </div>
+
+            <div id="slide04" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за вежливость.</span></div>
+                <div class="comments-main__photo"><img src="img/thx.png" alt=""></div>
+              </div>
+            </div>
+
+            <div id="slide05" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за вежливость.</span></div>
+                <div class="comments-main__photo"><img src="img/feedback_photo.png" alt=""></div>
+              </div>
+            </div>
+
+            <div id="slide06" class="slide">
+              <div class="comments-main">
+                <div class="comments-main__description">Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                <span>Спасибо за вежливость.</span></div>
+                <div class="comments-main__photo"><img src="img/thx.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <a href="" id="ui-carousel-next"><span>next</span></a>
+          <a href="" id="ui-carousel-prev"><span>prev</span></a>
+          <div id="pages"></div>
         </div>
         <p class="comments-link"><a href="">Все отзывы</a></p>
         </div>
