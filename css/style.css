@@ -812,10 +812,20 @@ a:hover .menu__overlay {
   color: #2795DF;
   background-color: transparent;
   border: 1px solid #2795DF;
-  border-radius: 7px;
-  margin-top: 38px;
   position: relative;
   padding-left: 35px; }
+  .help__button:hover {
+    background: #2795DF;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff; }
+  .help__button:active {
+    background: #57B5F4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff; }
 
 .help__info--service .help__button {
   padding-left: 35px; }
@@ -828,12 +838,21 @@ a:hover .menu__overlay {
 .help__info--vrachi .help__button {
   margin-top: -15px; }
 
+.help__button:hover:before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-image: url("../img/icon_phone_hover.svg");
+  margin-left: -30px;
+  margin-top: 6px; }
+
 .help__button::before {
   content: "";
   position: absolute;
   width: 17px;
   height: 17px;
-  background-image: url("../img/icon_phone.png");
+  background-image: url("../img/icon_phone.svg");
   margin-left: -30px;
   margin-top: 6px; }
 
@@ -3726,7 +3745,7 @@ label#tab_l1.elainer {
   -webkit-box-shadow: 0 9px 45px 0 #2795DF;
           box-shadow: 0 9px 45px 0 #2795DF;
   border-radius: 10px;
-  z-index: 999;
+  z-index: 9999;
   width: 650px;
   height: 730px; }
 
