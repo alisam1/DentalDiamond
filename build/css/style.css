@@ -514,6 +514,13 @@ a:hover .menu__overlay {
     -o-object-fit: cover;
        object-fit: cover; } }
 
+.in {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5; }
+
 .service-info {
   position: relative;
   z-index: 9999;
