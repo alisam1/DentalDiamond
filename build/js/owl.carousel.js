@@ -43,7 +43,7 @@ jQuery(function($) {
 						step: 1,
 						speed: 700,
 						auto: {
-							enabled: true
+							enabled: false
 						},
 						width: 1200,
 						height: 261,
