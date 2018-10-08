@@ -41,9 +41,9 @@ jQuery(function($) {
 					{
 						visible: 1,
 						step: 1,
-						speed: 700,
+						speed: 800,
 						auto: {
-							enabled: true
+							enabled: false
 						},
 						width: 1200,
 						height: 261,
