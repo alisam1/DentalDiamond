@@ -3891,7 +3891,8 @@ label#tab_l1.elainer {
     right: 600px;
     top: 50px; }
   .popup--contacts {
-    margin-left: 250px; }
+    margin-left: 250px;
+    top: 50px; }
   .popup--coronki {
     margin-right: 320px;
     top: 0px; }
