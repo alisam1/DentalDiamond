@@ -98,3 +98,32 @@
     background-image: url("../img/yandex-logo.svg");
     margin-left: 10px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .header__menu
+  {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+   .opinion_high
+   {
+     display: inline;
+   }
+
+   .opinion__title
+   {
+     display: flex;
+   }
+  .opinion__text
+  {
+    position: relative;
+    top: 500px;
+    z-index: 999;
+    width: 175px;
+  }
+}

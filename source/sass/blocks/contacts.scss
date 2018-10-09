@@ -62,6 +62,14 @@
   display: flex;
 }
 
+.contacts__map
+{
+  background-image: url("../img/map_big.svg");
+  width: 585px;
+  height: 300px;
+  margin-left: 30px;
+}
+
 .contacts__map img
 {
   margin-top: 30px;
@@ -179,4 +187,79 @@
   background-image: url("../img/icon_pdf.svg");
   margin-left: 280px;
   margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .header__menu
+  {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+   .contacts
+   {
+     width: 320px;
+     height: 1020px;
+   }
+
+   .contacts__map
+   {
+     background-image: url("../img/map-mobile.svg");
+     width: 280px;
+     height: 300px;
+     margin-left: 25px;
+   }
+
+   .contacts__info
+   {
+     margin-left: 25px;
+   }
+   .contacts_high
+   {
+     flex-direction: column;
+   }
+   .contacts__button
+   {
+     left: 0px;
+   }
+  .metro-phone
+  {
+    left: 15px;
+  }
+
+  .metro-address::before
+  {
+    margin-left: -40px;
+    margin-top: -2px;
+  }
+
+  .metro-address
+  {
+    position: relative;
+    left: 50px;
+    top: 25px;
+  }
+   .contacts_low
+   {
+     flex-direction: column;
+   }
+
+   .map-description
+   {
+     display: none;
+   }
+
+   .map-description::before
+   {
+      display: none;
+   }
+
+   .info-pdf
+   {
+     display: none;
+   }
 }

@@ -43,3 +43,44 @@
   position: relative;
   left: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .service__title
+  {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  .tomograph
+  {
+    height: 380px;
+    margin: 0 auto;
+    background-image: url("../img/tomograph_mini.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .tomograph__title
+  {
+    left: 10px;
+  }
+
+  .tomograph__description
+  {
+    left: 10px;
+  }
+
+  .tomograph__button
+  {
+    left: 10px;
+    bottom: 10px;
+  }
+
+}

@@ -290,3 +290,30 @@
   color: $second-color;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .header__menu
+  {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  .help
+  {
+    height: 2130px;
+  }
+
+  .help__button
+  {
+    display: none;
+  }
+
+  .help__title
+  {
+    @include h3();
+    margin-left: 10px;
+  }
+}

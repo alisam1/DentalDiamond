@@ -6,6 +6,7 @@
 				margin-bottom: 40px;
 }
 
+
 #container-clinika
 {
 				width:1200px;
@@ -175,3 +176,230 @@
 				margin-right: 5px;
 				float: left;
 			}
+
+			@media screen and (min-width: 1200px) {
+
+				#container--mobile
+				{
+					display: none;
+				}
+			}
+
+			@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+				#container--mobile
+				{
+					display: none;
+				}
+
+				#container
+				{
+								width:768px;
+								position: relative;
+								margin: 0 auto;
+								margin-bottom: 40px;
+				}
+			}
+
+			@media screen and (min-width: 320px) and (max-width: 768px) {
+
+      #container
+			{
+				display: none;
+			}
+
+			#container--mobile
+			{
+				display: visible;
+			}
+
+			.ui-carousel
+			{
+				height: 400px;
+			}
+
+			#carousel-mobile
+			{
+				width: 320px;
+			}
+
+			.comments #ui-carousel-next--mobile {
+					width: 60px;
+					height: 100px;
+					background: url("../img/next_arrow.png") transparent center center no-repeat;
+					display: block;
+					position: absolute;
+					top: 290px;
+					z-index: 100;
+				}
+
+			.comments #ui-carousel-prev--mobile {
+						width: 60px;
+						height: 100px;
+						background: url("../img/last_arrow.png") transparent center center no-repeat;
+						display: block;
+						position: absolute;
+						top: 290px;
+						z-index: 100;
+					}
+
+			.otzyv-doctor #ui-carousel-next--mobile {
+							width: 60px;
+							height: 100px;
+							background: url("../img/next_arrow.png") transparent center center no-repeat;
+							display: block;
+							position: absolute;
+							top: 290px;
+							z-index: 100;
+						}
+
+			.otzyv-doctor #ui-carousel-prev--mobile {
+								width: 60px;
+								height: 100px;
+								background: url("../img/last_arrow.png") transparent center center no-repeat;
+								display: block;
+								position: absolute;
+								top: 290px;
+								z-index: 100;
+							}
+
+
+			#ui-carousel-next--mobile, #ui-carousel-prev--mobile {
+				width: 60px;
+				height: 100px;
+				background: url("../img/last_arrow.png") transparent center center no-repeat;
+				display: block;
+				position: absolute;
+				z-index: 100;
+			}
+
+			#ui-carousel-next--mobile {
+				right: 70px;
+				background-image: url("../img/next_arrow.png");
+				margin-top: -38px;
+			}
+
+			#ui-carousel-prev--mobile {
+				left: 55px;
+				margin-top: -38px;
+			}
+
+			#ui-carousel-next--mobile > span, #ui-carousel-prev--mobile > span {
+				display: none;
+			}
+
+			.slide {
+				margin: 0;
+				position: relative;
+			}
+
+			#slide01_mobile > img {
+				position: absolute;
+				bottom: 35px;
+				left: 30px;
+			}
+
+			#slide01_mobile > .text {
+				position: absolute;
+				left: 290px;
+				bottom: 35px;
+			}
+
+			#slide02_mobile > img {
+				position: absolute;
+				bottom: 35px;
+				left: 30px;
+			}
+
+			#slide02_mobile > .text {
+				position: absolute;
+				left: 290px;
+				bottom: 65px;
+			}
+
+			#slide03_mobile > img {
+				position: absolute;
+				bottom: 25px;
+				left: 30px;
+			}
+
+			#slide03_mobile > .text {
+				position: absolute;
+				left: 270px;
+				bottom: 25px;
+			}
+
+			#slide04_mobile > img {
+				position: absolute;
+				bottom: 50px;
+				left: 60px;
+			}
+
+			#slide04_mobile > .text {
+				position: absolute;
+				left: 290px;
+				bottom: 25px;
+			}
+
+			#slide05_mobile > img {
+				position: absolute;
+				bottom: 35px;
+				left: 60px;
+			}
+
+			#slide05_mobile > .text {
+				position: absolute;
+				left: 240px;
+				bottom: 35px;
+			}
+
+			#slide06_mobile > img {
+				position: absolute;
+				bottom: 10px;
+				left: 20px;
+			}
+
+			#slide06_mobile > .text {
+				position: absolute;
+				left: 290px;
+				bottom: 35px;
+			}
+
+			#pages-mobile {
+				width: 150px;
+				margin: 0 auto;
+			}
+
+			.bullet {
+				background: url("../img/icon_dot.svg") center center no-repeat;
+				display: block;
+				width: 18px;
+				height: 18px;
+				margin: 0;
+				margin-right: 5px;
+				float: left;
+			}
+
+			.opinion__block
+			{
+				width: 320px;
+				display: flex;
+				flex-direction: column;
+			}
+
+			.opinion__description
+			{
+				padding-left: 30px;
+				padding-right: 20px;
+				padding-top: 15px;
+				padding-bottom: 20px;
+			}
+
+				.opinion__block img
+				{
+					width: 165px;
+					height: 180px;
+					margin-left: 60px;
+					margin-bottom: 20px;
+				}
+}
