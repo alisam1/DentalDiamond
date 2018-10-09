@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#B41317" offset="0%"></stop>
+            <stop stop-color="#E42D27" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Layout.Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-930.000000, -3756.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Contacts" transform="translate(90.000000, 3329.000000)">
+                <path d="M856,427 C864.8,427 872,434.2 872,443 C872,451.8 864.8,459 856,459 C847.2,459 840,451.8 840,443 C840,434.2 847.2,427 856,427 Z M854.3,446.3 L854.3,440.3 L860,443.3 L854.3,446.3 Z M866.8,439.2 C866.8,439.2 866.6,437.7 866,437.1 C865.2,436.3 864.3,436.2 863.9,436.2 C860.9,436 856.5,436 856.5,436 C856.5,436 852.1,436 849.2,436.2 C848.8,436.3 847.9,436.3 847.1,437.1 C846.5,437.7 846.3,439.2 846.3,439.2 C846.3,439.2 846,441 846,442.7 L846,444.3 C846,446 846.2,447.7 846.2,447.7 C846.2,447.7 846.4,449.2 847,449.8 C847.8,450.6 848.8,450.6 849.3,450.7 C851,450.9 856.4,450.9 856.4,450.9 C856.4,450.9 860.8,450.9 863.7,450.7 C864.1,450.6 865,450.6 865.8,449.8 C866.4,449.2 866.6,447.7 866.6,447.7 C866.6,447.7 866.8,446 866.8,444.3 L866.8,442.7 C867,441 866.8,439.2 866.8,439.2 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

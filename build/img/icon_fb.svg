@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Layout.Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-766.000000, -3756.000000)" fill="#334F8D" fill-rule="nonzero">
+            <g id="Contacts" transform="translate(90.000000, 3329.000000)">
+                <path d="M692,427 C700.8,427 708,434.2 708,443 C708,451.8 700.8,459 692,459 C683.2,459 676,451.8 676,443 C676,434.2 683.2,427 692,427 Z M689.7,437.5 L689.7,440 L688,440 L688,443 L689.7,443 L689.7,452 L693.3,452 L693.3,443 L695.7,443 C695.7,443 695.9,441.5 696,440 L693.3,440 L693.3,437.9 C693.3,437.6 693.7,437.2 694.1,437.2 L696,437.2 L696,434 L693.4,434 C689.6,434 689.7,437 689.7,437.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

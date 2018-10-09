@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-circular-outline (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Layout.Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-582.000000, -407.000000)" fill="#383838" fill-rule="nonzero">
+            <g id="video-block" transform="translate(1.000000, 139.000000)">
+                <g id="Group-9" transform="translate(319.000000, 256.000000)">
+                    <g id="clock-circular-outline-(1)" transform="translate(262.000000, 12.000000)">
+                        <path d="M9.5,0 C4.26170235,0 0,4.26170235 0,9.5 C0,14.7382977 4.26170235,19 9.5,19 C14.7382977,19 19,14.7382977 19,9.5 C19,4.26170235 14.7382977,0 9.5,0 Z M9.5,16.9785611 C5.37635858,16.9785611 2.02124331,13.623837 2.02124331,9.5 C2.02124331,5.37616303 5.37635858,2.02143886 9.5,2.02143886 C13.6236414,2.02143886 16.9787567,5.37616303 16.9787567,9.5 C16.9787567,13.623837 13.6236414,16.9785611 9.5,16.9785611 Z" id="Shape"></path>
+                        <path d="M13.2906124,8.53594771 L9.41877512,8.53594771 L9.41877512,3.73202614 C9.41877512,3.32776471 9.10114684,3 8.70938756,3 C8.31762828,3 8,3.32776471 8,3.73202614 L8,9.26797386 C8,9.67223529 8.31762828,10 8.70938756,10 L13.2906124,10 C13.6823717,10 14,9.67223529 14,9.26797386 C14,8.86371242 13.6823717,8.53594771 13.2906124,8.53594771 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
