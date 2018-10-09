@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Layout.Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-378.000000, -690.000000)" fill="#73C7FF">
+            <g id="popular-services" transform="translate(134.000000, 689.000000)">
+                <polygon id="Star" points="251.281425 11.6206981 247.129117 13.8036954 247.922138 9.18003288 244.56285 5.90553687 249.205271 5.23095359 251.281425 1.02420643 253.357579 5.23095359 258 5.90553687 254.640713 9.18003288 255.433733 13.8036954"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

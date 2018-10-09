@@ -13,7 +13,7 @@
   position: absolute;
   width: 14px;
   height: 13px;
-  background-image: url("../img/icon_star.png");
+  background-image: url("../img/icon_star.svg");
   margin-left: 8px;
 }
 
@@ -34,6 +34,12 @@
   width: 221px;
   @include p();
   text-align: center;
+}
+
+.popular__item a
+{
+  @include p();
+  text-decoration: none;
 }
 
 .popular__item span

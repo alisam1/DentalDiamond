@@ -202,11 +202,32 @@
 
 .help__item--laser::after
 {
-  content: "";
+  content: "-30%";
+  font-family: $font-family;
+  font-size: 10px;
   position: absolute;
-  width: 47px;
-  height: 21px;
-  background-image: url("../img/icon_sale.png");
-  margin-left: 10px;
-  margin-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #D3FAAD;
+  margin-left: 15px;
+  margin-top: 2px;
+  border-radius: 3px;
+}
+
+.help__item--skol::after
+{
+  content: "-40%";
+  font-family: $font-family;
+  font-size: 10px;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #D3FAAD;
+  margin-left: 15px;
+  margin-top: 2px;
+  border-radius: 3px;
 }
