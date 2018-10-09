@@ -651,7 +651,7 @@ a:hover .menu__overlay {
   position: absolute;
   width: 14px;
   height: 13px;
-  background-image: url("../img/icon_star.png");
+  background-image: url("../img/icon_star.svg");
   margin-left: 8px; }
 
 .popular__list {
@@ -679,6 +679,14 @@ a:hover .menu__overlay {
   line-height: 22px;
   font-weight: 400;
   text-align: center; }
+
+.popular__item a {
+  font-family: "Rubik", sans-serif;
+  color: #383838;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: none; }
 
 .popular__item span {
   display: block; }
@@ -936,13 +944,32 @@ a:hover .menu__overlay {
     border-bottom: 1px solid #73C7FF; }
 
 .help__item--laser::after {
-  content: "";
+  content: "-30%";
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
   position: absolute;
-  width: 47px;
-  height: 21px;
-  background-image: url("../img/icon_sale.png");
-  margin-left: 10px;
-  margin-top: 6px; }
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #D3FAAD;
+  margin-left: 15px;
+  margin-top: 2px;
+  border-radius: 3px; }
+
+.help__item--skol::after {
+  content: "-40%";
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #D3FAAD;
+  margin-left: 15px;
+  margin-top: 2px;
+  border-radius: 3px; }
 
 .opinion__info {
   display: -webkit-box;
