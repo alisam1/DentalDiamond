@@ -168,9 +168,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-  .header__menu
+  .sertificate__block
   {
-    display: none;
+    width: 768px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tabs-sertificate
+  {
+    height: 950px;
+    width: 768px;
   }
 }
 

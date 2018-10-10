@@ -184,3 +184,16 @@
   top: 25px;
   left: 130px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+   .footer
+   {
+     height: 610px;
+   }
+  .footer__blocks
+  {
+    width: 678px;
+  }
+
+}

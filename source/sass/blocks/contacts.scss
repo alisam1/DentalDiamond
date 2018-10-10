@@ -1,6 +1,5 @@
 .contacts
 {
-  width: 1307px;
   height: 615px;
   background: #FFFFFF;
   box-shadow: 0 14px 22px 0 rgba(115,199,255,0.22);
@@ -191,10 +190,62 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-  .header__menu
+  .contacts
   {
-    display: none;
+    width: 678px;
+    height: 1020px;
   }
+
+  .contacts__map
+  {
+    background-image: url("../img/map_big.svg");
+    width: 480px;
+    height: 500px;
+    margin-left: 80px;
+
+  }
+
+  .contacts_high
+  {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .contacts_low
+  {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .metro-phone
+  {
+    text-align: center;
+    right: 0px;
+  }
+
+  .metro-address
+  {
+    text-align: center;
+    right: 0px;
+  }
+
+  .contacts__button
+  {
+    position: relative;
+    left: 170px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .contacts__info
+  {
+    margin-left: 80px;
+  }
+
+   .info-pdf
+   {
+     display: none;
+   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
