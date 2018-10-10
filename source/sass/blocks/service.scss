@@ -180,6 +180,30 @@
     text-align: left;
     left: 0px;
   }
+
+  .service__buttons
+  {
+    margin-left: 100px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .appointment
+  {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  .alarm
+  {
+    width: 500px;
+    height: 57px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 63px;
+    padding-right: 63px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {

@@ -673,7 +673,27 @@ a:hover .menu__overlay {
     left: 0px; }
   .service__description {
     text-align: left;
-    left: 0px; } }
+    left: 0px; }
+  .service__buttons {
+    margin-left: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .appointment {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 10px; }
+  .alarm {
+    width: 500px;
+    height: 57px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-left: 63px;
+    padding-right: 63px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service__title {
@@ -761,6 +781,27 @@ a:hover .menu__overlay {
 
 .popular__item img {
   height: 80px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .popular__list {
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    /* flex-direction: column; */
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .popular__item {
+    width: 250px;
+    margin-bottom: 30px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .popular__list {
@@ -1260,8 +1301,21 @@ a:hover .menu__overlay {
   margin-left: 10px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .header__menu {
-    display: none; } }
+  .opinion__block {
+    width: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 55px;
+    margin-left: 70px; }
+  .opinion__description {
+    margin-left: 25px;
+    height: 153px;
+    width: 420px;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .opinion_high {
