@@ -64,6 +64,11 @@
   padding-left: 35px;
 }
 
+.help__button--mobile
+{
+  display: none;
+}
+
 .help__info--service .help__button
 {
   padding-left: 35px;
@@ -135,34 +140,22 @@
   }
 }
 
-.help__list--care img
+.uslugi__image
 {
-  margin-left: 50px;
-  margin-top: -10px;
-  margin-bottom: 18px;
+  height: 120px;
+  text-align: center;
 }
 
-.help__list--correction img
+.uslugi__info--correction .uslugi__image
 {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-left: 25px;
+  position: relative;
+  top: 30px;
 }
 
-.help__list--restoration img
+.uslugi__info
 {
-    margin-left: 35px;
-    margin-top: -20px;
-    margin-bottom: 30px;
+  width: 250px;
 }
-
-.help__list--diagnostika img
-{
-  margin-left: 40px;
-  margin-top: -10px;
-  margin-bottom: 30px;
-}
-
 
 .help__item--title
 {
@@ -303,9 +296,50 @@
     width: 220px;
   }
 
+  .help__title
+  {
+    @include h1();
+  }
+
   .help__button
   {
-    margin-top: 40px;
+    display: none;
+  }
+
+  .help__button--mobile
+  {
+    display: flex;
+    @include blue_button();
+    position: relative;
+    padding-left: 35px;
+  }
+
+  .help__button--mobile:hover:before
+  {
+      content: "";
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../img/icon_phone_hover.svg");
+      margin-left: -30px;
+      margin-top: 6px;
+  }
+
+
+  .help__button--mobile::before
+  {
+      content: "";
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../img/icon_phone.svg");
+      margin-left: -30px;
+      margin-top: 6px;
+  }
+
+  .help_blocks
+  {
+    display: contents;
   }
 }
 
@@ -316,14 +350,81 @@
     height: 2130px;
   }
 
+.help_blocks{
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+
+}
+
   .help__button
   {
     display: none;
   }
 
+  .help__button--mobile
+  {
+    display: flex;
+    @include blue_button();
+    position: relative;
+    padding-left: 45px;
+    width: 209px;
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  .help__button--mobile:hover:before
+  {
+      content: "";
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../img/icon_phone_hover.svg");
+      margin-left: -30px;
+      margin-top: 6px;
+  }
+
+
+  .help__button--mobile::before
+  {
+      content: "";
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../img/icon_phone.svg");
+      margin-left: -30px;
+      margin-top: 6px;
+  }
+
   .help__title
   {
-    @include h3();
-    margin-left: 10px;
+    @include h1();
+    padding-top: 50px;
+  }
+
+  .help_blocks
+  {
+    display: contents;
+  }
+
+  .help__list
+  {
+    width: 220px;
+  }
+
+  .help__item
+  {
+    width: 200px;
+  }
+
+  .uslugi__info
+  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .uslugi__image
+  {
+    margin-left: 80px;
   }
 }

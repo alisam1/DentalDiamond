@@ -90,36 +90,61 @@
 
         <div class="help_blocks help_blocks--uslugi">
 
-          <ul class="help__list help__list--care">
-            <li class="help__item"><img src="img/icon_care.svg" alt=""></li>
-            <li class="help__item help__item--title">Лечение зубов и дёсен</li>
-            <li class="help__item"><a href="#">Лечение острой боли</a></li>
-            <li class="help__item"><a href="#">Лечение десен</a></li>
-            <li class="help__item"><a href="#">Лечение зубов</a></li>
-            <li class="help__item help__item--laser"><a href="#">Новые зубы</a></li>
-            <li class="help__item"><a href="#">Удаление зубов без сверления</a></li>
-          </ul>
-          <ul class="help__list help__list--correction">
-            <li class="help__item"><img src="img/icon_metal.svg" alt=""></li>
-            <li class="help__item help__item--title">Исправление зубов</li>
-            <li class="help__item"><a href="#">Исправление прикуса</a></li>
-            <li class="help__item"><a href="#">Зубные протезы и уход за ними</a></li>
-            <li class="help__item"><a href="#">Зубные коронки</a></li>
-          </ul>
-          <ul class="help__list help__list--restoration">
-            <li class="help__item"><img src="img/icon_rest.svg" alt=""></li>
-            <li class="help__item help__item--title">Реставрация зубов</li>
-            <li class="help__item"><a href="#">Восстановление отколотого зуба</a></li>
-            <li class="help__item"><a href="#">Отбеливание</a></li>
-            <li class="help__item"><a href="#">Чистка</a></li>
-          </ul>
-          <ul class="help__list help__list--diagnostika">
-            <li class="help__item"><img src="img/icon_diagnostika.svg" alt=""></li>
-            <li class="help__item help__item--title">Пора проверить зубы</li>
-            <li class="help__item"><a href="#">Консультация с врачом</a></li>
-            <li class="help__item"><a href="#">Диагностика</a></li>
-            <li class="help__item"><a href="#">Профилактика заболеваний</a></li>
-          </ul>
+          <div class="uslugi__info uslugi__info--care">
+            <div class="uslugi__image"><img src="img/icon_care.svg" alt=""></div>
+            <ul class="help__list help__list--care">
+              <li class="help__item help__item--title">Лечение зубов и дёсен</li>
+              <li class="help__item"><a href="#">Лечение острой боли</a></li>
+              <li class="help__item"><a href="#">Лечение десен</a></li>
+              <li class="help__item"><a href="#">Лечение зубов</a></li>
+              <li class="help__item help__item--laser"><a href="#">Новые зубы</a></li>
+              <li class="help__item"><a href="#">Удаление зубов без сверления</a></li>
+            </ul>
+          </div>
+          <div class="uslugi__info uslugi__info--correction">
+            <div class="uslugi__image"><img src="img/icon_metal.svg" alt=""></div>
+            <ul class="help__list help__list--correction">
+              <li class="help__item help__item--title">Исправление зубов</li>
+              <li class="help__item"><a href="#">Исправление прикуса</a></li>
+              <li class="help__item"><a href="#">Зубные протезы и уход за ними</a></li>
+              <li class="help__item"><a href="#">Зубные коронки</a></li>
+            </ul>
+          </div>
+          <div class="uslugi__info uslugi__info--restoration">
+            <div class="uslugi__image"><img src="img/icon_rest.svg" alt=""></div>
+            <ul class="help__list help__list--correction">
+              <li class="help__item help__item--title">Реставрация зубов</li>
+              <li class="help__item"><a href="#">Восстановление отколотого зуба</a></li>
+              <li class="help__item"><a href="#">Отбеливание</a></li>
+              <li class="help__item"><a href="#">Чистка</a></li>
+            </ul>
+          </div>
+          <div class="uslugi__info uslugi__info--diagnostika">
+            <div class="uslugi__image"><img src="img/icon_diagnostika.svg" alt=""></div>
+            <ul class="help__list help__list--diagnostika">
+              <li class="help__item help__item--title">Пора проверить зубы</li>
+              <li class="help__item"><a href="#">Консультация с врачом</a></li>
+              <li class="help__item"><a href="#">Диагностика</a></li>
+              <li class="help__item"><a href="#">Профилактика заболеваний</a></li>
+            </ul>
+          </div>
+          <button class="help__button--mobile" onclick="showPopupAlarm();">Лучше перезвоните</button>
+          <div class="popup-alarm popup-alarm--uslugi">
+            <div class="close" title="Закрыть"></div>
+              <div class="form">
+                <h2>Записаться на прием</h2>
+                <form method="post" action="" class="reg_form">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="text" name="email" placeholder="Телефон или почта">
+                <label class="form__checkbox">
+                    <input class="checkbox" type="checkbox" name="checkbox-test">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+                </label>
+                <input type="submit" value="Записаться на прием">
+              </form>
+              </div>
+            </div>
         </div>
     </div></section>
 
