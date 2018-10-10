@@ -99,3 +99,16 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+@media screen and (min-width: 1200px)
+{
+
+  #opinion-slider 
+  {
+    display: block;
+  }
+  .slick-slider
+  {
+    display: none;
+  }
+}

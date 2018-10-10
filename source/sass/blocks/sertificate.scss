@@ -19,10 +19,11 @@
   margin-top: 5px;
 }
 
-.sertificate__block--mobile
+.sertificate__block--mobile .slick-initialized .slick-slider .slick-dotted
 {
   display: none;
 }
+
 .sertificate__license
 {
   width: 220px;
@@ -170,17 +171,13 @@
 	opacity: 1;
 }
 
-@media screen and (min-width: 1200)
-{
-  .sertificate__block--mobile
-  {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-
+  .sertificate
+  {
+    margin-top: 70px;
+    height: 700px;
+  }
   .sertificate__block
   {
     display: none;
@@ -202,6 +199,7 @@
   {
     display: flex;
     justify-content: center;
+    margin-left: 250px;
   }
 }
 
