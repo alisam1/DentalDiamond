@@ -1716,7 +1716,7 @@ a:hover .menu__overlay {
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .contacts {
     width: 320px;
-    height: 1020px; }
+    height: 1120px; }
   .contacts__map {
     background-image: url("../img/map-mobile.svg");
     width: 280px;
