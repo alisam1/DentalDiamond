@@ -687,13 +687,17 @@ a:hover .menu__overlay {
     width: 500px;
     margin-bottom: 20px;
     margin-left: 10px; }
+  .appointment--double {
+    width: 300px; }
   .alarm {
     width: 500px;
     height: 57px;
     font-size: 14px;
     margin-left: 10px;
     padding-left: 63px;
-    padding-right: 63px; } }
+    padding-right: 63px; }
+  .alarm--blue {
+    width: 300px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service__title {
@@ -1173,8 +1177,37 @@ a:hover .menu__overlay {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .help {
     height: 1200px; }
+  .help_blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 678px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .uslugi__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   .help__list {
-    width: 220px; }
+    width: 280px; }
+  .uslugi__info--correction .uslugi__image {
+    top: 0px; }
+  .help__list--correction {
+    position: relative;
+    bottom: 45px; }
+  .help__list--diagnostika .help__item--title {
+    position: relative;
+    bottom: 20px; }
   .help__title {
     font-family: "Rubik", sans-serif;
     color: #383838;
@@ -1196,7 +1229,9 @@ a:hover .menu__overlay {
     background-color: transparent;
     border: 1px solid #2795DF;
     position: relative;
-    padding-left: 35px; }
+    padding-left: 65px;
+    width: 250px;
+    margin-left: 250px; }
     .help__button--mobile:hover {
       background: #2795DF;
       -webkit-transition: 0.3s;
@@ -1224,9 +1259,7 @@ a:hover .menu__overlay {
     height: 17px;
     background-image: url("../img/icon_phone.svg");
     margin-left: -30px;
-    margin-top: 6px; }
-  .help_blocks {
-    display: contents; } }
+    margin-top: 6px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .help {
@@ -1237,8 +1270,17 @@ a:hover .menu__overlay {
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 320px; }
+            justify-content: space-between; }
+  .uslugi__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
   .help__button {
     display: none; }
   .help__button--mobile {
@@ -1293,8 +1335,6 @@ a:hover .menu__overlay {
     line-height: 43px;
     font-weight: 500;
     padding-top: 50px; }
-  .help_blocks {
-    display: contents; }
   .help__list {
     width: 220px; }
   .help__item {
@@ -2214,7 +2254,7 @@ a:hover .menu__overlay {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service_list {
-    height: 1380px; } }
+    height: 1050px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service_list {
@@ -2324,6 +2364,36 @@ a:hover .menu__overlay {
 .entry__item--diplom a {
   display: block; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .entry-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .registration__button--entry {
+    width: 300px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .registration {
+    height: 650px; }
+  .entry-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .entry__name {
+    border-radius: 0;
+    margin-top: -5px; }
+  .entry__link {
+    width: 290px;
+    background-color: #E9E9E9;
+    padding-left: 30px;
+    margin-top: -20px; }
+  .entry__link-about {
+    margin-right: 20px; } }
+
 .description {
   margin: 0 auto;
   background-color: #FBFBFF; }
@@ -2403,6 +2473,21 @@ a:hover .menu__overlay {
   line-height: 22px;
   color: #383838;
   font-weight: 400; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .description__visual {
+    width: 720px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .description__text {
+    width: 320px; }
+  .description__visual, .description__regular {
+    width: 320px; }
+  .photo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 .main__section {
   display: -webkit-box;
@@ -4912,9 +4997,124 @@ label#tab_l1.elainer {
     cursor: pointer; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .service__title {
-    width: 768px;
-    margin: 0 auto; } }
+  .popup {
+    position: fixed;
+    top: 20px;
+    display: none;
+    overflow: hidden;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 9px 45px 0 #2795DF;
+            box-shadow: 0 9px 45px 0 #2795DF;
+    border-radius: 10px;
+    z-index: 9999;
+    width: 450px;
+    height: 700px;
+    margin-left: 10px; }
+  .popup--entry {
+    right: 200px;
+    top: 250px; }
+  .popup-alarm {
+    width: 450px;
+    margin-left: 10px;
+    top: 10px;
+    margin-left: 130px; }
+  .popup-alarm--uslugi {
+    display: none; }
+  .popup-alarm h2 {
+    margin-left: 20px;
+    margin-bottom: 50px; }
+  .reg_form {
+    width: 255px;
+    margin-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    vertical-align: middle;
+    margin-top: 10px; }
+  .popup h2 {
+    margin-left: 80px;
+    margin-top: -120px; }
+  .reg_form input[type=text], .reg_form input[type=password] {
+    margin-bottom: 20px;
+    padding: 0 3px;
+    width: 380px;
+    height: 60px;
+    border: 3px solid #2795DF;
+    border-radius: 40px;
+    font-family: "Rubik", sans-serif;
+    color: #383838;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+    text-transform: uppercase;
+    padding-left: 40px; }
+  .reg_form input[type=textarea] {
+    margin-bottom: 10px;
+    padding: 0 3px;
+    width: 380px;
+    height: 150px;
+    border-radius: 40px;
+    border: 3px solid #2795DF;
+    border-radius: 40px;
+    font-family: "Rubik", sans-serif;
+    color: #383838;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+    text-transform: uppercase;
+    padding-left: 40px; }
+  .form__checkbox {
+    margin-left: 10px; }
+  .label {
+    width: 350px;
+    padding-left: 40px;
+    margin-top: -30px; }
+  .reg_form input[type=submit] {
+    width: 323px;
+    height: 57px;
+    font-family: "Rubik", sans-serif;
+    color: #383838;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    background: #F5F674;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    margin-left: 15px;
+    margin-top: 40px; }
+    .reg_form input[type=submit]:hover {
+      background: #FBFCA6;
+      -webkit-box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+              box-shadow: 0 22px 10px -18px rgba(212, 212, 126, 0.65);
+      border-radius: 4px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      cursor: pointer; }
+    .reg_form input[type=submit]:active {
+      background: #E7E865;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      cursor: pointer; }
+  .close {
+    margin-left: 400px;
+    z-index: 9999;
+    margin-top: 15px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .popup {

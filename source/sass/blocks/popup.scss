@@ -237,11 +237,121 @@ width: 400px;
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-  .service__title
-  {
-    width: 768px;
-    margin: 0 auto;
-  }
+	.popup
+	{
+	position:fixed;
+	top:20px;
+	display:none;
+	overflow:hidden;
+	background: #FFFFFF;
+	box-shadow: 0 9px 45px 0 #2795DF;
+	border-radius: 10px;
+	z-index:9999;
+	width: 450px;
+	height: 700px;
+	margin-left: 10px;
+	}
+
+	.popup--entry
+	{
+		right: 200px;
+		top:250px;
+	}
+
+	.popup-alarm
+	{
+		width: 450px;
+		margin-left: 10px;
+		top:10px;
+		margin-left: 130px;
+	}
+
+	.popup-alarm--uslugi
+	{
+		display: none;
+	}
+
+	.popup-alarm h2
+	{
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+
+	.reg_form {
+	width:255px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	vertical-align: middle;
+	margin-top: 10px;
+
+	}
+
+	.popup h2
+	{
+		margin-left: 80px;
+		margin-top: -120px;
+	}
+
+	.reg_form input[type=text], .reg_form input[type=password] {
+	margin-bottom:20px;
+	padding:0 3px;
+	width:380px;
+	height:60px;
+	border:3px solid #2795DF;
+	border-radius: 40px;
+	@include p();
+	font-size: 18px;
+	line-height: 22px;
+	color: $main-color;
+	text-transform: uppercase;
+	padding-left: 40px;
+	}
+
+	.reg_form input[type=textarea]
+	{
+	margin-bottom:10px;
+	padding:0 3px;
+	width:380px;
+	height:150px;
+	border-radius: 40px;
+	border:3px solid #2795DF;
+	border-radius: 40px;
+	@include p();
+	font-size: 18px;
+	line-height: 22px;
+	color: $main-color;
+	text-transform: uppercase;
+	padding-left: 40px;
+	}
+
+	.form__checkbox
+	{
+		margin-left: 10px;
+	}
+
+	.label
+	{
+		width: 350px;
+		padding-left: 40px;
+		margin-top: -30px;
+	}
+
+	.reg_form input[type=submit] {
+	@include yellow_button();
+	width: 400px;
+	margin-left: 15px;
+	margin-top: 40px;
+	}
+
+.close
+{
+	margin-left: 400px;
+	z-index: 9999;
+	margin-top: 15px;
+}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
