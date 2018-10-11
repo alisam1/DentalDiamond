@@ -313,7 +313,7 @@ template {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
-    width: 320px;
+    width: 100%;
     margin: 0 auto; } }
 
 .header__info {
@@ -902,6 +902,8 @@ a:hover .menu__overlay {
     background-size: cover; }
   .tomograph__title {
     left: 10px; }
+  .tomograph__button {
+    width: 320px; }
   .tomograph__description {
     left: 10px; }
   .tomograph__button {
@@ -1482,7 +1484,7 @@ a:hover .menu__overlay {
     display: flex; }
   .opinion__text {
     position: relative;
-    top: 500px;
+    top: 540px;
     z-index: 999;
     width: 175px; } }
 
@@ -5504,10 +5506,8 @@ label#tab_l1.elainer {
   display: none; }
 
 @media screen and (min-width: 1200px) {
-  #opinion-slider {
-    display: block; }
   .slick-slider {
-    display: none; } }
+    display: block; } }
 
 /* Slider */
 .slick-loading .slick-list {
