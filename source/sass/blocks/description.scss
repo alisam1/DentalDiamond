@@ -99,15 +99,10 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-   .description__visual
-   {
-     width: 720px;
-   }
-
-   .description__regular
-   {
-     width: 720px;
-   }
+  .description__visual, .description__regular
+  {
+    width: 720px;
+  }
 
 }
 
