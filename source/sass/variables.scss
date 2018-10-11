@@ -2,6 +2,10 @@ $font-family: 'Rubik', sans-serif;;
 $main-color: #383838;
 $second-color: #2795DF;
 
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1200px;
+
 
 @mixin h1 ()
 {
