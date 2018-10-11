@@ -2239,6 +2239,12 @@ a:hover .menu__overlay {
   .footer__blocks {
     width: 678px; } }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    height: 610px; }
+  .footer__blocks {
+    width: 320px; } }
+
 .service_list {
   height: 598px;
   margin: 0 auto;

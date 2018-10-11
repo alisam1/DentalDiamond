@@ -197,3 +197,16 @@
   }
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+   .footer
+   {
+     height: 610px;
+   }
+  .footer__blocks
+  {
+    width: 320px;
+  }
+
+}
