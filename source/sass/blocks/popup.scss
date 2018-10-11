@@ -82,10 +82,6 @@
 		margin-right: 300px;
 		top: 155px;
 	}
-	&--uslugi
-	{
-		margin-left: 260px;
-	}
 	&--vrachi
 	{
 		margin-left: 210px;
@@ -254,12 +250,16 @@ width: 400px;
 
 	.popup--entry
 	{
+		display:none;
+		overflow:hidden;
 		right: 200px;
 		top:250px;
 	}
 
 	.popup-alarm
 	{
+		display:none;
+		overflow:hidden;
 		width: 450px;
 		margin-left: 10px;
 		top:10px;
@@ -376,6 +376,17 @@ width: 400px;
 	  width: 294px;
 		margin-left: 10px;
 		top:10px;
+	}
+
+	.popup-alarm--uslugi
+	{
+		display: none;
+	}
+
+	.alarm--blue .popup-alarm
+	{
+		position: relative;
+		top: 100px;
 	}
 
 	.popup-alarm h2

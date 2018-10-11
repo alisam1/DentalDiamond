@@ -317,7 +317,7 @@
     top:0px;
   }
 
-  .help__list--correction 
+  .help__list--correction
   {
     position: relative;
     bottom: 45px;
@@ -437,6 +437,10 @@
   {
     @include h1();
     padding-top: 50px;
+    &--ceny
+    {
+      padding-top: 20px;
+    }
   }
 
   .help__list

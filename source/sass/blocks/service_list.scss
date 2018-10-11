@@ -31,6 +31,10 @@
   .service_list
   {
     height: 1050px;
+    &--ceny
+    {
+      height: 300px;
+    }
   }
 }
 
@@ -40,5 +44,9 @@
     .service_list
     {
       height: 1380px;
+      &--ceny
+      {
+        height: 320px;
+      }
     }
 }
