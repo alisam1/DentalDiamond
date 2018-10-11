@@ -1335,6 +1335,8 @@ a:hover .menu__overlay {
     line-height: 43px;
     font-weight: 500;
     padding-top: 50px; }
+    .help__title--ceny {
+      padding-top: 20px; }
   .help__list {
     width: 220px; }
   .help__item {
@@ -2254,11 +2256,15 @@ a:hover .menu__overlay {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service_list {
-    height: 1050px; } }
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service_list {
-    height: 1380px; } }
+    height: 1380px; }
+    .service_list--ceny {
+      height: 320px; } }
 
 .registration {
   display: -webkit-box;
@@ -2622,6 +2628,54 @@ a:hover .menu__overlay {
   text-decoration: line-through;
   text-align: left; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .main__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .table__all {
+    width: 320px;
+    margin-left: -20px; }
+  .table__info {
+    width: 250px; }
+  .row__title--icon::after {
+    display: block; }
+  .row__title--caries::after {
+    margin-left: 40px; }
+  .row__title--implantacia::after {
+    margin-left: 40px; }
+  .row__description {
+    width: 200px; }
+  .row__title a {
+    width: 300px;
+    position: relative;
+    left: 20px;
+    margin-left: 0px;
+    font-size: 18px;
+    line-height: 22px; }
+  .row__sale--chip span {
+    display: block;
+    width: 80px;
+    margin-top: 50px; }
+  .row__sale--bite {
+    right: 0px; }
+  .row__sale--chip {
+    right: 0px; } }
+
 .ceny__blocks {
   position: relative;
   bottom: 20px;
@@ -2675,6 +2729,50 @@ a:hover .menu__overlay {
 
 .ceny__item:nth-child(7) {
   margin-left: 45px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .ceny__list {
+    width: 678px; }
+  .ceny__item:nth-child(2) {
+    margin-left: 0px; }
+  .ceny__item:nth-child(4) {
+    margin-left: 0px; }
+  .ceny__item:nth-child(7) {
+    margin-left: -5px; }
+  .ceny__item a {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2795DF;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px dashed #2795DF;
+    padding-top: 15px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .ceny__list {
+    width: 320px; }
+  .ceny__item:nth-child(2) {
+    margin-left: 33px; }
+  .ceny__item:nth-child(4) {
+    margin-left: 35px; }
+  .ceny__item:nth-child(6) {
+    margin-left: -10px; }
+  .ceny__item:nth-child(7) {
+    margin-left: 0px; }
+  .ceny__item a {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2795DF;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px dashed #2795DF;
+    padding-top: 15px; } }
 
 .banners {
   display: -webkit-box;
@@ -2781,6 +2879,21 @@ a:hover .menu__overlay {
     line-height: 18px;
     color: #383838;
     font-weight: 400; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .banners {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .banners-high {
+    margin-top: 0px;
+    margin-left: 50px; }
+  .banners__text--high {
+    left: 0px; }
+  .banners-low {
+    margin-left: 150px;
+    margin-top: -20px; } }
 
 .doctor-main {
   display: -webkit-box;
@@ -4819,8 +4932,6 @@ label#tab_l1.elainer {
   .popup-alarm--coronki {
     margin-right: 300px;
     top: 155px; }
-  .popup-alarm--uslugi {
-    margin-left: 260px; }
   .popup-alarm--vrachi {
     margin-left: 210px; }
 
@@ -5011,9 +5122,13 @@ label#tab_l1.elainer {
     height: 700px;
     margin-left: 10px; }
   .popup--entry {
+    display: none;
+    overflow: hidden;
     right: 200px;
     top: 250px; }
   .popup-alarm {
+    display: none;
+    overflow: hidden;
     width: 450px;
     margin-left: 10px;
     top: 10px;
@@ -5134,6 +5249,11 @@ label#tab_l1.elainer {
     width: 294px;
     margin-left: 10px;
     top: 10px; }
+  .popup-alarm--uslugi {
+    display: none; }
+  .alarm--blue .popup-alarm {
+    position: relative;
+    top: 100px; }
   .popup-alarm h2 {
     margin-left: 20px;
     margin-bottom: 50px; }
