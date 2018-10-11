@@ -206,7 +206,7 @@
         <h4 class="opinion__title">Настоящие <span>отзывы</span></h4>
         <p class="opinion__text">Еще отзывы на</p>
         </div>
-        <div id="opinion-slider" class="multiple-items">
+        <div id="opinion__slider" class="responsive">
           <div>
               <div class="opinion__block">
                 <img src="img/userpic_1.png" alt="" width="165" height="180">
@@ -439,51 +439,41 @@
   <script type="text/javascript" src="js/slick.min.js"></script>
 
   <script type="text/javascript">
-    $('.multiple-items').slick({
-      dots: true,
-      infinite: false,
-      speed: 300,
+  $('.responsive').slick({
+dots: true,
+infinite: false,
+speed: 300,
+slidesToShow: 2,
+slidesToScroll: 2,
+responsive: [
+  {
+    breakpoint: 1200,
+    settings: {
       slidesToShow: 2,
       slidesToScroll: 2,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 678,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 320,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        }
-      ]
-    });
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 320,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+]
+});
     $('.sertificate__block--mobile').slick({
       dots: true,
       infinite: true,
