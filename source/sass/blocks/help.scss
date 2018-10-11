@@ -2,7 +2,7 @@
 {
   height: 885px;
   margin: 0 auto;
-  background-image: url("../img/help_bg.png");
+  background-color: #FBFBFF;
   background-repeat: no-repeat;
   position: relative;
   margin-top: -40px;
@@ -296,7 +296,6 @@
    {
      display: flex;
      flex-direction: row;
-     width: 678px;
      flex-wrap: wrap;
    }
 
@@ -309,7 +308,7 @@
 
   .help__list
   {
-    width: 280px;
+    width: 220px;
   }
 
   .uslugi__info--correction .uslugi__image
@@ -381,7 +380,8 @@
     height: 2130px;
   }
 
-.help_blocks{
+.help_blocks
+{
   display: flex;
   justify-content: space-between;
 
