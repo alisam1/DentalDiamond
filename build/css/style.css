@@ -2241,9 +2241,84 @@ a:hover .menu__overlay {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .footer {
-    height: 610px; }
+    height: 1010px; }
   .footer__blocks {
-    width: 320px; } }
+    width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer-all {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .footer__list {
+    width: 145px;
+    left: 0px;
+    margin-left: -40px;
+    margin-right: 10px; }
+  .footer__list--work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 10px;
+    margin-left: -10px; }
+  .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer__item--title {
+    margin-right: 10px; }
+  .footer-lic {
+    left: 0; }
+  .footer-phone {
+    left: 0;
+    font-size: 16px;
+    width: 145px;
+    margin-left: -20px; }
+  .footer-phone--double {
+    left: 0;
+    font-size: 16px;
+    width: 145px;
+    margin-left: -20px; }
+  .footer-hours {
+    left: 0;
+    width: 145px;
+    margin-left: -20px; }
+  .footer-social {
+    left: 0;
+    margin-top: 20px; }
+  .footer__low {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer__personal a {
+    margin-left: 40px;
+    right: 0px; }
+  .footer__copy {
+    margin-left: 40px;
+    left: 0px; } }
 
 .service_list {
   height: 598px;
@@ -2634,240 +2709,6 @@ a:hover .menu__overlay {
   text-decoration: line-through;
   text-align: left; }
 
-/* iphone 3 */
-@media only screen and (min-width: 320px) and (max-height: 480px) and (-webkit-device-pixel-ratio: 1) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
-/* iphone 4 */
-@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
-/* iphone 5 */
-@media only screen and (min-width: 320px) and (max-height: 568px) and (-webkit-device-pixel-ratio: 2) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
-/* iphone 6, 6s, 7, 8 */
-@media only screen and (min-width: 375px) and (max-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
-/* iphone 6+, 6s+, 7+, 8+ */
-@media only screen and (min-device-width: 414px) and (min-device-width: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
-/* iphone X */
-@media only screen and (min-width: 375px) and (max-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .main__section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .table__all {
-    width: 320px;
-    margin-left: -20px; }
-  .table__info {
-    width: 250px; }
-  .row__title--icon::after {
-    display: block; }
-  .row__title--caries::after {
-    margin-left: 40px; }
-  .row__title--implantacia::after {
-    margin-left: 40px; }
-  .row__description {
-    width: 200px; }
-  .row__title a {
-    width: 300px;
-    position: relative;
-    left: 20px;
-    margin-left: 0px;
-    font-size: 18px;
-    line-height: 22px; }
-  .row__sale--chip span {
-    display: block;
-    width: 80px;
-    margin-top: 50px; }
-  .row__sale--bite {
-    right: 0px; }
-  .row__sale--chip {
-    right: 0px; } }
-
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .main__section {
     display: -webkit-box;
@@ -2911,6 +2752,8 @@ a:hover .menu__overlay {
     display: block;
     width: 80px;
     margin-top: 50px; }
+  .row__sale {
+    padding-right: 0px; }
   .row__sale--bite {
     right: 0px; }
   .row__sale--chip {
