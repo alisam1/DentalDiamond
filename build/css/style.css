@@ -1740,7 +1740,9 @@ a:hover .menu__overlay {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; } }
+            justify-content: center; }
+  .sertificate-main__link a {
+    margin-left: 0px; } }
 
 .contacts {
   height: 615px;
@@ -3649,6 +3651,8 @@ a:hover .menu__overlay {
   .describe__description {
     width: 200px; }
   .social {
+    margin-left: 0px; }
+  .results-main__link a {
     margin-left: 0px; } }
 
 .comments {
@@ -4091,6 +4095,71 @@ a:hover .menu__overlay {
 
 .contacts-map__img img {
   width: 100%; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .opinion__block {
+    width: 620px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 55px;
+    margin-left: 70px; }
+  .opinion__description {
+    margin-left: 25px;
+    height: 153px;
+    width: 420px;
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contacts-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0px; }
+  .contacts-block {
+    width: 310px;
+    margin-left: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .contacts__title {
+    margin-top: 0px;
+    margin-left: 55px; }
+  .contacts-address {
+    width: 320px;
+    text-align: left;
+    margin-left: 20px; }
+  .contacts-address__address {
+    width: 300px; }
+  .contacts-address__hours {
+    width: 300px; }
+  .contacts-block__button {
+    width: 300px;
+    margin-left: -10px; }
+  .contacts-phone {
+    margin-left: 10px;
+    padding-right: 0px;
+    text-align: center; }
+  .contacts-phone__big {
+    font-size: 18px; }
+  .contacts-social {
+    width: 320px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+    text-align: center; }
+  .watch__list--contacts, .question__list--contacts {
+    margin-left: 50px; }
+  .contacts-map__img img {
+    position: relative;
+    top: 10px; } }
 
 .udalenie-progressbar__container {
   width: 1200px;
