@@ -144,4 +144,9 @@
       width: 320px;
     }
 
+    .consultation__text::after
+    {
+      margin-left: -5px;
+    }
+
 }

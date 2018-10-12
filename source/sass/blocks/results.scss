@@ -90,6 +90,12 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
+  .results
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
 
     .results-main
     {
@@ -102,6 +108,11 @@
       margin-left: 10px;
       margin-top: 36px;
       flex-direction: column;
+    }
+
+    .results-main__description
+    {
+      width: 320px;
     }
 
     .describe__description
