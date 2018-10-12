@@ -3500,14 +3500,18 @@ a:hover .menu__overlay {
 .technik__all {
   position: relative;
   width: 100%;
-  /* for IE 6 */ }
+  /* for IE 6 */
+  background-image: url("../img/technik_main.png");
+  height: 391px;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .technik__all img {
   width: 1200px; }
 
 .technik__description {
   position: absolute;
-  bottom: -12px;
+  bottom: -22px;
   left: 0;
   width: 100%;
   background-color: #fff;
@@ -3534,9 +3538,14 @@ a:hover .menu__overlay {
       height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .technik__all img {
-    width: 320px;
-    height: 320px;
+  .technik__all {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+    background-image: url("../img/technik_main.png");
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -90px; }
   .technik__description {
     padding-left: 10px; }
