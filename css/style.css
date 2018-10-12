@@ -2340,13 +2340,17 @@ a:hover .menu__overlay {
   .service_list {
     height: 1050px; }
     .service_list--ceny {
-      height: 300px; } }
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service_list {
     height: 1380px; }
     .service_list--ceny {
-      height: 320px; } }
+      height: 320px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 .registration {
   display: -webkit-box;
@@ -3228,6 +3232,46 @@ a:hover .menu__overlay {
     transition: 0.3s;
     cursor: pointer; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .license {
+    height: 1700px; }
+  .license__all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 60px; }
+  .license-main, .sertificate-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 320px; }
+  .license-main__description, .sertificate-main__description {
+    width: 320px; }
+  .describe__text {
+    width: 300px; }
+  .describe__description {
+    width: 200px; }
+  .social {
+    margin-left: 0px; }
+  .consultation, .consultation__description, .consultation__button {
+    width: 320px; } }
+
 .about__clinik {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3416,6 +3460,39 @@ a:hover .menu__overlay {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about__clinik {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 60px; }
+  .describe__text {
+    width: 300px; }
+  .describe__description {
+    width: 200px; }
+  .social {
+    margin-left: 0px; }
+  .social-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .question {
+    margin-top: 0px; }
+  .question__list {
+    margin-top: 0px; } }
+
 .technik__all {
   position: relative;
   width: 100%;
@@ -3443,6 +3520,24 @@ a:hover .menu__overlay {
   line-height: 18px;
   font-weight: 400;
   display: block; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .technik__all img {
+    width: 320px;
+    height: 320px;
+    margin-top: -90px; }
+  .technik__description {
+    padding-left: 10px; }
+  .technik__description span {
+    width: 300px; } }
 
 .results {
   display: -webkit-box;
@@ -3519,6 +3614,30 @@ a:hover .menu__overlay {
   height: 29px;
   background-image: url("../img/icon_true.svg");
   margin-left: -50px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .results-main {
+    width: 320px; }
+  .results-main__photo {
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 36px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .describe__description {
+    width: 200px; }
+  .social {
+    margin-left: 0px; } }
 
 .comments {
   width: 100%;
@@ -3600,6 +3719,18 @@ a:hover .menu__overlay {
   font-size: 14px;
   line-height: 22px;
   font-weight: 400; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .benefits__description {
+    width: 310px; } }
 
 .select-button__title {
   font-family: "Rubik", sans-serif;
@@ -5508,6 +5639,10 @@ label#tab_l1.elainer {
 @media screen and (min-width: 1200px) {
   .slick-slider {
     display: block; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .slick-track {
+    width: 320px; } }
 
 /* Slider */
 .slick-loading .slick-list {
