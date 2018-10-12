@@ -149,7 +149,6 @@
   .contacts__title
   {
     margin-top: 0px;
-    margin-left: 56px;
   }
 
   .contacts-address
@@ -188,9 +187,9 @@
   .contacts-social
   {
     width: 320px;
-flex-direction: column;
-margin-top: 20px;
-text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
   }
 
   .watch__list--contacts, .question__list--contacts
