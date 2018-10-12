@@ -2988,6 +2988,13 @@ a:hover .menu__overlay {
     margin-left: 150px;
     margin-top: -20px; } }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .banners__text--raboty {
+    width: 200px; }
+  .banners__star--raboty {
+    width: 260px;
+    height: 230px; } }
+
 .doctor-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3815,6 +3822,18 @@ a:hover .menu__overlay {
     cursor: pointer;
     color: #fff; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service__title {
+    width: 768px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .select {
+    width: 320px;
+    margin-bottom: 10px; }
+  .select-result {
+    margin-left: 0px; } }
+
 .examples {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3871,6 +3890,10 @@ a:hover .menu__overlay {
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .example__img img {
+    width: 300px; } }
+
 .raboty-banners {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3886,6 +3909,23 @@ a:hover .menu__overlay {
 
 .raboty-banners__text {
   margin-left: 40px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service__title {
+    width: 768px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .raboty-banners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .raboty-banners__text {
+    margin-left: 5px; } }
 
 .otzyvy__all {
   display: -webkit-box;
