@@ -4128,8 +4128,7 @@ a:hover .menu__overlay {
         -ms-flex-direction: column;
             flex-direction: column; }
   .contacts__title {
-    margin-top: 0px;
-    margin-left: 56px; }
+    margin-top: 0px; }
   .contacts-address {
     width: 320px;
     text-align: left;
