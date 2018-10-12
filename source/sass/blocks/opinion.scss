@@ -141,5 +141,10 @@
     top: 540px;
     z-index: 999;
     width: 175px;
+    &--otzyvy
+    {
+      top: 0px;
+      bottom: 35px;
+    }
   }
 }
