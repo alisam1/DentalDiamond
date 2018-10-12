@@ -42,3 +42,61 @@
     margin-left: 20px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+	.technology-question{
+    display: flex;
+    flex-direction: column;
+	}
+
+  .technology-question__all
+  {
+    width: 320px;
+    height: 280px;
+    flex-direction: column;
+    margin-top: -10px;
+
+  }
+
+  .technology-question__photo
+  {
+    left: 0px;
+  }
+
+  .technology-question__info
+  {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .technology-question__description
+{
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+  .technology-block__table--coronki
+  {
+    margin-bottom: 0px;
+  }
+
+	.technology-block__table--elainer {
+		margin-bottom: 0px;
+	}
+
+	.technology-block {
+	margin-bottom: 30px;
+	}
+
+  .technology-question__button {
+    width: 280px;
+    margin-left: 0px;
+  }
+}
