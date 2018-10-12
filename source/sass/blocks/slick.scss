@@ -107,3 +107,10 @@
     display: block;
   }
 }
+
+@media screen and (min-width: $mobile-width) and (max-width: $tablet-width) {
+  .slick-track
+  {
+    width: 320px;
+  }
+}

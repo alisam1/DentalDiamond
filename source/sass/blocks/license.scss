@@ -80,3 +80,68 @@
   width: 371px;
   height: 57px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .service_list
+  {
+    height: 1050px;
+    &--ceny
+    {
+      height: 300px;
+    }
+    &--clinika
+    {
+      height: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+    .license
+    {
+      height: 1700px;
+    }
+
+    .license__all
+    {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+    }
+
+    .license-main, .sertificate-main
+    {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+    }
+
+    .license-main__description, .sertificate-main__description
+    {
+      width: 320px;
+    }
+
+    .describe__text
+    {
+      width: 300px;
+    }
+
+    .describe__description
+    {
+      width: 200px;
+    }
+
+    .social
+    {
+      margin-left: 0px;
+    }
+
+    .consultation, .consultation__description, .consultation__button
+    {
+      width: 320px;
+    }
+
+}

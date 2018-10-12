@@ -35,6 +35,10 @@
     {
       height: 300px;
     }
+    &--clinika
+    {
+      height: 0px;
+    }
   }
 }
 
@@ -47,6 +51,10 @@
       &--ceny
       {
         height: 320px;
+      }
+      &--clinika
+      {
+        height: 0px;
       }
     }
 }
