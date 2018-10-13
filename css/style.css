@@ -4448,6 +4448,14 @@ a:hover .menu__overlay {
     transition: 0.3s;
     cursor: pointer; }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .udalenie__title {
+    margin-top: 0px; }
+  .udalenie-table__main {
+    width: 320px; }
+  .udalenie-table__description, .udalenie-table__price {
+    font-size: 12px; } }
+
 .specification {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4534,6 +4542,15 @@ a:hover .menu__overlay {
   .udalenie-question__text span a:hover {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .specification-kinds {
+    margin-top: 0px; }
+  .specification-faq {
+    width: 320px;
+    margin-top: 0px; }
+  .udalenie-question__text {
+    margin-top: 0px; } }
 
 .technology-info {
   display: -webkit-box;
