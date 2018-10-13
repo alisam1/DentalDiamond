@@ -194,6 +194,17 @@ label#tab_l1.elainer
 		width: 150px;
 	}
 
+	label#tab_l1.implants,
+	label#tab_l2.implants,
+	label#tab_l3.implants,
+	label#tab_l4.implants,
+	label#tab_l5.implants
+	{
+		width: 100px;
+		height: 55px;
+		margin-bottom: 15px;
+	}
+
 	.tabs label span
 	{
 		display: block;
@@ -203,6 +214,23 @@ label#tab_l1.elainer
 	.tabs input {
 		position: absolute;
 		left: -9999px;
+	}
+
+	#tab_1.implants:checked  ~ #tab_l1.implants,
+	#tab_2.implants:checked  ~ #tab_l2.implants,
+	#tab_3.implants:checked  ~ #tab_l3.implants,
+	#tab_4.implants:checked  ~ #tab_l4.implants,
+	#tab_5.implants:checked  ~ #tab_l5.implants {
+		width: 120px;
+		height: 55px;
+		border-radius: 3px;
+		background: #D8F4FF;
+		border: none;
+		padding-top: 10px;
+		top: 0;
+		z-index: 3;
+		color: $main-color;
+		margin-top: -10px;
 	}
 
 	#tab_1:checked  ~ #tab_l1,
@@ -221,4 +249,6 @@ label#tab_l1.elainer
 		color: $main-color;
 		margin-top: -10px;
 	}
+
+
 }
