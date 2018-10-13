@@ -4753,7 +4753,9 @@ a:hover .menu__overlay {
     margin-bottom: 30px; }
   .technology-question__button {
     width: 280px;
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  .technology-question__all--implants {
+    height: 140px; } }
 
 .implants-technology {
   margin-top: 50px; }
@@ -4933,6 +4935,14 @@ label#tab_l1.elainer {
     margin-bottom: 10px; }
   label#tab_l1.elainer {
     width: 150px; }
+  label#tab_l1.implants,
+  label#tab_l2.implants,
+  label#tab_l3.implants,
+  label#tab_l4.implants,
+  label#tab_l5.implants {
+    width: 100px;
+    height: 55px;
+    margin-bottom: 15px; }
   .tabs label span {
     display: block;
     font-family: "Rubik", sans-serif;
@@ -4943,6 +4953,21 @@ label#tab_l1.elainer {
   .tabs input {
     position: absolute;
     left: -9999px; }
+  #tab_1.implants:checked ~ #tab_l1.implants,
+  #tab_2.implants:checked ~ #tab_l2.implants,
+  #tab_3.implants:checked ~ #tab_l3.implants,
+  #tab_4.implants:checked ~ #tab_l4.implants,
+  #tab_5.implants:checked ~ #tab_l5.implants {
+    width: 120px;
+    height: 55px;
+    border-radius: 3px;
+    background: #D8F4FF;
+    border: none;
+    padding-top: 10px;
+    top: 0;
+    z-index: 3;
+    color: #383838;
+    margin-top: -10px; }
   #tab_1:checked ~ #tab_l1,
   #tab_2:checked ~ #tab_l2,
   #tab_3:checked ~ #tab_l3,
@@ -5021,7 +5046,9 @@ label#tab_l1.elainer {
     font-size: 28px;
     position: relative;
     top: 30px;
-    margin-left: 10px; } }
+    margin-left: 10px; }
+  .titles-block__title--implants {
+    margin-left: 0px; } }
 
 .implants-about, .about-smile {
   background-color: #FBFBFF;
@@ -5086,7 +5113,9 @@ label#tab_l1.elainer {
   .implants-about__description {
     width: 320px; }
   .implants-about__right, .implants-about__left {
-    width: 320px; } }
+    width: 320px; }
+  .implants-about__left--info {
+    margin-top: 0px; } }
 
 .implants-question {
   display: -webkit-box;
@@ -5120,6 +5149,13 @@ label#tab_l1.elainer {
   .implants-question__link a:hover {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .implants-question {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 .kartochka-vracha__title {
   font-family: "Rubik", sans-serif;
