@@ -49,3 +49,26 @@
   width: 210px;
   @include link();
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+	.implants-info
+  {
+    flex-direction: column;
+  }
+
+  .implants-about__description
+  {
+    width: 320px;
+  }
+
+  .implants-about__right, .implants-about__left
+  {
+    width: 320px;
+  }
+}
