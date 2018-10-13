@@ -4451,6 +4451,13 @@ a:hover .menu__overlay {
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .udalenie__title {
     margin-top: 0px; }
+  .udalenie-table {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .udalenie-photo {
+    margin-left: 0px; }
   .udalenie-table__main {
     width: 320px; }
   .udalenie-table__description, .udalenie-table__price {
