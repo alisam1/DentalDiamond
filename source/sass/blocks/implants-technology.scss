@@ -68,7 +68,7 @@
 	color: $second-color;
 }
 
-label#tab_l1.elainer
+label#tab_l1.elainer-big
 {
 	width: 170px;
 }
@@ -189,16 +189,25 @@ label#tab_l1.elainer
 		margin-bottom: 10px;
 	}
 
-	label#tab_l1.elainer
-	{
-		width: 150px;
-	}
-
 	label#tab_l1.implants,
 	label#tab_l2.implants,
 	label#tab_l3.implants,
 	label#tab_l4.implants,
 	label#tab_l5.implants
+	{
+		width: 100px;
+		height: 55px;
+		margin-bottom: 15px;
+	}
+
+	label#tab_l1.elainer-big
+	{
+		width: 120px;
+		font-size: 14px;
+	}
+
+	label#tab_l2.elainer,
+	label#tab_l3.elainer
 	{
 		width: 100px;
 		height: 55px;
@@ -214,6 +223,22 @@ label#tab_l1.elainer
 	.tabs input {
 		position: absolute;
 		left: -9999px;
+	}
+
+	#tab_1.elainer-big:checked  ~ #tab_l1.elainer-big,
+	#tab_2.elainer:checked  ~ #tab_l2.elainer,
+	#tab_3.elainer:checked  ~ #tab_l3.elainer
+	 {
+		width: 100px;
+		height: 55px;
+		border-radius: 3px;
+		background: #D8F4FF;
+		border: none;
+		padding-top: 10px;
+		top: 0;
+		z-index: 3;
+		color: $main-color;
+		margin-top: -10px;
 	}
 
 	#tab_1.implants:checked  ~ #tab_l1.implants,

@@ -4846,7 +4846,7 @@ a:hover .menu__overlay {
   line-height: 22px;
   color: #2795DF; }
 
-label#tab_l1.elainer {
+label#tab_l1.elainer-big {
   width: 170px; }
 
 .tabs label span {
@@ -4940,13 +4940,19 @@ label#tab_l1.elainer {
   .technology-results__img img {
     margin-left: 50px;
     margin-bottom: 10px; }
-  label#tab_l1.elainer {
-    width: 150px; }
   label#tab_l1.implants,
   label#tab_l2.implants,
   label#tab_l3.implants,
   label#tab_l4.implants,
   label#tab_l5.implants {
+    width: 100px;
+    height: 55px;
+    margin-bottom: 15px; }
+  label#tab_l1.elainer-big {
+    width: 120px;
+    font-size: 14px; }
+  label#tab_l2.elainer,
+  label#tab_l3.elainer {
     width: 100px;
     height: 55px;
     margin-bottom: 15px; }
@@ -4960,6 +4966,19 @@ label#tab_l1.elainer {
   .tabs input {
     position: absolute;
     left: -9999px; }
+  #tab_1.elainer-big:checked ~ #tab_l1.elainer-big,
+  #tab_2.elainer:checked ~ #tab_l2.elainer,
+  #tab_3.elainer:checked ~ #tab_l3.elainer {
+    width: 100px;
+    height: 55px;
+    border-radius: 3px;
+    background: #D8F4FF;
+    border: none;
+    padding-top: 10px;
+    top: 0;
+    z-index: 3;
+    color: #383838;
+    margin-top: -10px; }
   #tab_1.implants:checked ~ #tab_l1.implants,
   #tab_2.implants:checked ~ #tab_l2.implants,
   #tab_3.implants:checked ~ #tab_l3.implants,
@@ -5122,7 +5141,11 @@ label#tab_l1.elainer {
   .implants-about__right, .implants-about__left {
     width: 320px; }
   .implants-about__left--info {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  .implants-about__img img {
+    width: 320px; }
+  .implants-info {
+    padding-bottom: 0px; } }
 
 .implants-question {
   display: -webkit-box;
