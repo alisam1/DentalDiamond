@@ -3539,7 +3539,7 @@ a:hover .menu__overlay {
   .describe__text {
     width: 300px; }
   .describe__description {
-    width: 200px; }
+    width: 190px; }
   .social {
     margin-left: 0px;
     width: 320px; }
@@ -3705,7 +3705,7 @@ a:hover .menu__overlay {
   .true-main {
     width: 320px; }
   .results-main__photo {
-    width: 320px;
+    width: 300px;
     margin-left: 10px;
     margin-top: 36px;
     -webkit-box-orient: vertical;
@@ -6524,9 +6524,6 @@ label#tab_l1.elainer-big {
   src: url("../fonts/Helvetica.ttf") format("truetype"), url("../fonts/Helvetica.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
-
-* {
-  outline: 1px solid red; }
 
 body {
   background-color: #fff;
