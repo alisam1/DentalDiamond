@@ -2301,6 +2301,8 @@ a:hover .menu__overlay {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .footer-network {
+    margin-left: -20px; }
   .footer__item--title {
     margin-right: 10px; }
   .footer-lic {
