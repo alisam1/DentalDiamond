@@ -2274,11 +2274,13 @@ a:hover .menu__overlay {
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .footer__list {
-    width: 145px;
+    width: 110px;
     left: 0px;
-    margin-left: -40px;
     margin-right: 10px; }
   .footer__list--work {
     display: -webkit-box;
