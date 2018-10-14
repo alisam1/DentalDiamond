@@ -48,6 +48,7 @@
 @import "blocks/popup.scss";
 @import "blocks/slick.scss";
 @import "blocks/slick-theme.scss";
+@import "blocks/initcarousel.scss";
 
 
 @font-face {
@@ -56,10 +57,6 @@ src:  url("../fonts/Helvetica.ttf") format("truetype"),
       url("../fonts/Helvetica.woff") format("woff");
 font-weight: 400;
 font-style: normal;
-}
-*
-{
-  outline: 1px solid red;
 }
 body {
     background-color: #fff;
