@@ -3714,7 +3714,7 @@ a:hover .menu__overlay {
 
 .comments {
   width: 100%;
-  height: 490px;
+  height: 540px;
   background-color: #FBFBFF;
   margin-top: 40px; }
 
@@ -3780,6 +3780,10 @@ a:hover .menu__overlay {
 
 .slider img {
   margin-top: 60px; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .comments {
+    height: 620px; } }
 
 .benefits {
   margin-top: 60px;
