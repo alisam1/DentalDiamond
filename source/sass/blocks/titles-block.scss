@@ -53,6 +53,12 @@
     margin-left: 10px;
     display: flex;
     justify-content: space-around;
+  }margin-left: -20px;
+
+  .titles-block__title
+  {
+    width: 100px;
+    margin-left: -20px;
   }
 
   .titles-block__title a
@@ -76,7 +82,7 @@
   .titles-block .contacts__title
   {
     width: 100px;
-    font-size: 24px;
+    font-size: 20px;
     position: relative;
     top: 30px;
     margin-left: 10px;
