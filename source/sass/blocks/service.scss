@@ -99,6 +99,14 @@
   margin-left: -100px;
   display: flex;
   justify-content: center;
+  &--price
+  {
+    width: 800px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
 }
 
 .appointment

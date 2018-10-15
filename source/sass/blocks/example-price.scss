@@ -1,0 +1,18 @@
+.example-price
+{
+  background-color: #FBFBFF;
+  height: 90px;
+}
+.price-all
+{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-top: -5px;
+}
+
+.price-float
+{
+   width: 400px;
+   @include h3();
+}

@@ -1,0 +1,10 @@
+.example-doctor
+{
+  margin-top: 60px;
+}
+
+.example-doctor__title
+{
+  @include h3();
+  margin-top: 40px;
+}

@@ -12,6 +12,11 @@
 {
   width: 318px;
   margin-right: 40px;
+  &--example
+  {
+    display: flex;
+    width: 518px;
+  }
 }
 
 .doctor__name
@@ -22,7 +27,19 @@
   color: $main-color;
   font-weight: 400;
 }
+.doctor__description--example
+{
+  margin-top: 25px;
+  margin-left: 10px;
 
+}
+
+.doctor__name--example a
+{
+  @include link();
+  font-size: 18px;
+  line-height: 22px;
+}
 .doctor__text
 {
   font-family: $font-family;
