@@ -9,18 +9,14 @@
     <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/carousel-mobile.js"></script>
+    <script src="js/amazingcarousel-1.js"></script>
+    <script src="js/initcarousel-3.js"></script>
     <script src="js/popup.js"></script>
-
-    <script src="js/slick.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/responsive.js"></script>
 
 
   </head>
   <body>
+  <div class="to_blur">
 
     <header class="header container">
       <div class="header__info">
@@ -76,40 +72,7 @@
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
         <button class="appointment" onclick="showPopup();">Записаться на прием<span>за 2 мин.<span></span></span></button>
-          <div class="popup">
-            <div class="close" title="Закрыть"></div>
-              <div class="form">
-                <h2>Записаться на прием</h2>
-          		  <form method="post" action="" class="reg_form">
-          			<input type="text" name="name" placeholder="Ваше имя">
-          			<input type="text" name="email" placeholder="Телефон или почта">
-                <input type="textarea" name="text" placeholder="Комментарий">
-                <label class="form__checkbox">
-                    <input class="checkbox" type="checkbox" name="checkbox-test">
-                    <span class="checkbox-custom"></span>
-                    <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-                </label>
-          			<input type="submit" value="Записаться на прием">
-          		</form>
-              </div>
-            </div>
         <button class="alarm " onclick="showPopupAlarm();">Заказать звонок</button>
-        <div class="popup-alarm">
-          <div class="close" title="Закрыть"></div>
-            <div class="form">
-              <h2>Записаться на прием</h2>
-              <form method="post" action="" class="reg_form">
-              <input type="text" name="name" placeholder="Ваше имя">
-              <input type="text" name="email" placeholder="Телефон или почта">
-              <label class="form__checkbox">
-                  <input class="checkbox" type="checkbox" name="checkbox-test">
-                  <span class="checkbox-custom"></span>
-                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-              </label>
-              <input type="submit" value="Записаться на прием">
-            </form>
-            </div>
-          </div>
       </div>
       </div>
     </section>
@@ -206,65 +169,81 @@
         <h4 class="opinion__title">Настоящие <span>отзывы</span></h4>
         <p class="opinion__text">Еще отзывы на</p>
         </div>
-        <div id="opinion__slider" class="responsive">
-          <div>
-              <div class="opinion__block">
-                <img src="img/userpic_1.png" alt="" width="165" height="180">
-                <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
-              </div>
+        <div id="amazingcarousel-container-3">
+      <div id="amazingcarousel-3" style="display:none;position:relative;width:100%;max-width:1100px;margin:0px auto 0px;">
+          <div class="amazingcarousel-list-container">
+              <ul class="amazingcarousel-list">
+                  <li class="amazingcarousel-item">
+                      <div class="amazingcarousel-item-container">
+                  <div class="amazingcarousel-image"><img src="img/userpic_1.png" alt="Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+                  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники."></div>
+                  <div class="amazingcarousel-text">
+                  	<div class="amazingcarousel-title">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+                  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                  	<div class="amazingcarousel-description"></div>
+                  </div>
+                  <div style="clear:both;"></div>
+                </div>
+                  </li>
+                  <li class="amazingcarousel-item">
+                      <div class="amazingcarousel-item-container">
+  <div class="amazingcarousel-image"><a href="img/userpic_2-lightbox.png" title="Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов" class="html5lightbox" data-group="amazingcarousel-3"><img src="img/userpic_2.png" alt="Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов"></a></div>
+  <div class="amazingcarousel-text">
+  	<div class="amazingcarousel-title">Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов</div>
+  	<div class="amazingcarousel-description"></div>
+  </div>
+  <div style="clear:both;"></div>                    </div>
+                  </li>
+                  <li class="amazingcarousel-item">
+                      <div class="amazingcarousel-item-container">
+  <div class="amazingcarousel-image"><a href="img/userpic_1-lightbox.png" title="Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники." class="html5lightbox" data-group="amazingcarousel-3"><img src="img/userpic_1.png" alt="Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники."></a></div>
+  <div class="amazingcarousel-text">
+  	<div class="amazingcarousel-title">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+  	<div class="amazingcarousel-description"></div>
+  </div>
+  <div style="clear:both;"></div>                    </div>
+                  </li>
+                  <li class="amazingcarousel-item">
+                      <div class="amazingcarousel-item-container">
+  <div class="amazingcarousel-image"><a href="img/userpic_2-lightbox.png" title="Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов" class="html5lightbox" data-group="amazingcarousel-3"><img src="img/userpic_2.png" alt="Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов"></a></div>
+  <div class="amazingcarousel-text">
+  	<div class="amazingcarousel-title">Я очень доволен работой Лилит Мартиковны. Ставил брекеты.
+  Денис Смитронов</div>
+  	<div class="amazingcarousel-description"></div>
+  </div>
+  <div style="clear:both;"></div>                    </div>
+                  </li>
+                  <li class="amazingcarousel-item">
+                      <div class="amazingcarousel-item-container">
+  <div class="amazingcarousel-image"><a href="img/userpic_1-lightbox.png" title="Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники." class="html5lightbox" data-group="amazingcarousel-3"><img src="img/userpic_1.png" alt="Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники."></a></div>
+  <div class="amazingcarousel-text">
+  	<div class="amazingcarousel-title">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,
+  с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+  	<div class="amazingcarousel-description"></div>
+  </div>
+  <div style="clear:both;"></div>                    </div>
+                  </li>
+              </ul>
+              <div class="amazingcarousel-prev"></div>
+              <div class="amazingcarousel-next"></div>
+          </div>
+          <div class="amazingcarousel-nav"></div>
+          <div class="amazingcarousel-engine"><a href="http://amazingcarousel.com">JavaScript Carousel</a></div>
+      </div>
+  </div>
         </div>
-          <div>
-            <div>
-              <div class="opinion__block">
-                <img src="img/userpic_2.png" alt="">
-                <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
-              </div>
-          </div>
-          </div>
-          <div>
-            <div>
-                <div class="opinion__block">
-                  <img src="img/userpic_1.png" alt="" width="165" height="180">
-                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
-                </div>
-          </div>
-          </div>
-          <div>
-            <div>
-              <div class="opinion__block">
-                <img src="img/userpic_2.png" alt="">
-                <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
-              </div>
-          </div>
-          </div>
-          <div>
-            <div>
-                <div class="opinion__block">
-                  <img src="img/userpic_1.png" alt="" width="165" height="180">
-                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
-                </div>
-          </div>
-          </div>
-          <div>
-            <div>
-              <div class="opinion__block">
-                <img src="img/userpic_2.png" alt="">
-                <div class="opinion__description">Я очень доволен работой Лилит Мартиковны. Ставил брекеты. <a href="#">Денис Смитронов</a></div>
-              </div>
-          </div>
-          </div>
-          <div>
-            <div>
-                <div class="opinion__block">
-                  <img src="img/userpic_1.png" alt="" width="165" height="180">
-                  <div class="opinion__description">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой,с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
-                </div>
-          </div>
-          </div>
-       </div>
-        </div>
-        
-    </section>
+        </section></main></div>
+    
 
     <section class="sertificate">
     <div class="container">
@@ -286,12 +265,6 @@
             <div class="mobile__img"><img src="img/licencebig-3.png" alt=""></div>
             <div class="mobile__img"><img src="img/san-epid-zakl.png" alt=""></div>
           </div>
-          <div class="sertificate__block--mobile">
-            <div class="mobile__img"><img src="img/licencebig-1.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-2.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-3.png" alt=""></div>
-            <div class="mobile__img"><img src="img/san-epid-zakl.png" alt=""></div>
-          </div>
       	</div>
     		<div id="tab_d2">
           <p class="sertificate__description">Наши <a href=""> лечебные кабинеты </a> и медицинские услуги соответствуют всем государственным санитарно-эпидемиологическим правилам и нормативам, предъявляемым к осуществлению специализированной медицинской помощи.</p>
@@ -300,12 +273,6 @@
             <img src="img/licencebig-2.png" alt="">
             <img src="img/licencebig-3.png" alt="">
             <img src="img/san-epid-zakl.png" alt="">
-          </div>
-          <div class="sertificate__block--mobile">
-            <div class="mobile__img"><img src="img/licencebig-1.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-2.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-3.png" alt=""></div>
-            <div class="mobile__img"><img src="img/san-epid-zakl.png" alt=""></div>
           </div>
         </div>
     	</div>
@@ -359,7 +326,7 @@
 
     </section>
 
-    </main>
+    
 
     <footer class="footer container">
 
@@ -433,54 +400,39 @@
         </div>
         </div>
     </footer>
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="js/slick.min.js"></script>
-
-  <script type="text/javascript">
-  $('.responsive').slick({
-dots: true,
-infinite: false,
-speed: 300,
-slidesToShow: 2,
-slidesToScroll: 1,
-responsive: [
-  {
-    breakpoint: 1200,
-    settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      infinite: true,
-      dots: true
-    }
-  },
-  {
-    breakpoint: 768,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  },
-  {
-    breakpoint: 320,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  }
-  // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
-]
-});
-    $('.sertificate__block--mobile').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      adaptiveHeight: true
-    });
-  </script>
+  
+  <div class="popup-alarm">
+    <div class="close" title="Закрыть"></div>
+      <div class="form">
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="email" placeholder="Телефон или почта">
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием">
+      </form>
+      </div>
+    </div>
+  <div class="popup">
+    <div class="close" title="Закрыть"></div>
+      <div class="form">
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="email" placeholder="Телефон или почта">
+        <input type="textarea" name="text" placeholder="Комментарий">
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием">
+      </form>
+      </div>
+    </div>
   </body>
   </html>
