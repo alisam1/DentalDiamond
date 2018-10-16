@@ -231,5 +231,14 @@
     }
 
     @media screen and (min-width: $mobile-width) and (max-width: $tablet-width) {
+      .slider__item {
+        height: 550px;
+        overflow: hidden;
+      }
 
+      .slider__indicators
+      {
+        bottom: 50px;
+      }
+      
   }
