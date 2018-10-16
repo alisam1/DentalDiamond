@@ -1431,11 +1431,10 @@ a:hover .menu__overlay {
   margin-top: 20px; }
 
 .opinion__block {
-  width: 50%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 55px; }
+  display: flex; }
 
 .opinion__description {
   background-image: url("../img/block_bg.png");
@@ -1447,7 +1446,8 @@ a:hover .menu__overlay {
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  height: 153px; }
+  height: 153px;
+  background-size: cover; }
 
 .opinion__description a {
   display: block;
