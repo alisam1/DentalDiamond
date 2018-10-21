@@ -12,6 +12,7 @@
       /* устанавливаем элементу ширину, равную 100% */
       width: 100%;
       overflow: hidden;
+      padding-top: 60px;
     }
 
     .slider__item {
@@ -25,6 +26,7 @@
       transition: transform 0.6s ease;
       /* не показывать обратную сторону трансформируемого элемента */
       backface-visibility: hidden;
+      padding-top: 60px;
     }
 
     .slider__item_active,
@@ -39,7 +41,7 @@
       /* устанавливаем абсолютное позиционирование для элемента, на который будет сменяться слайд (на время трансформации) */
       position: absolute;
       /* устанавливаем положение элемента, т.е. координату top */
-      top: 0;
+      top: 60px;
     }
 
     .slider__item_next.slider__item_left,

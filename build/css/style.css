@@ -6608,7 +6608,8 @@ label#tab_l1.elainer-big {
   position: relative;
   /* устанавливаем элементу ширину, равную 100% */
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 60px; }
 
 .slider__item {
   /* устанавливаем относительное позиционирование элементу */
@@ -6624,7 +6625,8 @@ label#tab_l1.elainer-big {
   transition: transform 0.6s ease, -webkit-transform 0.6s ease;
   /* не показывать обратную сторону трансформируемого элемента */
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden; }
+          backface-visibility: hidden;
+  padding-top: 60px; }
 
 .slider__item_active,
 .slider__item_next,
@@ -6637,7 +6639,7 @@ label#tab_l1.elainer-big {
   /* устанавливаем абсолютное позиционирование для элемента, на который будет сменяться слайд (на время трансформации) */
   position: absolute;
   /* устанавливаем положение элемента, т.е. координату top */
-  top: 0; }
+  top: 60px; }
 
 .slider__item_next.slider__item_left,
 .slider__item_prev.slider__item_right {
