@@ -69,7 +69,7 @@
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
         <button class="appointment"><a href="#win1">Записаться на прием<span>за 2 мин.<span></a></button>
-        <button class="alarm " onclick="showPopupAlarm();">Заказать звонок</button>
+        <button class="alarm"><a href="#win2">Заказать звонок</a></button>
       </div>
       </div>
     </section>
@@ -99,7 +99,7 @@
       <div class="container">
       <div class="help__info">
         <h3 class="help__title">Вылечим и поможем:</h3>
-        <button class="help__button" onclick="showPopupAlarm();">Лучше перезвоните и расскажите</button>
+        <button class="help__button"><a href="#win2">Лучше перезвоните и расскажите</a</button>
         </div>
         <div class="help_blocks">
 
@@ -227,20 +227,68 @@
     	<div class="tabs_cont--sertificate">
     		<div id="tab_d1">
     			<p class="sertificate__description">Наши <a href="">лечебные кабинеты</a> и медицинские услуги соответствуют всем государственным санитарно-эпидемиологическим правилам и нормативам, предъявляемым к осуществлению специализированной медицинской помощи.</p>
-          <div class="sertificate__block">
-            <div class="mobile__img"><img src="img/licencebig-1.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-2.png" alt=""></div>
-            <div class="mobile__img"><img src="img/licencebig-3.png" alt=""></div>
-            <div class="mobile__img"><img src="img/san-epid-zakl.png" alt=""></div>
+          <div id="slider_sertificate" class="slider_sertificate">
+            <ol class="slider__indicators">
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+              <li class="slider__indicator" data-slide-to="3"></li>
+            </ol>
+            <div class="slider__items">
+              <div class="slider__item slider__item_1 slider__item_active">
+                <div class="slider__item_inner">
+                    <img src="img/licencebig-1.png" alt="">
+                </div>
+              </div>
+              <div class="slider__item slider__item_2">
+                <img src="img/licencebig-2.png" alt="">
+              </div>
+              <div class="slider__item slider__item_3">
+                <div class="slider__item_inner">
+                  <img src="img/licencebig-3.png" alt="">
+                </div>
+              </div>
+              <div class="slider__item slider__item_4">
+                <div class="slider__item_inner">
+                  <img src="img/san-epid-zakl.png" alt="">
+                </div>
+              </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next" href="#" role="button"></a>
           </div>
       	</div>
     		<div id="tab_d2">
           <p class="sertificate__description">Наши <a href=""> лечебные кабинеты </a> и медицинские услуги соответствуют всем государственным санитарно-эпидемиологическим правилам и нормативам, предъявляемым к осуществлению специализированной медицинской помощи.</p>
-          <div class="sertificate__block">
-            <img src="img/licencebig-1.png" alt="">
-            <img src="img/licencebig-2.png" alt="">
-            <img src="img/licencebig-3.png" alt="">
-            <img src="img/san-epid-zakl.png" alt="">
+          <div id="slider_sertificate" class="slider_sertificate">
+            <ol class="slider__indicators">
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+              <li class="slider__indicator" data-slide-to="3"></li>
+            </ol>
+            <div class="slider__items">
+              <div class="slider__item slider__item_1 slider__item_active">
+                <div class="slider__item_inner">
+                    <img src="img/licencebig-1.png" alt="">
+                </div>
+              </div>
+              <div class="slider__item slider__item_2">
+                <img src="img/licencebig-2.png" alt="">
+              </div>
+              <div class="slider__item slider__item_3">
+                <div class="slider__item_inner">
+                  <img src="img/licencebig-3.png" alt="">
+                </div>
+              </div>
+              <div class="slider__item slider__item_4">
+                <div class="slider__item_inner">
+                  <img src="img/san-epid-zakl.png" alt="">
+                </div>
+              </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button"></a>
+            <a class="slider__control slider__control_next" href="#" role="button"></a>
           </div>
         </div>
     	</div>
@@ -257,7 +305,7 @@
         </div>
 
         <div class="contacts__button">
-          <button class="appointment" onclick="showPopup();">Записаться на прием<span>за 2 мин.<span></button>
+          <button class="appointment"><a href="#win1">Записаться на прием<span>за 2 мин.<span></a></button>
         </div>
       </div>
 
@@ -387,6 +435,23 @@
     </form>
     </div>
     </div>
+    <div class="dm-overlay" id="win2">
+      <div class="form">
+        <a href="#close" class="close"></a>
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder = "Ваше имя"/>
+        <input type="text" name="email" placeholder = "Телефон или почта" />
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием" />
+      </form>
+      </div>
+      </div>
   <script src="js/main-slider.js"></script>
+  <script src="js/slider-sertificate.js"></script>
   </body>
   </html>

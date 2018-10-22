@@ -1,113 +1,12 @@
-.popup {
-	position:fixed;
-	display:none;
-	overflow:hidden;
-	background: #FFFFFF;
-	box-shadow: 0 9px 45px 0 #2795DF;
-	border-radius: 10px;
-	z-index:9999;
-	width: 650px;
-	height: 730px;
-	&--consultation
-	{
-		right: 600px;
-		top: 50px;
-	}
-	&--contacts
-	{
-		margin-left: 250px;
-		top: 50px;
-	}
-	&--coronki
-	{
-		margin-right: 320px;
-		top: 0px;
-	}
-	&--implants
-	{
-		margin-right: 800px;
-	  top:100px;
-	}
-	&--kartochka
-	{
-		margin-left: 200px;
-		top:100px;
-	}
-	&--otzyvy
-	{
-		margin-left: 250px;
-		top:100px;
-	}
-	&--technology
-	{
-		margin-left: 220px;
-		top: 80px;
-	}
-	&--entry
-	{
-		right: 500px;
-		top: 70px;
-	}
-}
-
-.popup-alarm
-{
-	position:fixed;
-	top:140px;
-	display:none;
-	overflow:hidden;
-	background: #FFFFFF;
-	box-shadow: 0 9px 45px 0 #2795DF;
-	border-radius: 10px;
-	z-index:9999;
-	width: 670px;
-	height: 585px;
-	&--ceny
-	{
-		margin-left: 220px;
-	}
-	&--contacts
-	{
-		margin-right: 300px;
-		top: 155px;
-	}
-	&--clinika
-	{
-		top: 160px;
-		margin-right: 300px;
-	}
-	&--coronki
-	{
-		margin-right: 300px;
-		top: 155px;
-	}
-	&--vrachi
-	{
-		margin-left: 210px;
-	}
-}
-	.close {
-		content: "";
-	  position: absolute;
-	  width: 24px;
-	  height: 24px;
-	  background-image: url("../img/close.svg");
-		z-index:1;
-		cursor: pointer;
-		float: right;
-		margin-top: 40px;
-		margin-left: 580px;
-	}
-
-
 	.form {
 		position: relative;
 		z-index:2;
 		background: #FFFFFF;
 		z-index:999;
-		margin-top: 100px;
+	  top: 100px;
     width: 670px;
     height: 730px;
+		margin: 0 auto;
 	}
 
 		.form input {
@@ -117,13 +16,13 @@
 			border-radius:4px;
 		}
 
-.modal h2 {
+.form h2 {
 @include h3();
 margin-left: 200px;
 margin-top: 0px;
 }
 
-.popup-alarm h2 {
+.form h2 {
 @include h3();
 margin-left: 200px;
 margin-top: -70px;
@@ -357,37 +256,22 @@ width: 400px;
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
-	.popup
-	{
-	position:fixed;
-	top:20px;
-	display:none;
-	overflow:hidden;
-	background: #FFFFFF;
-	box-shadow: 0 9px 45px 0 #2795DF;
-	border-radius: 10px;
-	z-index:9999;
-	width: 294px;
-	height: 600px;
-	margin-left: 10px;
-	}
-
-	.popup-alarm
-	{
-	  width: 294px;
-		margin-left: 10px;
-		top:10px;
-	}
-
-	.popup-alarm--uslugi
-	{
-		display: none;
-	}
-
-	.alarm--blue .popup-alarm
-	{
+	.form {
 		position: relative;
-		top: 100px;
+		background: #FFFFFF;
+		z-index:999;
+	  top: 100px;
+		width: 294px;
+		height: 600px;
+		margin: 0 auto;
+		margin-left: 50px;
+	}
+
+	.form h2
+	{
+		margin-left: 20px;
+		position: relative;
+    top: 50px;
 	}
 
 	.popup-alarm h2
@@ -403,7 +287,7 @@ width: 400px;
 	justify-content: center;
 	flex-direction: column;
 	vertical-align: middle;
-	margin-top: 10px;
+	margin-top: 60px;
 
 	}
 
@@ -414,35 +298,37 @@ width: 400px;
 	}
 
 	.reg_form input[type=text], .reg_form input[type=password] {
-	margin-bottom:20px;
+	margin-left: 20px;
+	margin-bottom:10px;
 	padding:0 3px;
-	width:230px;
+	width:210px;
 	height:40px;
 	border:3px solid #2795DF;
 	border-radius: 40px;
 	@include p();
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 22px;
 	color: $main-color;
 	text-transform: uppercase;
-	padding-left: 40px;
+	padding-left: 20px;
 	}
 
 	.reg_form input[type=textarea]
 	{
+	margin-left: 20px;
 	margin-bottom:10px;
 	padding:0 3px;
-	width:230px;
+	width:210px;
 	height:100px;
 	border-radius: 40px;
 	border:3px solid #2795DF;
 	border-radius: 40px;
 	@include p();
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 22px;
 	color: $main-color;
 	text-transform: uppercase;
-	padding-left: 40px;
+	padding-left: 20px;
 	}
 
   .form__checkbox
@@ -463,11 +349,5 @@ width: 400px;
 	margin-left: 15px;
 	}
 
-.close
-{
-	margin-left: 250px;
-	z-index: 9999;
-	margin-top: 15px;
-}
 
 }
