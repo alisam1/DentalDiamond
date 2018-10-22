@@ -68,7 +68,7 @@
       <h1 class="service__title">Доступные услуги стоматологов</h1>
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
-        <button class="appointment">Записаться на прием<span>за 2 мин.<span></span></span></button>
+        <button class="appointment"><a href="#win1">Записаться на прием<span>за 2 мин.<span></span></span></a></button>
         <button class="alarm " onclick="showPopupAlarm();">Заказать звонок</button>
       </div>
       </div>
@@ -370,7 +370,23 @@
     </footer>
   </div>
 
+  <div class="dm-overlay" id="win1">
+    <div class="form">
+      <a href="#close" class="close"></a>
+      <h2>Записаться на прием</h2>
+      <form method="post" action="" class="reg_form">
+      <input type="text" name="name" placeholder="Ваше имя">
+      <input type="text" name="email" placeholder="Телефон или почта">
+      <input type="textarea" name="text" placeholder="Комментарий">
+      <label class="form__checkbox">
+          <input class="checkbox" type="checkbox" name="checkbox-test">
+          <span class="checkbox-custom"></span>
+          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+      </label>
+      <input type="submit" value="Записаться на прием">
+    </form>
+    </div>
+    </div>
   <script src="js/main-slider.js"></script>
-  <script src="js/popup.js"></script>
   </body>
   </html>
