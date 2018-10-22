@@ -9,7 +9,6 @@
     <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-    <script src="js/popup.js"></script>
 
 
   </head>
@@ -69,7 +68,7 @@
       <h1 class="service__title">Доступные услуги стоматологов</h1>
       <h3 class="service__description">Новые технологии и все виды стоматологических услуг <span> в центре Москвы</span></h3>
       <div class="service__buttons">
-        <button class="appointment" onclick="showPopup();">Записаться на прием<span>за 2 мин.<span></span></span></button>
+        <button class="appointment">Записаться на прием<span>за 2 мин.<span></span></span></button>
         <button class="alarm " onclick="showPopupAlarm();">Заказать звонок</button>
       </div>
       </div>
@@ -167,50 +166,50 @@
         <h4 class="opinion__title">Настоящие <span>отзывы</span></h4>
         <p class="opinion__text">Еще отзывы на</p>
         </div>
-        <div id="slider" class="slider">
-  <ol class="slider__indicators">
-    <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
-    <li class="slider__indicator" data-slide-to="1"></li>
-    <li class="slider__indicator" data-slide-to="2"></li>
-    <li class="slider__indicator" data-slide-to="3"></li>
-  </ol>
-  <div class="slider__items">
-    <div class="slider__item slider__item_1 slider__item_active">
-      <div class="slider__item_inner">
-          <div class="opinion__block">
-            <div class="opinion__image"><img src="img/user_2.svg" alt=""></div>
-            <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+        <div id="slider_main" class="slider_main">
+          <ol class="slider__indicators">
+            <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+          </ol>
+          <div class="slider__items">
+            <div class="slider__item slider__item_1 slider__item_active">
+              <div class="slider__item_inner">
+                  <div class="opinion__block">
+                    <div class="opinion__image"><img src="img/user_2.svg" alt=""></div>
+                    <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                  </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item_2">
+              <div class="slider__item_inner">
+                <div class="opinion__block">
+                  <div class="opinion__image"><img src="img/user_1.svg" alt=""></div>
+                  <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item_3">
+              <div class="slider__item_inner">
+                <div class="opinion__block">
+                  <div class="opinion__image"><img src="img/user_2.svg" alt=""></div>
+                  <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__item slider__item_4">
+              <div class="slider__item_inner">
+                <div class="opinion__block">
+                  <div class="opinion__image"><img src="img/user_1.svg" alt=""></div>
+                  <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники. Спасибо!</div>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-    </div>
-    <div class="slider__item slider__item_2">
-      <div class="slider__item_inner">
-        <div class="opinion__block">
-          <div class="opinion__image"><img src="img/user_1.svg" alt=""></div>
-          <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
+          <a class="slider__control slider__control_prev" href="#" role="button"></a>
+          <a class="slider__control slider__control_next" href="#" role="button"></a>
         </div>
-      </div>
-    </div>
-    <div class="slider__item slider__item_3">
-      <div class="slider__item_inner">
-        <div class="opinion__block">
-          <div class="opinion__image"><img src="img/user_2.svg" alt=""></div>
-          <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники.</div>
-        </div>
-      </div>
-    </div>
-    <div class="slider__item slider__item_4">
-      <div class="slider__item_inner">
-        <div class="opinion__block">
-          <div class="opinion__image"><img src="img/user_1.svg" alt=""></div>
-          <div class="opinion__description opinion__description--slider">Я, пациент Башмаков Б.П., получил лечение у врача Гедз Марины. Работа выполнена на высоком профессиональном уровне и с улыбкой, с добрым отношением к пациенту. Моя благодарность доктору, сестре Карине и всему персоналу клиники. Спасибо!</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="slider__control slider__control_prev" href="#" role="button"></a>
-  <a class="slider__control slider__control_next" href="#" role="button"></a>
-</div>
       </div>
     </section>
 
@@ -386,25 +385,32 @@
       </form>
       </div>
     </div>
-  <div class="popup">
-    <div class="close" title="Закрыть"></div>
-      <div class="form">
-        <h2>Записаться на прием</h2>
-        <form method="post" action="" class="reg_form">
-        <input type="text" name="name" placeholder="Ваше имя">
-        <input type="text" name="email" placeholder="Телефон или почта">
-        <input type="textarea" name="text" placeholder="Комментарий">
-        <label class="form__checkbox">
-            <input class="checkbox" type="checkbox" name="checkbox-test">
-            <span class="checkbox-custom"></span>
-            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-        </label>
-        <input type="submit" value="Записаться на прием">
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+      <form class="login-form" action="" method="post">
+        <p>
+          <label class="visually-hidden" for="user-login">Логин</label>
+          <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+          <label class="visually-hidden" for="user-password">Пароль</label>
+          <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-help">
+          <label class="login-checkbox">
+            <input type="checkbox" name="remember" class="visually-hidden">
+            <span class="checkbox-indicator"></span>
+            Запомните меня
+          </label>
+          <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        <button class="button" type="submit">Войти</button>
       </form>
-      </div>
-    </div>
-
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
 
   <script src="js/main-slider.js"></script>
+  <script src="js/popup.js"></script>
   </body>
   </html>

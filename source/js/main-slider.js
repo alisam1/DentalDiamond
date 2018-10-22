@@ -175,7 +175,7 @@
         }
       }
     }({
-      selector: '.slider',
+      selector: '.slider_main',
       isCycling: false,
       direction: 'next',
       interval: 5000,

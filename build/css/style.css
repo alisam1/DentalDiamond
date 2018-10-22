@@ -5403,7 +5403,7 @@ label#tab_l1.elainer-big {
   .otzyv-doctor {
     background-color: #FBFBFF;
     margin-top: -7px;
-    height: 700px; } }
+    height: 800px; } }
 
 .example-block {
   padding-top: 60px; }
@@ -5480,49 +5480,174 @@ label#tab_l1.elainer-big {
   font-weight: 500;
   margin-top: 40px; }
 
-.box_window {
+.modal {
   position: fixed;
-  top: 15%;
-  left: 50%;
-  margin-left: -350px;
-  z-index: 11;
-  background: #fff;
   display: none;
-  padding: 20px; }
+  color: #000000;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 9px 45px 0 #2795DF;
+          box-shadow: 0 9px 45px 0 #2795DF;
+  border-radius: 10px;
+  background-position: 0 0;
+  background-repeat: repeat;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  z-index: 99999; }
 
-.box_window_in {
+.modal-show {
+  display: block;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s; }
+
+.modal-error {
+  -webkit-animation: shake 0.6s;
+          animation: shake 0.6s; }
+
+.modal-login {
+  top: 120px;
+  left: 41%;
+  width: 670px;
+  height: 730px;
+  margin-left: -230px; }
+
+.modal-alarm {
+  top: 120px;
+  left: 41%;
+  width: 670px;
+  height: 730px;
+  margin-left: -230px; }
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: -34px;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer; }
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 19px;
+  height: 3px;
+  background-color: #d0d0d0; }
+
+.modal-close::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.modal-close::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.modal-login h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 42px; }
+
+.modal-description {
+  margin: 0;
+  margin-bottom: 10px; }
+
+.login-form p {
+  margin: 0;
+  margin-bottom: 10px; }
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 300px;
+  padding: 10px 15px;
+  padding-right: 40px;
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f9f6f3;
+  border: 2px solid #000000; }
+
+.login-form input:focus {
+  border-color: #663d15; }
+
+.login-form .login-help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0; }
+
+.login-icon-user {
+  background-image: url("img/user.svg");
+  background-position: 270px center;
+  background-repeat: no-repeat; }
+
+.login-icon-password {
+  background-image: url("img/lock.svg");
+  background-position: 270px center;
+  background-repeat: no-repeat; }
+
+.login-checkbox {
   position: relative;
-  overflow-y: auto; }
+  padding-left: 30px;
+  cursor: pointer; }
 
-.box_title {
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15; }
+
+.login-checkbox input[type="checkbox"] + .checkbox-indicator {
   position: absolute;
-  left: 0px;
-  top: -30px;
-  color: #fff; }
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #000000; }
 
-.bw_close {
+.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color; }
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
   position: absolute;
-  top: -25px;
-  font-size: 10px;
-  color: #fff;
-  right: 0px;
-  cursor: pointer;
-  z-index: 2; }
+  top: 8px;
+  left: 1px;
+  width: 15px;
+  height: 2px;
+  background-color: #000000; }
 
-.mask {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.38);
-  display: none;
-  height: 100%;
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.restore {
+  color: #000000;
+  text-decoration: underline; }
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none; }
+
+.login-form .button {
   width: 100%;
-  z-index: 10; }
-
-.to_blur.blur {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px); }
+  margin-right: 0; }
 
 .popup {
   position: fixed;
@@ -5603,7 +5728,7 @@ label#tab_l1.elainer-big {
   z-index: 2;
   background: #FFFFFF;
   z-index: 999;
-  margin-top: 155px; }
+  margin-top: 100px; }
 
 .form input {
   width: 96%;
@@ -5611,14 +5736,14 @@ label#tab_l1.elainer-big {
   margin: 10px 0;
   border-radius: 4px; }
 
-.popup h2 {
+.modal h2 {
   font-family: "Rubik", sans-serif;
   color: #383838;
   font-size: 24px;
   line-height: 29px;
   font-weight: 500;
   margin-left: 200px;
-  margin-top: -70px; }
+  margin-top: 0px; }
 
 .popup-alarm h2 {
   font-family: "Rubik", sans-serif;
@@ -6367,22 +6492,19 @@ label#tab_l1.elainer-big {
     text-align: left;
     width: 250px; } }
 
-.slider {
+.slider_main {
   /* устанавливаем относительное позиционирование элементу */
   position: relative;
   /*display: inline-block;*/ }
 
-.slider--mobile {
-  display: none; }
-
-.slider__items {
+#slider_main .slider__items {
   /* устанавливаем относительное позиционирование элементу */
   position: relative;
   /* устанавливаем элементу ширину, равную 100% */
   width: 100%;
   overflow: hidden; }
 
-.slider__item {
+#slider_main .slider__item {
   /* устанавливаем относительное позиционирование элементу */
   position: relative;
   /* отключаем по умолчанию отображение всех слайдов */
@@ -6398,39 +6520,39 @@ label#tab_l1.elainer-big {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-.slider__item_active,
-.slider__item_next,
-.slider__item_prev {
+#slider_main .slider__item_active,
+#slider_main .slider__item_next,
+#slider_main .slider__item_prev {
   /* отображаем слайд, если он имеет один из этих классов */
   display: block; }
 
-.slider__item_next,
-.slider__item_prev {
+#slider_main .slider__item_next,
+#slider_main .slider__item_prev {
   /* устанавливаем абсолютное позиционирование для элемента, на который будет сменяться слайд (на время трансформации) */
   position: absolute;
   /* устанавливаем положение элемента, т.е. координату top */
-  top: 0; }
+  top: 60px; }
 
-.slider__item_next.slider__item_left,
-.slider__item_prev.slider__item_right {
+#slider_main .slider__item_next.slider__item_left,
+#slider_main .slider__item_prev.slider__item_right {
   /* сдвигаем элемент на 0 по горизонтали */
   -webkit-transform: translateX(0);
           transform: translateX(0); }
 
-.slider__item_next,
-.slider__item_right.slider__item_active {
+#slider_main .slider__item_next,
+#slider_main .slider__item_right.slider__item_active {
   /* сдвигаем элемент на 100% по горизонтали */
   -webkit-transform: translateX(100%);
           transform: translateX(100%); }
 
-.slider__item_prev,
-.slider__item_left.slider__item_active {
+#slider_main .slider__item_prev,
+#slider_main .slider__item_left.slider__item_active {
   /* сдвигаем элемент на -100% по горизонтали */
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%); }
 
 /* элементы управления (назад и вперёд) слайдером */
-.slider__control {
+#slider_main .slider__control {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -6448,20 +6570,20 @@ label#tab_l1.elainer-big {
   text-align: center;
   opacity: 0.5; }
 
-.slider__control:hover,
-.slider__control:focus {
+#slider_main .slider__control:hover,
+#slider_main .slider__control:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
   opacity: .9; }
 
-.slider__control_prev {
+#slider_main .slider__control_prev {
   left: 0; }
 
-.slider__control_next {
+#slider_main .slider__control_next {
   right: 0; }
 
-.slider__control::before {
+#slider_main .slider__control::before {
   content: '';
   display: inline-block;
   width: 12px;
@@ -6469,14 +6591,14 @@ label#tab_l1.elainer-big {
   background: transparent no-repeat center center;
   background-size: 100% 100%; }
 
-.slider__control_prev::before {
+#slider_main .slider__control_prev::before {
   background-image: url("../img/last_arrow.png"); }
 
-.slider__control_next::before {
+#slider_main .slider__control_next::before {
   background-image: url("../img/next_arrow.png"); }
 
 /* индикаторы слайдера */
-.slider__indicators {
+#slider_main .slider__indicators {
   position: absolute;
   right: 0;
   bottom: 10px;
@@ -6493,7 +6615,7 @@ label#tab_l1.elainer-big {
   margin-left: 15%;
   list-style: none; }
 
-.slider__indicator {
+#slider_main .slider__indicator {
   position: relative;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
@@ -6507,7 +6629,7 @@ label#tab_l1.elainer-big {
   background-color: #E9E9E9;
   border-radius: 20px; }
 
-.slider__indicator::before {
+#slider_main .slider__indicator::before {
   position: absolute;
   top: -10px;
   left: 0;
@@ -6516,7 +6638,7 @@ label#tab_l1.elainer-big {
   height: 10px;
   content: ""; }
 
-.slider__indicator::after {
+#slider_main .slider__indicator::after {
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -6525,19 +6647,19 @@ label#tab_l1.elainer-big {
   height: 10px;
   content: ""; }
 
-.slider__indicator_active {
+#slider_main .slider__indicator_active {
   background-color: #73C7FF; }
 
-.slider__item_1 {
+#slider_main .slider__item_1 {
   background: transparent; }
 
-.slider__item_2 {
+#slider_main .slider__item_2 {
   background: transparent; }
 
-.slider__item_3 {
+#slider_main .slider__item_3 {
   background: transparent; }
 
-.slider__item_4 {
+#slider_main .slider__item_4 {
   background: transparent; }
 
 /*   .slider__item_inner {
@@ -6555,11 +6677,11 @@ label#tab_l1.elainer-big {
       align-items: center;
       justify-content: center;
     }*/
-.slider__item {
+#slider_main .slider__item {
   height: 250px;
   overflow: hidden; }
 
-.slider__item_inner {
+#slider_main .slider__item_inner {
   position: absolute;
   top: 20px;
   bottom: 40px;
@@ -6582,19 +6704,17 @@ label#tab_l1.elainer-big {
   -ms-flex-direction: row;
       flex-direction: row; }
 
-.slider__item_title {
+#slider_main .slider__item_title {
   font-size: 2rem; }
 
-@media screen and (min-width: 1200px) {
-  .slick-slider {
-    display: block; } }
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .slider__item {
-    height: 550px;
+  .slider_main {
+    margin-top: -120px; }
+  #slider_main .slider__item {
+    height: 450px;
     overflow: hidden; }
-  .slider__indicators {
-    bottom: 50px; } }
+  #slider_main .opinion__image {
+    margin-left: -20px; } }
 
 .slider {
   /* устанавливаем относительное позиционирование элементу */
@@ -6860,7 +6980,7 @@ label#tab_l1.elainer-big {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .slider__item {
-    height: 660px; }
+    height: 620px; }
   .slider__item_inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
