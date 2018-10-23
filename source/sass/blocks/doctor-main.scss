@@ -183,6 +183,13 @@
     flex-direction: column;
   }
 
+  .doctor__card--example
+  {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
   .doctor__button
   {
     width: 320px;
