@@ -5492,6 +5492,8 @@ label#tab_l1.elainer-big {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .example-before__text {
+    width: 320px; }
   .example-block__title {
     width: 280px; } }
 
