@@ -2074,7 +2074,8 @@ a:hover .menu__overlay {
   .about__image {
     display: block; }
   .about__image img {
-    width: 280px; }
+    width: 280px;
+    margin-left: 20px; }
   .about__description {
     width: 300px; } }
 
