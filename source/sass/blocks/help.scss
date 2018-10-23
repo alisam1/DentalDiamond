@@ -64,6 +64,18 @@
   padding-left: 35px;
 }
 
+.help__button a
+{
+  text-decoration: none;
+  color: $second-color
+}
+
+.help__button a:hover
+{
+  text-decoration: none;
+  color: #fff;
+}
+
 .help__button--mobile
 {
   display: none;

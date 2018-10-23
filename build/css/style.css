@@ -1009,6 +1009,14 @@ a:hover .menu__overlay {
     cursor: pointer;
     color: #fff; }
 
+.help__button a {
+  text-decoration: none;
+  color: #2795DF; }
+
+.help__button a:hover {
+  text-decoration: none;
+  color: #fff; }
+
 .help__button--mobile {
   display: none; }
 
@@ -5348,6 +5356,10 @@ label#tab_l1.elainer-big {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer; }
+
+.doctor-info__button a {
+  text-decoration: none;
+  color: #383838; }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .about-doctor {
