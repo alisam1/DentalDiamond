@@ -1387,7 +1387,11 @@ a:hover .menu__overlay {
         -ms-flex-direction: row;
             flex-direction: row; }
   .uslugi__image {
-    margin-left: 80px; } }
+    margin-left: 80px; }
+  .help__item--tooltip span {
+    position: absolute;
+    width: 200px;
+    height: 121px; } }
 
 .opinion__info {
   display: -webkit-box;
