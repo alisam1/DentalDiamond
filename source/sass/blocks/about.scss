@@ -66,10 +66,18 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
-
+   .about
+   {
+     flex-direction: column;
+   }
    .about__image
    {
-    display: none;
+    display: block;
+   }
+
+   .about__image img
+   {
+    width: 280px;
    }
 
    .about__description
