@@ -7,11 +7,6 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/popup.js"></script>
   </head>
   <body>
 
@@ -70,23 +65,7 @@
       </div>
       <div class="help__info help__info--vrachi">
         <h3 class="help__title help__title--vrachi">Наши врачи</h3>
-        <button class="help__button" onclick="showPopupAlarm();">Заказать звонок</button>
-        <div class="popup-alarm popup-alarm--vrachi">
-          <div class="close" title="Закрыть"></div>
-            <div class="form">
-              <h2>Записаться на прием</h2>
-              <form method="post" action="" class="reg_form">
-              <input type="text" name="name" placeholder = "Ваше имя"/>
-              <input type="text" name="email" placeholder = "Телефон или почта" />
-              <label class="form__checkbox">
-                  <input class="checkbox" type="checkbox" name="checkbox-test">
-                  <span class="checkbox-custom"></span>
-                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-              </label>
-              <input type="submit" value="Записаться на прием" />
-            </form>
-            </div>
-          </div>
+        <button class="help__button"><a href="#win2">Заказать звонок</a></button>
         </div>
     </section>
 
@@ -104,24 +83,7 @@
             <p class="doctor__link doctor__link--sertificate"><a href="">Сертификаты</a></p>
             <p class="doctor__link doctor__link--quality"><a href="">Работы</a></p>
         </div>
-        <button class="doctor__button" onclick="showPopup();">Что-нибудь спросить</button>
-        <div class="popup popup--technology">
-          <div class="close" title="Закрыть"></div>
-            <div class="form">
-              <h2>Записаться на прием</h2>
-              <form method="post" action="" class="reg_form">
-              <input type="text" name="name" placeholder = "Ваше имя"/>
-              <input type="text" name="email" placeholder = "Телефон или почта" />
-              <input type="textarea" name="text" placeholder = "Комментарий" />
-              <label class="form__checkbox">
-                  <input class="checkbox" type="checkbox" name="checkbox-test">
-                  <span class="checkbox-custom"></span>
-                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-              </label>
-              <input type="submit" value="Записаться на прием" />
-            </form>
-            </div>
-          </div>
+        <button class="doctor__button"><a href="#win1">Что-нибудь спросить</a></button>
       </div>
       <div class="doctor__card">
         <div class="doctor__img"><img src="img/photo_karpovich_big.png" alt=""></div>
@@ -136,7 +98,7 @@
             <p class="doctor__link doctor__link--sertificate"><a href="">Сертификаты</a></p>
             <p class="doctor__link doctor__link--quality"><a href="">Работы</a></p>
         </div>
-        <button class="doctor__button" onclick="showPopup();">Проконсультироваться</button>
+        <button class="doctor__button"><a href="#win1">Проконсультироваться</a></button>
       </div>
       <div class="doctor__card">
         <div class="doctor__img"><img src="img/photo_gedz.png" alt=""></div>
@@ -151,7 +113,7 @@
             <p class="doctor__link doctor__link--sertificate"><a href="">Сертификаты</a></p>
             <p class="doctor__link doctor__link--quality"><a href="">Работы</a></p>
         </div>
-        <button class="doctor__button" onclick="showPopup();">Проконсультироваться</button>
+        <button class="doctor__button"><a href="#win1">Проконсультироваться</a></button>
       </div>
       <div class="doctor__card">
         <div class="doctor__img"><img src="img/photo_ulianov.png" alt=""></div>
@@ -165,7 +127,7 @@
             <p class="doctor__link doctor__link--sertificate"><a href="">Сертификаты</a></p>
             <p class="doctor__link doctor__link--quality"><a href="">Работы</a></p>
         </div>
-        <button class="doctor__button" onclick="showPopup();">Проконсультироваться</button>
+        <button class="doctor__button"><a href="#win1">Проконсультироваться</a></button>
       </div>
       <div class="doctor__card">
         <div class="doctor__img"><img src="img/photo_apol.png" alt=""></div>
@@ -179,7 +141,7 @@
             <p class="doctor__link doctor__link--sertificate"><a href="">Сертификаты</a></p>
             <p class="doctor__link doctor__link--quality"><a href="">Работы</a></p>
         </div>
-        <button class="doctor__button" onclick="showPopup();">Проконсультироваться</button>
+        <button class="doctor__button"><a href="#win1">Проконсультироваться</a></button>
       </div>
       <div class="tooth__level">
         <p class="tooth__text">Посмотрите таймлайны лечения</p>
@@ -270,6 +232,41 @@
       </div>
       </div>
   </footer>
+
+
+  <div class="dm-overlay" id="win1">
+    <div class="form">
+      <a href="#close" class="close"></a>
+      <h2>Записаться на прием</h2>
+      <form method="post" action="" class="reg_form">
+      <input type="text" name="name" placeholder = "Ваше имя"/>
+      <input type="text" name="email" placeholder = "Телефон или почта" />
+      <input type="textarea" name="text" placeholder = "Комментарий" />
+      <label class="form__checkbox">
+          <input class="checkbox" type="checkbox" name="checkbox-test">
+          <span class="checkbox-custom"></span>
+          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+      </label>
+      <input type="submit" value="Записаться на прием" />
+    </form>
+    </div>
+    </div>
+    <div class="dm-overlay" id="win2">
+      <div class="form">
+        <a href="#close" class="close"></a>
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder = "Ваше имя"/>
+        <input type="text" name="email" placeholder = "Телефон или почта" />
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием" />
+      </form>
+      </div>
+      </div>
 
   </body>
   </html>

@@ -7,11 +7,6 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-		<script type="text/javascript" src="js/jquery.ui.rcarousel.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/popup.js"></script>
   </head>
   <body>
 
@@ -70,23 +65,7 @@
       </div>
       <div class="help__info help__info--service">
         <h3 class="help__title">Услуги</h3>
-        <button class="help__button" onclick="showPopupAlarm();">Лучше перезвоните и расскажите</button>
-        <div class="popup-alarm">
-          <div class="close" title="Закрыть"></div>
-            <div class="form">
-              <h2>Записаться на прием</h2>
-              <form method="post" action="" class="reg_form">
-              <input type="text" name="name" placeholder="Ваше имя">
-              <input type="text" name="email" placeholder="Телефон или почта">
-              <label class="form__checkbox">
-                  <input class="checkbox" type="checkbox" name="checkbox-test">
-                  <span class="checkbox-custom"></span>
-                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-              </label>
-              <input type="submit" value="Записаться на прием">
-            </form>
-            </div>
-          </div>
+        <button class="help__button"><a href="#win2">Лучше перезвоните и расскажите</a></button>
         </div>
 
         <div class="help_blocks help_blocks--uslugi">
@@ -129,23 +108,7 @@
               <li class="help__item"><a href="#">Профилактика заболеваний</a></li>
             </ul>
           </div>
-          <button class="help__button--mobile" onclick="showPopupAlarm();">Лучше перезвоните</button>
-          <div class="popup-alarm">
-            <div class="close" title="Закрыть"></div>
-              <div class="form">
-                <h2>Записаться на прием</h2>
-                <form method="post" action="" class="reg_form">
-                <input type="text" name="name" placeholder="Ваше имя">
-                <input type="text" name="email" placeholder="Телефон или почта">
-                <label class="form__checkbox">
-                    <input class="checkbox" type="checkbox" name="checkbox-test">
-                    <span class="checkbox-custom"></span>
-                    <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-                </label>
-                <input type="submit" value="Записаться на прием">
-              </form>
-              </div>
-            </div>
+          <button class="help__button--mobile"><a href="#win2">Лучше перезвоните</a></button>
         </div>
     </div></section>
 
@@ -162,25 +125,8 @@
             </div>
           </div>
           <div class="registration__button registration__button--entry">
-              <button class="appointment appointment--double" onclick="showPopup();">Записаться на прием<span>за 2 мин.<span></span></span></button>
-                <div class="popup popup--entry">
-                  <div class="close" title="Закрыть"></div>
-                    <div class="form">
-                      <h2>Записаться на прием</h2>
-                      <form method="post" action="" class="reg_form">
-                      <input type="text" name="name" placeholder="Ваше имя">
-                      <input type="text" name="email" placeholder="Телефон или почта">
-                      <input type="textarea" name="text" placeholder="Комментарий">
-                      <label class="form__checkbox">
-                          <input class="checkbox" type="checkbox" name="checkbox-test">
-                          <span class="checkbox-custom"></span>
-                          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-                      </label>
-                      <input type="submit" value="Записаться на прием">
-                    </form>
-                    </div>
-                  </div>
-              <button class="alarm--blue" onclick="showPopupAlarm();">Заказать звонок</button>
+              <button class="appointment appointment--double"><a href="#win1">Записаться на прием<span>за 2 мин.<span></span></span></a></button>
+              <button class="alarm--blue"><a href="#win2">Заказать звонок</a></button>
           </div>
         </div>
         
@@ -290,6 +236,41 @@
       </div>
       </div>
   </footer>
+
+
+  <div class="dm-overlay" id="win1">
+    <div class="form">
+      <a href="#close" class="close"></a>
+      <h2>Записаться на прием</h2>
+      <form method="post" action="" class="reg_form">
+      <input type="text" name="name" placeholder="Ваше имя">
+      <input type="text" name="email" placeholder="Телефон или почта">
+      <input type="textarea" name="text" placeholder="Комментарий">
+      <label class="form__checkbox">
+          <input class="checkbox" type="checkbox" name="checkbox-test">
+          <span class="checkbox-custom"></span>
+          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+      </label>
+      <input type="submit" value="Записаться на прием">
+    </form>
+    </div>
+    </div>
+    <div class="dm-overlay" id="win2">
+      <div class="form">
+        <a href="#close" class="close"></a>
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="email" placeholder="Телефон или почта">
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием">
+      </form>
+      </div>
+      </div>
 
   </body>
   </html>

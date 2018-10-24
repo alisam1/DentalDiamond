@@ -1,3 +1,10 @@
+.main-menu *:focus,.main-menu *::before,.main-menu *::after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: content-box; /*это свойство обязательно*/
+}
+
 .menu_list
 {
   max-width: 900px;
@@ -106,4 +113,61 @@ a:hover .menu__overlay{
     width: 320px;
     margin: 0 auto;
   }
+
+  .menu_item--active a
+  {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    color: $main-color;
+    text-decoration: none;
+    font-weight: 400;
+    background: transparent;
+  }
+
+  .main-menu .menu_item {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main-menu .menu_list {
+  display: none;
+  margin-top: -50px;
+}
+.main-menu .header__menu::before,
+.main-menu::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background-image: url("../img/burger_menu.svg");
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+.main-menu .header__menu::before,
+.main-menu::after {
+  background-color: transparent;
+  border:none;
+}
+.main-menu::after {
+  z-index: 1;
+}
+.main-menu .header__menu::before {
+  z-index: 2;
+}
+.main-menu .header__menu:focus::before {
+  z-index: 0;
+}
+.main-menu .header__menu:focus .menu_list,
+.main-menu .menu_list:hover { /*решаем проблему со скликиванием*/
+  display: block;
+}
+
+.menu__overlay
+{
+  display: none;
+}
 }
