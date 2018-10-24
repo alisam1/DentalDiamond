@@ -9,9 +9,6 @@
     <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.core.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-    <script src="js/amazingcarousel.js"></script>
-    <script src="js/initcarousel-1.js"></script>
-    <script src="js/popup.js"></script>
   </head>
   <body>
 
@@ -69,23 +66,7 @@
       </ul>
       </div>
       <div class="help__info help__info--clinika">
-        <button class="help__button help__button--clinica" onclick="showPopupAlarm();">Заказать звонок</button>
-        <div class="popup-alarm popup-alarm--clinika">
-          <div class="close" title="Закрыть"></div>
-            <div class="form">
-              <h2>Записаться на прием</h2>
-              <form method="post" action="" class="reg_form">
-              <input type="text" name="name" placeholder="Ваше имя">
-              <input type="text" name="email" placeholder="Телефон или почта">
-              <label class="form__checkbox">
-                  <input class="checkbox" type="checkbox" name="checkbox-test">
-                  <span class="checkbox-custom"></span>
-                  <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-              </label>
-              <input type="submit" value="Записаться на прием">
-            </form>
-            </div>
-          </div>
+        <button class="help__button help__button--clinica"><a href="#win2">Заказать звонок</a></button>
 
         </div>
         </div>
@@ -164,24 +145,7 @@
         <div class="consultation__description">
           <p class="consultation__text">Расскажем про услуги и поможем решить проблему</p>
         </div>
-          <button class="consultation__button" onclick="showPopup();">Записаться</button>
-          <div class="popup popup--consultation">
-            <div class="close" title="Закрыть"></div>
-              <div class="form">
-                <h2>Записаться на прием</h2>
-          		  <form method="post" action="" class="reg_form">
-          			<input type="text" name="name" placeholder="Ваше имя">
-          			<input type="text" name="email" placeholder="Телефон или почта">
-                <input type="textarea" name="text" placeholder="Комментарий">
-                <label class="form__checkbox">
-                    <input class="checkbox" type="checkbox" name="checkbox-test">
-                    <span class="checkbox-custom"></span>
-                    <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
-                </label>
-          			<input type="submit" value="Записаться на прием">
-          		</form>
-              </div>
-            </div>
+          <button class="consultation__button"><a href="#win1">Записаться</a></button>
       </div>
       </div>
       </div>
@@ -216,65 +180,69 @@
 
       <section class="comments">
         <div class="container">
-        <div id="amazingcarousel-container-1">
-    <div id="amazingcarousel-1" style="display:none;position:relative;width:100%;max-width:960px;margin:0px auto 0px;">
-        <div class="amazingcarousel-list-container">
-            <ul class="amazingcarousel-list">
-                <li class="amazingcarousel-item">
-                    <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-text">
-	<blockquote></blockquote>
-	<cite>Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость.</cite>
-</div>
-<div class="amazingcarousel-image"><a href="images/feedback_photo-lightbox.png" title="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость." class="html5lightbox" data-group="amazingcarousel-1"><img src="img/feedback_photo.png" alt="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость."></a></div>
-<div style="clear:both;"></div>                    </div>
-                </li>
-                <li class="amazingcarousel-item">
-                    <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-text">
-	<blockquote></blockquote>
-	<cite>Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость.</cite>
-</div>
-<div class="amazingcarousel-image"><a href="images/thx-lightbox.png" title="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость." class="html5lightbox" data-group="amazingcarousel-1"><img src="img/thx.png" alt="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость."></a></div>
-<div style="clear:both;"></div>                    </div>
-                </li>
-                <li class="amazingcarousel-item">
-                    <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-text">
-	<blockquote></blockquote>
-	<cite>Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость.</cite>
-</div>
-<div class="amazingcarousel-image"><a href="images/feedback_photo-lightbox.png" title="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость." class="html5lightbox" data-group="amazingcarousel-1"><img src="img/feedback_photo.png" alt="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость."></a></div>
-<div style="clear:both;"></div>                    </div>
-                </li>
-                <li class="amazingcarousel-item">
-                    <div class="amazingcarousel-item-container">
-<div class="amazingcarousel-text">
-	<blockquote></blockquote>
-	<cite>Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость.</cite>
-</div>
-<div class="amazingcarousel-image"><a href="images/thx-lightbox.png" title="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость." class="html5lightbox" data-group="amazingcarousel-1"><img src="img/thx.png" alt="Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
-Спасибо за вежливость."></a></div>
-<div style="clear:both;"></div>                    </div>
-                </li>
-            </ul>
-            <div class="amazingcarousel-prev"></div>
-            <div class="amazingcarousel-next"></div>
+          <div id="slider" class="slider">
+            <ol class="slider__indicators">
+              <li class="slider__indicator slider__indicator_active" data-slide-to="0"></li>
+              <li class="slider__indicator" data-slide-to="1"></li>
+              <li class="slider__indicator" data-slide-to="2"></li>
+              <li class="slider__indicator" data-slide-to="3"></li>
+            </ol>
+      <div class="slider__items">
+        <div class="slider__item slider__item_1 slider__item_active">
+          <div class="slider__item_inner">
+            <span class="slider__item_img">
+              <img class="slider__item_photo" src="img/feedback_photo.png" alt="">
+            </span>
+            <span class="slider__item_testimonial">
+              <span class="slider__item_text">
+                Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                Спасибо за работу!
+              </span>
+            </span>
+          </div>
         </div>
-        <div class="amazingcarousel-nav"></div>
-        <div class="amazingcarousel-engine"><a href="http://amazingcarousel.com">JavaScript Image Scroller</a></div>
-    </div>
+        <div class="slider__item slider__item_2">
+          <div class="slider__item_inner">
+            <span class="slider__item_img">
+              <img src="img/thx.png" alt="">
+            </span>
+            <span class="slider__item_testimonial">
+              <span class="slider__item_text">
+                Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                Спасибо за работу!
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="slider__item slider__item_3">
+          <div class="slider__item_inner">
+            <span class="slider__item_img">
+              <img src="img/feedback_photo.png" alt="">
+            </span>
+            <span class="slider__item_testimonial">
+              <span class="slider__item_text">
+                Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                Спасибо за работу!
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="slider__item slider__item_4">
+          <div class="slider__item_inner">
+            <span class="slider__item_img">
+              <img src="img/thx.png" alt="">
+            </span>
+            <span class="slider__item_testimonial">
+              <span class="slider__item_text">
+                Выражаю свою благодарность Гедз Марине Анваровне за ее работу и консультацию. Поздравляю ваш вес  коллектив с наступающим Новым 2016 годом!!! Здоровья, удачи, любви и процветания для вашей компании!!!
+                Спасибо за работу!
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <a class="slider__control slider__control_prev" href="#" role="button"></a>
+      <a class="slider__control slider__control_next" href="#" role="button"></a>
     </div>
         <p class="comments-link"><a href="">Все отзывы</a></p>
         </div>
@@ -367,5 +335,41 @@
       </div>
   </footer>
 
+
+  <div class="dm-overlay" id="win1">
+    <div class="form">
+      <a href="#close" class="close"></a>
+      <h2>Записаться на прием</h2>
+      <form method="post" action="" class="reg_form">
+      <input type="text" name="name" placeholder="Ваше имя">
+      <input type="text" name="email" placeholder="Телефон или почта">
+      <input type="textarea" name="text" placeholder="Комментарий">
+      <label class="form__checkbox">
+          <input class="checkbox" type="checkbox" name="checkbox-test">
+          <span class="checkbox-custom"></span>
+          <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+      </label>
+      <input type="submit" value="Записаться на прием">
+    </form>
+    </div>
+    </div>
+    <div class="dm-overlay" id="win2">
+      <div class="form">
+        <a href="#close" class="close"></a>
+        <h2>Записаться на прием</h2>
+        <form method="post" action="" class="reg_form">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="email" placeholder="Телефон или почта">
+        <label class="form__checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox-test">
+            <span class="checkbox-custom"></span>
+            <span class="label">Оставляя свои контактные данные, вы соглашаетесь на обработку персональных данных в соответствии с политикой конфиденциальности</span>
+        </label>
+        <input type="submit" value="Записаться на прием">
+      </form>
+      </div>
+      </div>
+
+   <script src="js/opinion-slider.js"></script>
   </body>
   </html>
