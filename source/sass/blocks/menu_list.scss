@@ -101,6 +101,11 @@ a:hover .menu__overlay{
   display: none;
 }
 
+.mobile-menu
+{
+  display: none;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
@@ -122,6 +127,10 @@ a:hover .menu__overlay{
   .menu_list
   {
     text-align: left;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
   }
 
   .menu_item--active a
@@ -139,6 +148,7 @@ a:hover .menu__overlay{
     text-decoration: none;
     font-weight: 400;
     background: transparent;
+    margin-bottom: 40px;
   }
 
   .menu_item a:hover
@@ -148,6 +158,7 @@ a:hover .menu__overlay{
     padding-right: 113px;
     background-color: #D8F4FF;
     border-radius: 3px;
+    color: $main-color;
   }
 
   .menu_item--clinika a:hover
@@ -157,51 +168,8 @@ a:hover .menu__overlay{
     padding-right: 70px;
     background-color: #D8F4FF;
     border-radius: 3px;
+    color: $main-color;
   }
-
-
-  .main-menu .menu_item {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.main-menu .menu_list {
-  display: none;
-  margin-top: -50px;
-  width: 150px;
-  margin-left: 30%;
-}
-.main-menu .header__menu::before,
-.main-menu::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: block;
-  background-image: url("../img/burger_menu.svg");
-  cursor: pointer;
-  height: 26px;
-  width: 32px;
-}
-.main-menu .header__menu::before,
-.main-menu::after {
-  background-color: transparent;
-  border:none;
-  margin-top: 30px;
-  margin-right: 20px;
-}
-.main-menu::after {
-  z-index: 1;
-}
-.main-menu .header__menu::before {
-  z-index: 2;
-}
-.main-menu .header__menu:focus::before {
-  z-index: 0;
-}
-.main-menu .header__menu:focus .menu_list,
-.main-menu .menu_list:hover { /*решаем проблему со скликиванием*/
-  display: block;
-}
 
 .menu__overlay
 {
