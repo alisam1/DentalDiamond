@@ -7218,8 +7218,8 @@ label#tab_l1.elainer-big {
     right: 0;
     width: 320px;
     margin-top: 60px;
+    transform: translateX(250px);
     -webkit-transform: translateX(250px);
-            transform: translateX(250px);
     -webkit-transition: -webkit-transform 250ms ease-in-out;
     transition: -webkit-transform 250ms ease-in-out;
     transition: transform 250ms ease-in-out;
