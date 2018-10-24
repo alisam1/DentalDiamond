@@ -321,7 +321,6 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -399,11 +398,59 @@ template {
     display: none; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .header__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .header__contacts {
-    width: 140px; }
+    width: 320px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 40px; }
+  .header__contacts--right {
+    width: 150px;
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .header__contacts--left {
+    width: 150px;
+    text-align: left; }
   .header__menu {
     margin-top: -65px;
     margin-left: -65px; }
+  .hours {
+    font-size: 10px;
+    color: #383838;
+    position: relative;
+    bottom: 45px; }
+  .phone {
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    position: relative;
+    bottom: 25px; }
+  .map a {
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    top: -15px; }
   .address {
     margin-top: 32px;
     width: 120px;
@@ -516,12 +563,23 @@ a:hover .menu__overlay {
   .container {
     width: 320px;
     margin: 0 auto; }
+  .menu_list {
+    text-align: left; }
   .menu_item--active a {
     font-family: "Rubik", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 21px;
-    color: #383838;
+    color: #2795DF;
+    text-decoration: none;
+    font-weight: 400;
+    background: transparent; }
+  .menu_item a {
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2795DF;
     text-decoration: none;
     font-weight: 400;
     background: transparent; }
@@ -541,12 +599,14 @@ a:hover .menu__overlay {
     display: block;
     background-image: url("../img/burger_menu.svg");
     cursor: pointer;
-    height: 24px;
-    width: 24px; }
+    height: 26px;
+    width: 32px; }
   .main-menu .header__menu::before,
   .main-menu::after {
     background-color: transparent;
-    border: none; }
+    border: none;
+    margin-top: 30px;
+    margin-right: 20px; }
   .main-menu::after {
     z-index: 1; }
   .main-menu .header__menu::before {

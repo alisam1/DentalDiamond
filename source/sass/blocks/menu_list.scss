@@ -114,13 +114,30 @@ a:hover .menu__overlay{
     margin: 0 auto;
   }
 
+  .menu_list
+  {
+    text-align: left;
+  }
+
   .menu_item--active a
   {
     font-family: $font-family;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 21px;
-    color: $main-color;
+    color: $second-color;
+    text-decoration: none;
+    font-weight: 400;
+    background: transparent;
+  }
+
+  .menu_item a
+  {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    color: $second-color;
     text-decoration: none;
     font-weight: 400;
     background: transparent;
@@ -144,13 +161,15 @@ a:hover .menu__overlay{
   display: block;
   background-image: url("../img/burger_menu.svg");
   cursor: pointer;
-  height: 24px;
-  width: 24px;
+  height: 26px;
+  width: 32px;
 }
 .main-menu .header__menu::before,
 .main-menu::after {
   background-color: transparent;
   border:none;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 .main-menu::after {
   z-index: 1;
