@@ -327,7 +327,8 @@ template {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  height: 230px; }
 
 .header__logo {
   width: 181px;
@@ -372,7 +373,7 @@ template {
   font-size: 12px;
   color: #2DAEEC;
   position: relative;
-  top: -32px;
+  top: -16px;
   text-decoration: none;
   border-bottom: 1px solid #2DAEEC; }
 
@@ -380,14 +381,14 @@ template {
   font-size: 12px;
   color: #383838;
   position: relative;
-  bottom: 55px; }
+  bottom: 35px; }
 
 .phone {
   font-size: 20px;
   line-height: 21px;
   font-weight: 700;
   position: relative;
-  bottom: 75px; }
+  bottom: 35px; }
 
 .header__menu {
   margin-top: -135px;
@@ -445,7 +446,7 @@ template {
     line-height: 21px;
     font-weight: 700;
     position: relative;
-    bottom: 25px; }
+    bottom: 21px; }
   .map a {
     position: relative;
     bottom: 15px;
@@ -554,6 +555,9 @@ a:hover .menu__overlay {
   border-bottom: 1px solid #979797;
   padding-bottom: 5px; }
 
+.menu_item--mobile a {
+  display: none; }
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
     width: 768px;
@@ -566,14 +570,7 @@ a:hover .menu__overlay {
   .menu_list {
     text-align: left; }
   .menu_item--active a {
-    font-family: "Rubik", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    color: #2795DF;
-    text-decoration: none;
-    font-weight: 400;
-    background: transparent; }
+    display: none; }
   .menu_item a {
     font-family: "Rubik", sans-serif;
     text-transform: uppercase;
@@ -583,13 +580,26 @@ a:hover .menu__overlay {
     text-decoration: none;
     font-weight: 400;
     background: transparent; }
+  .menu_item a:hover {
+    padding-top: 21px;
+    padding-bottom: 19px;
+    padding-right: 113px;
+    background-color: #D8F4FF;
+    border-radius: 3px; }
+  .menu_item--clinika a:hover {
+    padding-top: 21px;
+    padding-bottom: 19px;
+    padding-right: 70px;
+    background-color: #D8F4FF;
+    border-radius: 3px; }
   .main-menu .menu_item {
     width: 100%;
-    margin-bottom: 20px;
-    text-align: center; }
+    margin-bottom: 20px; }
   .main-menu .menu_list {
     display: none;
-    margin-top: -50px; }
+    margin-top: -50px;
+    width: 150px;
+    margin-left: 30%; }
   .main-menu .header__menu::before,
   .main-menu::after {
     content: '';
@@ -618,6 +628,8 @@ a:hover .menu__overlay {
     /*решаем проблему со скликиванием*/
     display: block; }
   .menu__overlay {
+    display: none; }
+  .menu__overlay--list {
     display: none; } }
 
 .service {
@@ -3451,6 +3463,9 @@ a:hover .menu__overlay {
     transition: 0.3s;
     cursor: pointer; }
 
+.consultation__button--mobile {
+  display: none; }
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service_list {
     height: 1050px; }
@@ -3495,7 +3510,15 @@ a:hover .menu__overlay {
   .consultation, .consultation__description, .consultation__button {
     width: 320px; }
   .consultation__text::after {
-    margin-left: -5px; } }
+    margin-left: -5px; }
+  .consultation__button--mobile {
+    display: block;
+    width: 211px;
+    height: 57px;
+    margin-left: -50px; }
+  .consultation__button--mobile a {
+    text-decoration: none;
+    color: #383838; } }
 
 .about__clinik {
   display: -webkit-box;

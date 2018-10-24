@@ -80,6 +80,10 @@
   width: 371px;
   height: 57px;
 }
+.consultation__button--mobile
+{
+  display: none;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
@@ -141,7 +145,7 @@
     {
       margin-left: 0px;
     }
-    
+
     .social
     {
       margin-left: 0px;
@@ -155,6 +159,20 @@
     .consultation__text::after
     {
       margin-left: -5px;
+    }
+
+    .consultation__button--mobile
+    {
+      display: block;
+      width: 211px;
+      height: 57px;
+      margin-left: -50px;
+    }
+
+    .consultation__button--mobile a
+    {
+      text-decoration: none;
+      color: $main-color;
     }
 
 }
