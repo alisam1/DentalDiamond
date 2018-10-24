@@ -7196,6 +7196,12 @@ label#tab_l1.elainer-big {
     margin-left: 240px;
     cursor: pointer; } }
 
+@media screen and (min-width: 768px) {
+  #sidebarMenu {
+    display: none; }
+  input[type="checkbox"] {
+    display: none; } }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .main-menu {
     display: none; }
@@ -7225,7 +7231,8 @@ label#tab_l1.elainer-big {
     transition: transform 250ms ease-in-out;
     transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
     background: #fff;
-    z-index: 9999; }
+    z-index: 9998;
+    margin-top: -0px; }
   .sidebarMenuInner {
     margin: 0;
     padding: 0;
@@ -7270,7 +7277,8 @@ label#tab_l1.elainer-big {
     top: 22px;
     right: 15px;
     height: 22px;
-    width: 22px; }
+    width: 22px;
+    z-index: 9999; }
   .spinner {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
