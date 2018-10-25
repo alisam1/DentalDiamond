@@ -7335,7 +7335,7 @@ label#tab_l1.elainer-big {
     margin-top: 10px;
     position: fixed; }
   #sidebarMenu {
-    height: 1024px;
+    height: 100%;
     position: fixed;
     right: 0;
     width: 280px;
