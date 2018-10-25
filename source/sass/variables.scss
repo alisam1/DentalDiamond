@@ -6,6 +6,11 @@ $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1200px;
 
+$gray-base:     #999999;
+$brand-primary: #3498DB;
+$outline-width: 0;
+$break-point: 500px;
+
 
 @mixin h1 ()
 {

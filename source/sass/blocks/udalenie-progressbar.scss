@@ -1,48 +1,142 @@
-.udalenie-progressbar__container{
-      width: 1200px;
-      margin: 100px auto;
-  }
-  .progressbar {
-      counter-reset: step;
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      width: 1200px;
-  }
-  .progressbar li {
-      list-style-type: none;
-      width: 12%;
-      float: left;
-      position: relative;
-      text-align: left;
-      @include p();
-      font-size: 12px;
-      line-height: 18px;
+.steps-timeline {
+  outline: 1px dashed rgba(red, $outline-width);
 
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 25px;
   }
-  .progressbar li:before {
-      width: 30px;
-      height: 30px;
-      content: counter(step);
-      counter-increment: step;
-      line-height: 30px;
-      border: 2px solid #7d7d7d;
-      display: block;
-      text-align: center;
-      margin: 0 auto 10px auto;
-      border-radius: 50%;
-      background-color: white;
+
+  @media screen and (min-width: $break-point)
+  { background: -moz-linear-gradient(45deg, #ff00ff 0%, #ff00ff 33%, #800A16 76%, #800A16 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ff00ff), color-stop(33%, #ff00ff), color-stop(76%, #800A16), color-stop(100%, #800A16)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, #ff00ff 0%, #ff00ff 33%, #800A16 76%, #800A16 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, #ff00ff 0%, #ff00ff 33%, #800A16 76%, #800A16 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #ff00ff 0%, #ff00ff 33%, #800A16 76%, #800A16 100%); /* ie10+ */
+    background: linear-gradient(45deg, #ff00ff 0%, #ff00ff 33%, #800A16 76%, #800A16 100%);
+    width: 1100px;
+    height: 2px;
+    margin-top: 40px;
+    margin-right: 16.65%;
   }
-  .progressbar li:after {
-      width: 150px;
-      height: 2px;
-      content: '';
-      position: absolute;
-      background-color: #7d7d7d;
-      top: 15px;
-      left: -50%;
-      z-index: -1;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .progressbar li:first-child:after {
-      content: none;
+}
+.steps-one,
+.steps-two,
+.steps-three,
+.steps-four,
+.steps-five,
+.steps-six,
+.steps-seven,
+ {
+  outline: 1px dashed rgba(green, $outline-width);
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
   }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 13%;
+    margin-top: -7px;
+  }
+}
+.steps-one,
+.steps-two {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-one {
+  @media screen and (min-width: $break-point) {
+    margin-left: -6.65%;
+  }
+}
+.steps-two {
+
+}
+.steps-three {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+  }
+}
+
+.steps-two
+{
+  position: relative;
+  left: 30px;
+}
+
+.steps-three
+{
+  position: relative;
+  left: 50px;
+}
+.steps-four,
+.steps-five
+{
+  position: relative;
+  left: 100px;
+}
+
+.steps-four .steps-description,
+.steps-five .steps-description
+{
+  width: 80px;
+}
+
+.steps-six
+{
+    position: relative;
+    left: 160px;
+}
+
+.steps-seven
+{
+  position: relative;
+  left: 237px;
+}
+.steps-seven .steps-description
+{
+  margin-left: -35px;
+}
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
+}
+.steps-description {
+  overflow: hidden;
+
+  @media screen and (min-width: $break-point) {
+    @include p();
+    padding-left: 70px;
+    padding-top: 10px;
+    width: 150px;
+  }
+}
