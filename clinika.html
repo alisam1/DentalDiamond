@@ -13,45 +13,87 @@
   <body>
 
     <header class="header container">
+      <div class="mobile-menu"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+          <div class="mobile-menu__contacts">
+            <div class="mobile-menu__address ">
+              <div class="mobile-menu__street address">Цветной бульвар ул. Самотечная, 5</div>
+              <div class="mobile-menu__logo">
+                <img src="img/mobile_logo.svg" alt="">
+              </div>
+            </div>
+            <p class="mobile-menu__map map"><a href="#">Проезд на карте</a></p>
+            <p class="mobile-menu__phone phone">+7 495 133 70 60</p>
+          </div>
+          <ul class="menu_list">
+            <li class="menu_item menu_item--mobile"><a href="#">Услуги</a></li>
+            <li class="menu_item"><a href="#">Цены</a></li>
+            <li class="menu_item"><a href="#">Врачи</a></li>
+            <li class="menu_item"><a href="#">Работы</a></li>
+            <li class="menu_item menu_item--clinika"><a href="#">О клинике</a>
+              <ul class="accordion_list">
+              <li class="accordion_item"><a href="">Клиника</a></li>
+              <li class="accordion_item"><a href="">Технологии</a></li>
+              <li class="accordion_item"><a href="">Вопросы и ответы</a></li>
+              </ul>
+            </li>
+            <li class="menu_item"><a href="#">Отзывы</a></li>
+            <li class="menu_item"><a href="#">Контакты</a></li>
+            <li><button class="consultation__button consultation__button--mobile"><a href="#win2">Заказать звонок</a></button></li>
+          </ul>
+      </div>
       <div class="header__info">
-        <div class="header__logo"><img src="img/Logo.png" alt="Logo"></div>
+        <div class="header__logo"><img src="img/logo.svg" alt="Logo"></div>
         <div class="header__contacts">
+          <div class="header__contacts--left">
           <p class="address">Цветной бульвар ул. Самотечная, 5</p>
           <p class="map"><a href="#">Проезд на карте</a></p>
+          </div>
+          <div class="header__contacts--right">
           <p class="hours">каждый день с 10.00 до 20.00</p>
           <p class="phone">+7 495 133 70 60</p>
         </div>
+        </div>
       </div>
-      <nav class="header__menu">
+      <div class="main-menu">
+      <nav class="header__menu" tabindex="1">
            <ul class="menu_list">
-             <li class="menu_item menu_item--active"><a href="#">
+             <li class="menu_item menu_item--mobile"><a href="#">Услуги</a></li>
+             <li class="menu_item menu_item--active">Услуги
               <div class="menu__overlay">
               <ul class="menu__overlay--list">
-                <li class="menu__overlay--item">Лечение острой боли</li>
-                <li class="menu__overlay--item">Лечение десен</li>
-                <li class="menu__overlay--item">Лечение зубов</li>
-                <li class="menu__overlay--item">Новые зубы</li>
-                <li class="menu__overlay--item">Удаление зубов без сверления</li>
-                <li class="menu__overlay--item">Восстановление отколотого зуба</li>
-                <li class="menu__overlay--item">Отбеливание</li>
-                <li class="menu__overlay--item">Исправление прикуса</li>
-                <li class="menu__overlay--item">Зубные протезы и уход за ними</li>
-                <li class="menu__overlay--item">Зубные коронки</li>
-                <li class="menu__overlay--item">Консультация с врачом</li>
-                <li class="menu__overlay--item">Диагностика</li>
-                <li class="menu__overlay--item">Профилактика заболеваний</li>
-                <li class="menu__overlay--item">Чистка зубов</li>
+                <li class="menu__overlay--item"><a href="">Лечение острой боли</a></li>
+                <li class="menu__overlay--item"><a href="">Лечение десен</a></li>
+                <li class="menu__overlay--item"><a href="">Лечение зубов</a></li>
+                <li class="menu__overlay--item"><a href="">Новые зубы</a></li>
+                <li class="menu__overlay--item"><a href="">Удаление зубов без сверления</a></li>
+                <li class="menu__overlay--item"><a href="">Восстановление отколотого зуба</a></li>
+                <li class="menu__overlay--item"><a href="">Отбеливание</a></li>
+                <li class="menu__overlay--item"><a href="">Исправление прикуса</a></li>
+                <li class="menu__overlay--item"><a href="">Зубные протезы и уход за ними</a></li>
+                <li class="menu__overlay--item"><a href="">Зубные коронки</a></li>
+                <li class="menu__overlay--item"><a href="">Консультация с врачом</a></li>
+                <li class="menu__overlay--item"><a href="">Диагностика</a></li>
+                <li class="menu__overlay--item"><a href="">Профилактика заболеваний</a></li>
+                <li class="menu__overlay--item"><a href="">Чистка зубов</a></li>
               </ul>
-             </div>Услуги
-           </a></li>
+             </div></li>
              <li class="menu_item"><a href="#">Цены</a></li>
              <li class="menu_item"><a href="#">Врачи</a></li>
              <li class="menu_item"><a href="#">Работы</a></li>
-             <li class="menu_item"><a href="#">О клинике</a></li>
+             <li class="menu_item menu_item--clinika"><a href="#">О клинике</a></li>
              <li class="menu_item"><a href="#">Отзывы</a></li>
              <li class="menu_item"><a href="#">Контакты</a></li>
+             <li><button class="consultation__button consultation__button--mobile"><a href="#win2">Заказать звонок</a></button></li>
            </ul>
       </nav>
+      </div>
     </header>
 
   <main>
