@@ -87,6 +87,58 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .license
+  {
+    height: 1100px;
+  }
+
+.license__all
+{
+  display: flex;
+flex-direction: column;
+}
+
+.official {
+    width: 750px;
+}
+
+.license-main__title, .sertificate-main__title
+{
+  text-align: center;
+}
+
+.license-main__description, .sertificate-main__description
+{
+  width:auto;
+  text-align: center;
+  @include p();
+}
+
+.license-main__img, .sertificate-main__img {
+    margin-left: 50px;
+  }
+
+  .sertificate-main__link a
+  {
+    margin-left: 0;
+  }
+
+  .consultation
+  {
+    width: auto;
+  }
+  .consultation__title
+  {
+    text-align: center;
+  }
+
+  .consultation__block
+  {
+    margin: 0 auto;
+    width: 370px;
+  }
+
+
   .service_list
   {
     height: 1050px;

@@ -258,6 +258,47 @@
 
     }
 
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+      .slider__items
+      {
+        padding-top: 0;
+      }
+
+      .slider__item
+      {
+        height: 420px;
+      }
+
+      .slider__item_inner
+      {
+        width: 650px;
+        flex-direction: column;
+      }
+
+      .slider__item_img {
+        flex: 0 0 80px;
+        max-width: auto;
+      }
+      .slider__item_img img
+      {
+        right: 50px;
+      }
+
+      .slider__item_text::before
+      {
+        left: 70px;
+      }
+
+      .slider__item_text
+      {
+        width: 420px;
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+    }
+
     @media screen and (min-width: 320px) and (max-width: 767px) {
       .slider__item {
         height: 622px;

@@ -182,17 +182,17 @@
 
   .service__title
   {
-    width: 768px;
+    width: 650px;
     margin: 0 auto;
-    text-align: left;
-    position: relative;
-    left: 0px;
+    text-align: center;
+    left: 0;
   }
 
   .service__description
   {
-    text-align: left;
-    left: 0px;
+    text-align: center;
+    left: 80px;
+    width: 600px;
   }
 
   .service__buttons
