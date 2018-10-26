@@ -312,7 +312,7 @@ template {
     width: 768px;
     margin: 0 auto; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 100%;
     margin: 0 auto; } }
@@ -398,7 +398,7 @@ template {
   .header__menu {
     display: none; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -577,7 +577,7 @@ template {
     width: 768px;
     margin: 0 auto; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 320px;
     margin: 0 auto; }
@@ -860,7 +860,7 @@ template {
   .alarm--blue {
     width: 300px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .service__title {
     top: 0px;
     left: 0px;
@@ -970,7 +970,7 @@ template {
     width: 250px;
     margin-bottom: 30px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .popular__list {
     width: 320px;
     display: -webkit-box;
@@ -1053,7 +1053,7 @@ template {
     width: 768px;
     margin: 0 auto; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .tomograph {
     height: 380px;
     margin: 0 auto;
@@ -1433,7 +1433,7 @@ template {
     margin-left: -30px;
     margin-top: 6px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .help {
     height: 2450px; }
   .help_blocks {
@@ -1634,7 +1634,7 @@ template {
   background-image: url("../img/yandex-logo.svg");
   margin-left: 10px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .opinion__block {
     width: 100%;
     display: -webkit-box;
@@ -1859,7 +1859,7 @@ template {
             justify-content: center;
     margin-left: 250px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .sertificate__block--mobile {
     width: 320px; }
   .sertificate {
@@ -2121,7 +2121,7 @@ template {
   .info-pdf {
     display: none; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     width: 320px;
     height: 1120px; }
@@ -2205,7 +2205,7 @@ template {
     margin-left: -50px;
     width: 690px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2256,7 +2256,7 @@ template {
   .breadcrumbs {
     display: none; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .breadcrumbs {
     display: none; } }
 
@@ -2422,7 +2422,7 @@ template {
   .footer__blocks {
     width: 678px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
     height: 1010px; }
   .footer__blocks {
@@ -2531,7 +2531,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .service_list {
     height: 1380px; }
     .service_list--ceny {
@@ -2655,7 +2655,7 @@ template {
   .registration__button--entry {
     width: 300px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .registration {
     height: 650px; }
   .entry-all {
@@ -2761,7 +2761,7 @@ template {
   .description__visual, .description__regular {
     width: 720px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .description__text {
     width: 320px; }
   .description__visual, .description__regular {
@@ -3030,7 +3030,7 @@ template {
     border-bottom: 1px dashed #2795DF;
     padding-top: 15px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ceny__list {
     width: 320px; }
   .ceny__item:nth-child(2) {
@@ -3174,7 +3174,7 @@ template {
     margin-left: 150px;
     margin-top: -20px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .banners__text--raboty {
     width: 200px; }
   .banners__star--raboty {
@@ -3348,7 +3348,7 @@ template {
   height: 69px;
   background-image: url("../img/icon_level.svg"); }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .doctor-main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3490,7 +3490,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .license {
     height: 1700px; }
   .official {
@@ -3732,7 +3732,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about__clinik {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3800,7 +3800,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technik__all {
     position: relative;
     width: 100%;
@@ -3899,7 +3899,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .results {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3995,7 +3995,7 @@ template {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .comments {
     height: 620px; }
   .comments-link {
@@ -4021,7 +4021,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .benefits__description {
     width: 310px; } }
 
@@ -4085,7 +4085,7 @@ template {
     width: 768px;
     margin: 0 auto; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .select {
     width: 320px;
     margin-bottom: 10px; }
@@ -4148,7 +4148,7 @@ template {
   text-decoration: none;
   border-bottom: 1px solid #2795DF; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .example__img img {
     width: 300px; } }
 
@@ -4173,7 +4173,7 @@ template {
     width: 768px;
     margin: 0 auto; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .raboty-banners {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4223,7 +4223,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .otzyvy__all {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4333,7 +4333,7 @@ template {
     .service_list--clinika {
       height: 0px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .otzyvy-block__description {
     margin-left: 10px; }
   .otzyvy-block__text {
@@ -4489,7 +4489,7 @@ template {
     padding-left: 20px;
     padding-right: 20px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4761,7 +4761,7 @@ template {
     transition: 0.3s;
     cursor: pointer; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .udalenie__title {
     margin-top: 0px; }
   .udalenie-table {
@@ -4863,7 +4863,7 @@ template {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .specification-all {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4972,7 +4972,7 @@ template {
   line-height: 22px;
   font-weight: 400; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technology-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5054,7 +5054,7 @@ template {
     width: 190px;
     margin-left: 20px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technology-question {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5233,7 +5233,7 @@ label#tab_l1.elainer-big {
   left: 0;
   opacity: 1; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technology-coronki {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5386,7 +5386,7 @@ label#tab_l1.elainer-big {
   .titles-block__title a--implants-double {
     margin-left: 0px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .titles-block {
     width: 320px;
     display: -webkit-box;
@@ -5469,7 +5469,7 @@ label#tab_l1.elainer-big {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .implants-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5519,7 +5519,7 @@ label#tab_l1.elainer-big {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .implants-question {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5537,7 +5537,7 @@ label#tab_l1.elainer-big {
 .help__button--kartochka {
   margin-top: 0px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .kartochka-vracha__title {
     font-family: "Rubik", sans-serif;
     color: #383838;
@@ -5600,7 +5600,7 @@ label#tab_l1.elainer-big {
   text-decoration: none;
   color: #383838; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .about-doctor {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5652,7 +5652,7 @@ label#tab_l1.elainer-big {
   margin-top: -7px;
   height: 540px; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .otzyv-doctor {
     background-color: #FBFBFF;
     margin-top: -7px;
@@ -5700,7 +5700,7 @@ label#tab_l1.elainer-big {
   line-height: 22px;
   font-weight: 400; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .example-before {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5744,7 +5744,7 @@ label#tab_l1.elainer-big {
   line-height: 29px;
   font-weight: 500; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .example-price {
     background-color: #FBFBFF;
     height: auto;
@@ -6067,7 +6067,7 @@ label#tab_l1.elainer-big {
     z-index: 9999;
     margin-top: 15px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form {
     position: relative;
     background: #FFFFFF;
@@ -6521,7 +6521,7 @@ label#tab_l1.elainer-big {
   background: rgba(0, 0, 0, 0) url("../img/icon_dot.svg") no-repeat scroll center center;
   display: block; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   #amazingcarousel-1 .amazingcarousel-image img {
     display: block;
     margin-top: 100px;
@@ -6759,7 +6759,7 @@ label#tab_l1.elainer-big {
 #slider_main .slider__item_title {
   font-size: 2rem; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .slider_main {
     margin-top: -120px; }
   #slider_main .slider__item {
@@ -7030,7 +7030,7 @@ label#tab_l1.elainer-big {
           flex-direction: column;
   text-align: center; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .slider__item {
     height: 622px; }
   .slider__item_inner {
@@ -7210,7 +7210,7 @@ label#tab_l1.elainer-big {
   background: transparent;
   text-align: center; }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .slider_sertificate {
     position: relative;
     overflow: hidden;
@@ -7288,7 +7288,7 @@ label#tab_l1.elainer-big {
   -webkit-transform: scale(1);
   transform: scale(1); }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .dm-overlay {
     position: fixed;
     top: 0;
@@ -7317,7 +7317,7 @@ label#tab_l1.elainer-big {
   input[type="checkbox"] {
     display: none; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-menu {
     display: none; }
   .mobile-menu {
