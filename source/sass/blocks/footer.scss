@@ -189,11 +189,27 @@
 
    .footer
    {
-     height: 510px;
+     height: 710px;
    }
   .footer__blocks
   {
     width:auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-all
+  {
+    display: flex;
+    width: 730px;
+  }
+
+  .footer__list--work
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 730px;
+    margin-left: -60px;
   }
 
 }
