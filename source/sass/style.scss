@@ -57,6 +57,11 @@
 @import "blocks/modal.scss";
 @import "blocks/mobile-menu.scss";
 
+*
+{
+  outline: 1px solid red;
+}
+
 
 @font-face {
 font-family: "Helvetica";
