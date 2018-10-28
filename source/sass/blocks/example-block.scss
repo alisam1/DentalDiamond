@@ -40,6 +40,46 @@
   @include p();
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .example-block__title
+  {
+    width: 650px;
+    text-align: center;
+    margin-left: 60px;
+  }
+
+  .example-before__text {
+    width: 100%;
+}
+
+
+  .example-before__text--title
+  {
+    text-align: center;
+  }
+
+
+  .example-before
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .example-before__all
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .example-after
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
 

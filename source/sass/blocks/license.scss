@@ -137,20 +137,6 @@ flex-direction: column;
     margin: 0 auto;
     width: 370px;
   }
-
-
-  .service_list
-  {
-    height: 1050px;
-    &--ceny
-    {
-      height: 300px;
-    }
-    &--clinika
-    {
-      height: 0px;
-    }
-  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

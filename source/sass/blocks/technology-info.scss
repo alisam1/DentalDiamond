@@ -87,6 +87,27 @@
 		top: 6px;
 	}
 
+  .technology-info
+  {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .technology-block
+  {
+    width: 350px;
+  }
+
+  .technology-block__table--coronki
+  {
+    margin-bottom: 0;
+  }
+
+  .technology-block:nth-child(3)
+  {
+    margin-top: 20px;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -84,6 +84,23 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .udalenie__title
+  {
+    margin-top: 0;
+    position: relative;
+    bottom: 65px;
+  }
+
+  .udalenie-stage__title
+  {
+    margin-left: 10px;
+  }
+
+  .udalenie-stage__button
+  {
+    right: 0;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

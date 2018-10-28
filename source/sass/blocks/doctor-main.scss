@@ -173,6 +173,37 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .doctor__card--example
+  {
+    margin-left: 120px;
+  }
+
+  .doctor__diplom--kartochka
+  {
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .doctor__link--quality
+  {
+    margin-left: 50px;
+  }
+
+    .doctor__name
+    {
+      font-size: 20px;
+    }
+
+    .doctor__img img
+    {
+      width: 280px;
+    }
+
+    .doctor__text span
+    {
+      display: inline;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

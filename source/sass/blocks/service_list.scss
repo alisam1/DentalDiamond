@@ -28,18 +28,16 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
-  .service_list
+  .service_list--kartochka
   {
-    height: 1050px;
-    &--ceny
-    {
-      height: 300px;
-    }
-    &--clinika
-    {
-      height: 0px;
-    }
+    height: 100px;
   }
+
+  .service_list--uslugi
+  {
+    height: 950px;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -228,6 +228,19 @@
   {
     width: 300px;
   }
+
+  .service__buttons--price
+  {
+    width: 650px;
+    margin-left: 180px;
+  }
+
+  .service__buttons--price .appointment
+  {
+    width: 360px;
+    position: relative;
+    right: 10px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

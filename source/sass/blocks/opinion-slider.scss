@@ -262,7 +262,9 @@
 
       .slider__items
       {
-        padding-top: 0;
+        padding-top: 60px;
+        position: relative;
+        bottom: 60px;
       }
 
       .slider__item
@@ -279,6 +281,7 @@
       .slider__item_img {
         flex: 0 0 80px;
         max-width: auto;
+        margin-bottom: 20px;
       }
       .slider__item_img img
       {

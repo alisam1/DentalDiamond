@@ -17,6 +17,28 @@
    @include h3();
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .example-price
+  {
+    background-color: #FBFBFF;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .price-all
+  {
+    flex-direction: column;
+  }
+
+  .price-float
+  {
+    margin-left: 200px;
+  }
+
+}
+
+
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 

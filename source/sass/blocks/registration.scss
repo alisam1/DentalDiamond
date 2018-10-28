@@ -108,9 +108,25 @@
      display: flex;
    }
 
+   .entry__title
+   {
+     margin-left: 20px;
+   }
+
    .registration__button--entry
    {
      width: 300px;
+   }
+
+   .registration__button--entry .appointment
+   {
+     width: 280px;
+   }
+
+   .registration__button--entry .alarm--blue
+   {
+     width: 280px;
+     margin-left: 10px;
    }
 }
 

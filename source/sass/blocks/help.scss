@@ -343,6 +343,7 @@
   .help__title
   {
     @include h1();
+    margin-left: 20px;
   }
 
   .help__button
@@ -352,36 +353,26 @@
 
   .help__button--mobile
   {
-    display: flex;
-    @include blue_button();
+    display: none;
+
+  }
+
+  .uslugi__info--restoration .uslugi__image
+  {
     position: relative;
-    padding-left: 65px;
-    width: 250px;
-    margin-left: 250px;
-
+    bottom: 30px;
   }
 
-  .help__button--mobile:hover:before
+  .help__list--restoration
   {
-      content: "";
-      position: absolute;
-      width: 17px;
-      height: 17px;
-      background-image: url("../img/icon_phone_hover.svg");
-      margin-left: -30px;
-      margin-top: 6px;
+    position: relative;
+    bottom: 50px;
   }
 
-
-  .help__button--mobile::before
+  .uslugi__info--care .help__item--title
   {
-      content: "";
-      position: absolute;
-      width: 17px;
-      height: 17px;
-      background-image: url("../img/icon_phone.svg");
-      margin-left: -30px;
-      margin-top: 6px;
+    position: relative;
+    top: 20px;
   }
 }
 

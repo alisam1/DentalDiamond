@@ -83,6 +83,44 @@
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+    .specification-all
+    {
+      flex-direction: column;
+      margin-left: 40px;
+    }
+
+    .specification-about
+    {
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    .specification-faq
+    {
+      margin-top: 50px;
+    }
+
+    .specification-kinds
+    {
+      margin-top: 50px;
+    }
+
+    .specification-main
+    {
+      width: 650px;
+    }
+
+    .specification-about
+    {
+      width: 650px;
+    }
+
+    .udalenie-question__text
+    {
+      width: 700px;
+      margin-left: 40px;
+    }
+
   }
 
   @media screen and (min-width: 320px) and (max-width: 767px) {
