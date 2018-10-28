@@ -858,14 +858,7 @@ template {
     padding-left: 63px;
     padding-right: 63px; }
   .alarm--blue {
-    width: 300px; }
-  .service__buttons--price {
-    width: 650px;
-    margin-left: 180px; }
-  .service__buttons--price .appointment {
-    width: 360px;
-    position: relative;
-    right: 10px; } }
+    width: 300px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .service__title {
@@ -1387,21 +1380,53 @@ template {
     color: #383838;
     font-size: 36px;
     line-height: 43px;
-    font-weight: 500;
-    margin-left: 20px; }
+    font-weight: 500; }
   .help__button {
     display: none; }
   .help__button--mobile {
-    display: none; }
-  .uslugi__info--restoration .uslugi__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 295px;
+    height: 34px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    line-height: 34px;
+    color: #2795DF;
+    background-color: transparent;
+    border: 1px solid #2795DF;
     position: relative;
-    bottom: 30px; }
-  .help__list--restoration {
-    position: relative;
-    bottom: 50px; }
-  .uslugi__info--care .help__item--title {
-    position: relative;
-    top: 20px; } }
+    padding-left: 65px;
+    width: 250px;
+    margin-left: 250px; }
+    .help__button--mobile:hover {
+      background: #2795DF;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      cursor: pointer;
+      color: #fff; }
+    .help__button--mobile:active {
+      background: #57B5F4;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      cursor: pointer;
+      color: #fff; }
+  .help__button--mobile:hover:before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/icon_phone_hover.svg");
+    margin-left: -30px;
+    margin-top: 6px; }
+  .help__button--mobile::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/icon_phone.svg");
+    margin-left: -30px;
+    margin-top: 6px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .help {
@@ -2509,10 +2534,12 @@ template {
     height: 156px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .service_list--kartochka {
-    height: 100px; }
-  .service_list--uslugi {
-    height: 950px; } }
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .service_list {
@@ -2635,15 +2662,8 @@ template {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  .entry__title {
-    margin-left: 20px; }
   .registration__button--entry {
-    width: 300px; }
-  .registration__button--entry .appointment {
-    width: 280px; }
-  .registration__button--entry .alarm--blue {
-    width: 280px;
-    margin-left: 10px; } }
+    width: 300px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .registration {
@@ -2749,13 +2769,7 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .description__visual, .description__regular {
-    width: 720px; }
-  .description__about {
-    margin-left: 20px; }
-  .photo {
-    margin-left: 20px; }
-  .photo__one {
-    margin-left: 20px; } }
+    width: 720px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .description__text {
@@ -3168,13 +3182,7 @@ template {
     left: 0px; }
   .banners-low {
     margin-left: 150px;
-    margin-top: -20px; }
-  .banners__icon--raboty {
-    width: 310px;
-    margin-left: 180px; }
-  .banners__star--raboty {
-    width: 610px;
-    margin-left: 50px; } }
+    margin-top: -20px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .banners__text--raboty {
@@ -3350,23 +3358,6 @@ template {
   height: 69px;
   background-image: url("../img/icon_level.svg"); }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .doctor__card--example {
-    margin-left: 120px; }
-  .doctor__diplom--kartochka {
-    margin-left: 0;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start; }
-  .doctor__link--quality {
-    margin-left: 50px; }
-  .doctor__name {
-    font-size: 20px; }
-  .doctor__img img {
-    width: 280px; }
-  .doctor__text span {
-    display: inline; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .doctor-main {
     -webkit-box-orient: vertical;
@@ -3534,7 +3525,13 @@ template {
     text-align: center; }
   .consultation__block {
     margin: 0 auto;
-    width: 370px; } }
+    width: 370px; }
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .license {
@@ -3770,6 +3767,14 @@ template {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about__clinik {
     display: -webkit-box;
@@ -3829,6 +3834,14 @@ template {
   line-height: 18px;
   font-weight: 400;
   display: block; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .technik__all {
@@ -4124,13 +4137,6 @@ template {
     cursor: pointer;
     color: #fff; }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .select {
-    width: 340px; }
-  .select-result {
-    margin-left: 0;
-    margin-top: 20px; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .select {
     width: 320px;
@@ -4214,13 +4220,6 @@ template {
 .raboty-banners__text {
   margin-left: 40px; }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .raboty-banners {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .raboty-banners {
     display: -webkit-box;
@@ -4264,9 +4263,12 @@ template {
   text-transform: uppercase; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .otzyvy__all {
-    padding-left: 20px;
-    padding-right: 20px; } }
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .otzyvy__all {
@@ -4371,15 +4373,12 @@ template {
   width: 570px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .otzyvy-block__text {
-    font-family: "Rubik", sans-serif;
-    color: #383838;
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: 400;
-    width: 320px; }
-  .otzyvy-block__description {
-    padding-top: 0; } }
+  .service_list {
+    height: 1050px; }
+    .service_list--ceny {
+      height: 300px; }
+    .service_list--clinika {
+      height: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .otzyvy-block__description {
@@ -4521,10 +4520,6 @@ template {
   width: 100%; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .contacts__title {
-    margin-top: 0;
-    position: relative;
-    bottom: 65px; }
   .contacts-info {
     width: 750px;
     -webkit-box-orient: vertical;
@@ -4721,28 +4716,6 @@ template {
       padding-top: 10px;
       width: 150px; } }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .steps-timeline {
-    width: 720px;
-    margin-left: 20px; }
-  .steps-two .steps-description {
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto; }
-  .steps-six {
-    position: relative;
-    left: 100px; }
-  .steps-seven {
-    left: 157px; }
-  .steps-description {
-    padding-left: 40px;
-    padding-top: 10px;
-    width: 100px; } }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .steps-timeline {
-    display: none; } }
-
 .udalenie__title {
   font-family: "Rubik", sans-serif;
   color: #383838;
@@ -4842,16 +4815,6 @@ template {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer; }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .udalenie__title {
-    margin-top: 0;
-    position: relative;
-    bottom: 65px; }
-  .udalenie-stage__title {
-    margin-left: 10px; }
-  .udalenie-stage__button {
-    right: 0; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .udalenie__title {
@@ -4954,28 +4917,6 @@ template {
   .udalenie-question__text span a:hover {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .specification-all {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 40px; }
-  .specification-about {
-    margin-top: 0;
-    margin-left: 0; }
-  .specification-faq {
-    margin-top: 50px; }
-  .specification-kinds {
-    margin-top: 50px; }
-  .specification-main {
-    width: 650px; }
-  .specification-about {
-    width: 650px; }
-  .udalenie-question__text {
-    width: 700px;
-    margin-left: 40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .specification-all {
@@ -5089,17 +5030,7 @@ template {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .technology-question {
     position: relative;
-    top: 6px; }
-  .technology-info {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 0; }
-  .technology-block {
-    width: 350px; }
-  .technology-block__table--coronki {
-    margin-bottom: 0; }
-  .technology-block:nth-child(3) {
-    margin-top: 20px; } }
+    top: 6px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .technology-info {
@@ -5187,8 +5118,6 @@ template {
   .technology-question {
     position: relative;
     top: 6px; }
-  .technology-question__info--implants {
-    margin-left: -170px; }
   .technology-question__photo {
     left: 0;
     bottom: 0; }
@@ -5566,9 +5495,7 @@ label#tab_l1.elainer-big {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .titles-block {
     margin-bottom: 30px;
-    margin-top: -40px; }
-  .titles-block__title--implants-double a {
-    margin-left: 0; } }
+    margin-top: -40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .titles-block {
@@ -5658,10 +5585,6 @@ label#tab_l1.elainer-big {
     padding-left: 20px;
     padding-right: 20px; }
   .implants-about__right, .implants-about__left {
-    width: 350px; }
-  .implants-about__img img {
-    width: 350px; }
-  .about-smile__img img {
     width: 350px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -5714,14 +5637,6 @@ label#tab_l1.elainer-big {
     color: #73C7FF;
     border-bottom: 1px solid #73C7FF; }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .implants-question {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 180px; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .implants-question {
     -webkit-box-orient: vertical;
@@ -5739,10 +5654,6 @@ label#tab_l1.elainer-big {
 
 .help__button--kartochka {
   margin-top: 0px; }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .kartochka-vracha__title {
-    padding-top: 30px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .kartochka-vracha__title {
@@ -5806,21 +5717,6 @@ label#tab_l1.elainer-big {
 .doctor-info__button a {
   text-decoration: none;
   color: #383838; }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .about-doctor {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
-  .doctor-photo img {
-    width: 320px; }
-  .doctor-info__description {
-    margin-top: 0px; }
-  .doctor-info__button {
-    margin-left: 0;
-    margin-top: 20px;
-    margin-bottom: 40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about-doctor {
@@ -5922,43 +5818,6 @@ label#tab_l1.elainer-big {
   line-height: 22px;
   font-weight: 400; }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .example-block__title {
-    width: 650px;
-    text-align: center;
-    margin-left: 60px; }
-  .example-before__text {
-    width: 100%; }
-  .example-before__text--title {
-    text-align: center; }
-  .example-before {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
-  .example-before__all {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  .example-after {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .example-before {
     display: -webkit-box;
@@ -6003,19 +5862,6 @@ label#tab_l1.elainer-big {
   line-height: 29px;
   font-weight: 500; }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .example-price {
-    background-color: #FBFBFF;
-    height: 250px;
-    margin-top: 20px; }
-  .price-all {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .price-float {
-    margin-left: 200px; } }
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .example-price {
     background-color: #FBFBFF;
@@ -6047,10 +5893,6 @@ label#tab_l1.elainer-big {
   line-height: 29px;
   font-weight: 500;
   margin-top: 40px; }
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .example-doctor__title {
-    text-align: center; } }
 
 .form {
   position: relative;
@@ -7308,9 +7150,7 @@ label#tab_l1.elainer-big {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .slider__items {
-    padding-top: 60px;
-    position: relative;
-    bottom: 60px; }
+    padding-top: 0; }
   .slider__item {
     height: 420px; }
   .slider__item_inner {
@@ -7323,8 +7163,7 @@ label#tab_l1.elainer-big {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 80px;
             flex: 0 0 80px;
-    max-width: auto;
-    margin-bottom: 20px; }
+    max-width: auto; }
   .slider__item_img img {
     right: 50px; }
   .slider__item_text::before {
