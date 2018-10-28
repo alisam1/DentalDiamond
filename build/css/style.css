@@ -2425,7 +2425,25 @@ template {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 730px;
-    margin-left: -60px; } }
+    margin-left: -60px; }
+  .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer-about {
+    margin-left: -40px; }
+  .footer-network {
+    position: relative;
+    right: 20px; }
+  .footer-social {
+    left: 0; }
+  .footer__personal a {
+    right: 30px; }
+  .footer__copy {
+    left: 70px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
