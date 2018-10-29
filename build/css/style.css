@@ -7841,9 +7841,6 @@ label#tab_l1.elainer-big {
     font-size: 24px;
     text-align: center; } }
 
-* {
-  outline: 1px solid red; }
-
 @font-face {
   font-family: "Helvetica";
   src: url("../fonts/Helvetica.ttf") format("truetype"), url("../fonts/Helvetica.woff") format("woff");
