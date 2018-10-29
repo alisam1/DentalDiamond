@@ -194,15 +194,20 @@
   flex-direction: column;
 }
 
+.main-table
+{
+  margin-bottom: 0;
+}
+
 .table__all
 {
   width: 320px;
-  margin-left: -20px;
+  margin-left: 0px;
 }
 
 .table__info
 {
-  width: 250px;
+width: 220px;
 }
 
 .row__title--icon::after
@@ -225,7 +230,7 @@
 
 .row__title a
 {
-  width: 300px;
+  width: auto;
   position: relative;
   left: 20px;
   margin-left: 0px;
@@ -236,7 +241,7 @@
 .row__sale--chip span
 {
   display: block;
-  width: 80px;
+  width:auto;
   margin-top: 50px;
 }
 

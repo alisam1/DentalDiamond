@@ -328,7 +328,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 230px; }
+  height: 100px; }
 
 .header__logo {
   width: 181px;
@@ -391,8 +391,9 @@ template {
   bottom: 35px; }
 
 .header__menu {
-  margin-top: -135px;
-  margin-left: -65px; }
+  margin-top: 0px;
+  position: relative;
+  right: 120px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header__menu {
@@ -2456,7 +2457,7 @@ template {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
-    height: 1010px; }
+    height: 1100px; }
   .footer__blocks {
     width: 320px;
     display: -webkit-box;
@@ -2534,10 +2535,10 @@ template {
         -ms-flex-direction: column;
             flex-direction: column; }
   .footer__personal a {
-    margin-left: 40px;
+    margin-left: 60px;
     right: 0px; }
   .footer__copy {
-    margin-left: 40px;
+    margin-left: 70px;
     left: 0px; } }
 
 .service_list {
@@ -2975,11 +2976,13 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .main-table {
+    margin-bottom: 0; }
   .table__all {
     width: 320px;
-    margin-left: -20px; }
+    margin-left: 0px; }
   .table__info {
-    width: 250px; }
+    width: 220px; }
   .row__title--icon::after {
     display: block; }
   .row__title--caries::after {
@@ -2989,7 +2992,7 @@ template {
   .row__description {
     width: 200px; }
   .row__title a {
-    width: 300px;
+    width: auto;
     position: relative;
     left: 20px;
     margin-left: 0px;
@@ -2997,7 +3000,7 @@ template {
     line-height: 22px; }
   .row__sale--chip span {
     display: block;
-    width: 80px;
+    width: auto;
     margin-top: 50px; }
   .row__sale {
     padding-right: 0px; }
@@ -3610,7 +3613,7 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 60px; }
+    margin-top: -40px; }
   .license-main, .sertificate-main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4113,7 +4116,7 @@ template {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .comments {
-    height: 620px; }
+    height: 800px; }
   .comments-link {
     margin-top: -5px; } }
 
@@ -6445,7 +6448,8 @@ label#tab_l1.elainer-big {
   .form h2 {
     margin-left: 20px;
     position: relative;
-    top: 50px; }
+    top: 50px;
+    padding-top: 0; }
   .popup-alarm h2 {
     margin-left: 20px;
     margin-bottom: 50px; }
