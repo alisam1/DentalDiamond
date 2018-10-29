@@ -2961,6 +2961,8 @@ template {
     width: 700px;
     border-spacing: 0;
     margin-left: 40px; }
+  .table__info {
+    width: auto; }
   .table__title {
     margin-left: 45px; } }
 
