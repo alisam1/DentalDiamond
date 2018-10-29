@@ -2108,7 +2108,7 @@ template {
   .contacts__button {
     margin-bottom: 40px;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 65px;
     left: 0; }
   .contacts__info {
     margin-left: 80px; }
@@ -2956,7 +2956,13 @@ template {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; } }
+            flex-direction: column; }
+  .table__all {
+    width: 700px;
+    border-spacing: 0;
+    margin-left: 40px; }
+  .table__title {
+    margin-left: 45px; } }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .main__section {
@@ -3346,6 +3352,10 @@ template {
   border: 1px solid #2795DF;
   background-color: transparent;
   text-transform: uppercase; }
+
+.doctor__button a {
+  color: #2795DF;
+  text-decoration: none; }
 
 .tooth__level {
   width: 360px;
@@ -4093,6 +4103,10 @@ template {
       -ms-flex-direction: row;
           flex-direction: row; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .comments {
+    height: 600px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .comments {
     height: 620px; }
@@ -4313,6 +4327,10 @@ template {
   border: 1px solid #2795DF;
   border-radius: 3px;
   text-transform: uppercase; }
+
+.otzyvy__button a {
+  color: #2795DF;
+  text-decoration: none; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .otzyvy__all {
@@ -4576,6 +4594,12 @@ template {
     margin-top: 0;
     position: relative;
     bottom: 65px; }
+  .contacts__title--coronki {
+    bottom: 30px; }
+  .contacts__title--elaineri {
+    bottom: 30px; }
+  .contacts__title--implants {
+    bottom: 30px; }
   .contacts-info {
     width: 750px;
     -webkit-box-orient: vertical;
@@ -4895,6 +4919,10 @@ template {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer; }
+
+.udalenie-stage__button a {
+  color: #383838;
+  text-decoration: none; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .udalenie__title {
@@ -5621,7 +5649,9 @@ label#tab_l1.elainer-big {
     margin-bottom: 30px;
     margin-top: -40px; }
   .titles-block__title--implants-double a {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .titles-block__title {
+    top: -40px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .titles-block {
@@ -5979,7 +6009,9 @@ label#tab_l1.elainer-big {
   .example-block__title {
     width: 650px;
     text-align: center;
-    margin-left: 60px; }
+    margin-left: 60px;
+    position: relative;
+    bottom: 130px; }
   .example-before__text {
     width: 100%; }
   .example-before__text--title {
@@ -5991,7 +6023,8 @@ label#tab_l1.elainer-big {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+            flex-direction: column-reverse;
+    margin-top: -100px; }
   .example-before__all {
     display: -webkit-box;
     display: -ms-flexbox;

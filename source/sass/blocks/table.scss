@@ -168,6 +168,17 @@
     display: flex;
     flex-direction: column;
   }
+
+  .table__all {
+    width: 700px;
+    border-spacing: 0;
+    margin-left: 40px;
+}
+
+.table__title
+{
+  margin-left: 45px;
+}
 }
 
 @media screen and (min-width: $mobile-width) and (max-width: $tablet-width) {

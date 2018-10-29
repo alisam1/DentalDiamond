@@ -47,6 +47,8 @@
     width: 650px;
     text-align: center;
     margin-left: 60px;
+    position: relative;
+    bottom: 130px;
   }
 
   .example-before__text {
@@ -64,6 +66,7 @@
   {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: -100px;
   }
   .example-before__all
   {
