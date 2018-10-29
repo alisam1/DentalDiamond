@@ -827,7 +827,7 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service__title {
-    width: 650px;
+    width: 450px;
     margin: 0 auto;
     text-align: center;
     left: 0; }
@@ -1380,6 +1380,8 @@ template {
             flex-direction: column; }
   .help__list {
     width: 220px; }
+  .help__list--restoration .help__list {
+    width: 200px; }
   .uslugi__info--correction .uslugi__image {
     top: 0px; }
   .help__list--correction {
@@ -3875,6 +3877,10 @@ template {
   font-weight: 400;
   display: block; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .technik__description {
+    width: 95.5%; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .technik__all {
     position: relative;
@@ -4779,6 +4785,8 @@ template {
     left: 100px; }
   .steps-seven {
     left: 157px; }
+  .steps-seven .steps-description {
+    width: 70px; }
   .steps-description {
     padding-left: 40px;
     padding-top: 10px;
