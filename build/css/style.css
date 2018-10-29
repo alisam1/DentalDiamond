@@ -2964,7 +2964,7 @@ template {
   .table__title {
     margin-left: 45px; } }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main__section {
     display: -webkit-box;
     display: -ms-flexbox;

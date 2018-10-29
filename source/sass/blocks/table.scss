@@ -161,7 +161,7 @@
 }
 
 
-@media screen and (min-width: $tablet-width) and (max-width: $desktop-width) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 
   .main__section
   {
@@ -181,7 +181,7 @@
 }
 }
 
-@media screen and (min-width: $mobile-width) and (max-width: $tablet-width) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
 .main__section
 {
