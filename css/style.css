@@ -428,9 +428,10 @@ template {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px; }
   .header__contacts--left {
     width: 150px;
     text-align: left; }
@@ -441,13 +442,13 @@ template {
     font-size: 10px;
     color: #383838;
     position: relative;
-    bottom: 45px; }
+    top: 25px; }
   .phone {
     font-size: 20px;
     line-height: 21px;
     font-weight: 700;
     position: relative;
-    bottom: 21px; }
+    bottom: 35px; }
   .map a {
     position: relative;
     bottom: 15px;
@@ -869,6 +870,8 @@ template {
     right: 10px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .service {
+    margin-top: 70px; }
   .service__title {
     top: 0px;
     left: 0px;
