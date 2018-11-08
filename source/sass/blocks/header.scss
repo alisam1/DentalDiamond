@@ -114,7 +114,8 @@
     width: 150px;
     text-align: right;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    margin-top: 20px;
   }
 
   .header__contacts--left
@@ -134,7 +135,7 @@
     font-size: 10px;
     color: #383838;
     position: relative;
-    bottom: 45px;
+    top: 25px;
 
   }
 
@@ -144,7 +145,7 @@
     line-height: 21px;
     font-weight: 700;
     position: relative;
-    bottom: 21px;
+    bottom: 35px;
   }
 
   .map a
