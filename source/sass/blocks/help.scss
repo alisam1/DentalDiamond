@@ -350,6 +350,10 @@
   {
     @include h1();
     margin-left: 40px;
+    &--ceny
+    {
+      margin-left: 20px;
+    }
   }
 
   .help__button

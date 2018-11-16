@@ -180,6 +180,33 @@
   width: auto;
 }
 
+.row__sale
+{
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 22px;
+  color: $main-color;
+  font-weight: 400;
+  padding-right: 0px;
+  text-align: left;
+  &--chip
+  {
+    position: relative;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+  }
+  &--bite
+  {
+    position: relative;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+  }
+}
+
 .table__title
 {
   margin-left: 45px;
