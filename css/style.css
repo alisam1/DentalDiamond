@@ -828,6 +828,9 @@ template {
   margin-left: 30px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service-info {
+    position: relative;
+    margin-top: -540px; }
   .service__title {
     width: 450px;
     margin: 0 auto;
@@ -1061,9 +1064,9 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .tomograph__title {
-    left: 0px; }
+    left: 20px; }
   .tomograph__description {
-    left: 0; } }
+    left: 20; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .tomograph {
