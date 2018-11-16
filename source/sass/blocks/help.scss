@@ -309,6 +309,7 @@
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
+     margin: 0 auto;
    }
 
    .uslugi__info
@@ -320,7 +321,7 @@
 
   .help__list
   {
-    width: 220px;
+    width: 200px;
   }
 
   .help__list--restoration .help__list
@@ -348,7 +349,7 @@
   .help__title
   {
     @include h1();
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
   .help__button
