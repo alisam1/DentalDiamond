@@ -1405,6 +1405,8 @@ template {
     line-height: 43px;
     font-weight: 500;
     margin-left: 40px; }
+    .help__title--ceny {
+      margin-left: 20px; }
   .help__button {
     display: none; }
   .help__button--mobile {
@@ -2565,7 +2567,8 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service_list--kartochka {
-    height: 100px; }
+    height: 100px;
+    margin-top: 50px; }
   .service_list--uslugi {
     height: 950px; } }
 
@@ -2971,6 +2974,36 @@ template {
     margin-left: 40px; }
   .table__info {
     width: auto; }
+  .row__sale {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+    font-weight: 400;
+    padding-right: 0px;
+    text-align: left; }
+    .row__sale--chip {
+      position: relative;
+      right: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      top: 30px; }
+    .row__sale--bite {
+      position: relative;
+      right: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      top: 30px; }
   .table__title {
     margin-left: 45px; } }
 
@@ -3072,7 +3105,10 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .ceny__list {
-    width: 678px; }
+    width: 678px;
+    margin: 0 auto; }
+  .ceny__all {
+    margin-left: 70px; }
   .ceny__item:nth-child(2) {
     margin-left: 0px; }
   .ceny__item:nth-child(4) {
@@ -3568,6 +3604,10 @@ template {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer; }
+
+.consultation__button a {
+  text-decoration: none;
+  color: #383838; }
 
 .consultation__button--mobile {
   display: none; }
