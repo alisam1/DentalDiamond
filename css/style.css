@@ -1371,7 +1371,8 @@ template {
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    margin: 0 auto; }
   .uslugi__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1383,7 +1384,7 @@ template {
         -ms-flex-direction: column;
             flex-direction: column; }
   .help__list {
-    width: 220px; }
+    width: 200px; }
   .help__list--restoration .help__list {
     width: 200px; }
   .uslugi__info--correction .uslugi__image {
@@ -1400,7 +1401,7 @@ template {
     font-size: 36px;
     line-height: 43px;
     font-weight: 500;
-    margin-left: 20px; }
+    margin-left: 40px; }
   .help__button {
     display: none; }
   .help__button--mobile {
