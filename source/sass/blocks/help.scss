@@ -62,6 +62,7 @@
   @include blue_button();
   position: relative;
   padding-left: 35px;
+  margin-right: 30px;
 }
 
 .help__button a
@@ -469,6 +470,11 @@
   .help__item
   {
     width: 200px;
+  }
+
+  .help__info--ceny
+  {
+    margin-top: 70px;
   }
 
   .uslugi__info

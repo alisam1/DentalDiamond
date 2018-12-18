@@ -428,9 +428,10 @@ template {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px; }
   .header__contacts--left {
     width: 150px;
     text-align: left; }
@@ -441,13 +442,13 @@ template {
     font-size: 10px;
     color: #383838;
     position: relative;
-    bottom: 45px; }
+    top: 25px; }
   .phone {
     font-size: 20px;
     line-height: 21px;
     font-weight: 700;
     position: relative;
-    bottom: 21px; }
+    bottom: 35px; }
   .map a {
     position: relative;
     bottom: 15px;
@@ -827,6 +828,9 @@ template {
   margin-left: 30px; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .service-info {
+    position: relative;
+    margin-top: -540px; }
   .service__title {
     width: 450px;
     margin: 0 auto;
@@ -869,6 +873,8 @@ template {
     right: 10px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .service {
+    margin-top: 70px; }
   .service__title {
     top: 0px;
     left: 0px;
@@ -1058,9 +1064,9 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .tomograph__title {
-    left: 0px; }
+    left: 20px; }
   .tomograph__description {
-    left: 0; } }
+    left: 20; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .tomograph {
@@ -1145,7 +1151,8 @@ template {
   background-color: transparent;
   border: 1px solid #2795DF;
   position: relative;
-  padding-left: 35px; }
+  padding-left: 35px;
+  margin-right: 30px; }
   .help__button:hover {
     background: #2795DF;
     -webkit-transition: 0.3s;
@@ -1368,7 +1375,8 @@ template {
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    margin: 0 auto; }
   .uslugi__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1380,7 +1388,7 @@ template {
         -ms-flex-direction: column;
             flex-direction: column; }
   .help__list {
-    width: 220px; }
+    width: 200px; }
   .help__list--restoration .help__list {
     width: 200px; }
   .uslugi__info--correction .uslugi__image {
@@ -1397,7 +1405,9 @@ template {
     font-size: 36px;
     line-height: 43px;
     font-weight: 500;
-    margin-left: 20px; }
+    margin-left: 40px; }
+    .help__title--ceny {
+      margin-left: 20px; }
   .help__button {
     display: none; }
   .help__button--mobile {
@@ -1495,6 +1505,8 @@ template {
     width: 220px; }
   .help__item {
     width: 200px; }
+  .help__info--ceny {
+    margin-top: 70px; }
   .uslugi__info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2558,7 +2570,8 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .service_list--kartochka {
-    height: 100px; }
+    height: 100px;
+    margin-top: 50px; }
   .service_list--uslugi {
     height: 950px; } }
 
@@ -2566,13 +2579,16 @@ template {
   .service_list {
     height: 1380px; }
     .service_list--ceny {
-      height: 320px; }
+      height: 320px;
+      margin-top: 70px; }
     .service_list--clinika {
-      height: 0px; }
+      height: 0px;
+      margin-top: 160px; }
     .service_list--vrachi {
       height: 100px; }
     .service_list--kartochka {
-      height: 156px; } }
+      height: 156px;
+      margin-top: 70px; } }
 
 .registration {
   display: -webkit-box;
@@ -2964,6 +2980,36 @@ template {
     margin-left: 40px; }
   .table__info {
     width: auto; }
+  .row__sale {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+    font-weight: 400;
+    padding-right: 0px;
+    text-align: left; }
+    .row__sale--chip {
+      position: relative;
+      right: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      top: 30px; }
+    .row__sale--bite {
+      position: relative;
+      right: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      top: 30px; }
   .table__title {
     margin-left: 45px; } }
 
@@ -3065,7 +3111,10 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .ceny__list {
-    width: 678px; }
+    width: 678px;
+    margin: 0 auto; }
+  .ceny__all {
+    margin-left: 70px; }
   .ceny__item:nth-child(2) {
     margin-left: 0px; }
   .ceny__item:nth-child(4) {
@@ -3561,6 +3610,10 @@ template {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     cursor: pointer; }
+
+.consultation__button a {
+  text-decoration: none;
+  color: #383838; }
 
 .consultation__button--mobile {
   display: none; }
@@ -4943,7 +4996,7 @@ template {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .udalenie__title {
-    margin-top: 0px; }
+    margin-top: 30px; }
   .udalenie-table {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -6444,7 +6497,7 @@ label#tab_l1.elainer-big {
     top: 100px;
     width: 294px;
     height: 600px;
-    margin: 5%; }
+    margin: 0 auto; }
   .form h2 {
     margin-left: 20px;
     position: relative;
