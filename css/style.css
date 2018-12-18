@@ -2601,7 +2601,7 @@ template {
       margin-top: 70px; }
     .service_list--clinika {
       height: 0px;
-      margin-top: 160px; }
+      margin-top: 80px; }
     .service_list--vrachi {
       height: 100px; }
     .service_list--kartochka {
@@ -5015,6 +5015,8 @@ template {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .udalenie__title {
     margin-top: 30px; }
+  .udalenie-stage {
+    display: none; }
   .udalenie-table {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5141,7 +5143,8 @@ template {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    margin-top: -100px; }
   .specification-proccess__list {
     width: 280px; }
   .specification-proccess__text {
