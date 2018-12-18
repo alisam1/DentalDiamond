@@ -397,7 +397,10 @@ template {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header__menu {
-    display: none; } }
+    display: block;
+    margin-top: 80px;
+    margin-left: 0px;
+    right: 0px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__info {
@@ -575,9 +578,24 @@ template {
   display: none; }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .container {
-    width: 768px;
-    margin: 0 auto; } }
+  .menu_list {
+    margin-left: -40px; }
+  .menu_item--active:hover .menu__overlay {
+    display: block;
+    width: 600px;
+    height: 365px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.23);
+            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: -5px;
+    z-index: 9999;
+    margin-top: 20px; }
+  .menu__overlay--item {
+    width: 250px;
+    font-size: 14px;
+    margin-bottom: 25px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
